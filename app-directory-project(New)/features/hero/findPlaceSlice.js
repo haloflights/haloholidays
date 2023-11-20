@@ -9,6 +9,7 @@ const initialState = {
     { id: 5, name: "Car", icon: "icon-car" },
     { id: 6, name: "Cruise", icon: "icon-yatch" },
     { id: 7, name: "Flights", icon: "icon-tickets" },
+    { id: 8, name: "test", icon: "icon-tickets" }
     
   ],
   currentTab: "Cruise",
