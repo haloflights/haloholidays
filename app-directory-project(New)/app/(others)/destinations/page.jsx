@@ -200,7 +200,7 @@ const Destinations = () => {
                   Featured Holiday Rentals
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                  Interdum et malesuada fames ac ante lipsum
                 </p>
               </div>
             </div>
