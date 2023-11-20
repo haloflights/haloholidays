@@ -30,11 +30,11 @@
     transition: all 0.2s $easeOutQuart;
 
     &:hover {
-      color: var(--color-blue-1) !important;
+      color: #dc0069 !important;
     }
 
     &.is-tab-el-active {
-      color: var(--color-blue-1) !important;
+      color: #dc0069 !important;
       background-color: color-opac(blue-1, 0.05);
     }
   }
@@ -60,7 +60,7 @@
     transition: all 0.2s $easeOutQuart;
 
     &:hover {
-      color: var(--color-dark-3) !important;
+      color: #dc0069 !important;
     }
 
     &.is-tab-el-active {
@@ -100,7 +100,7 @@
     transition: all 0.2s $easeOutQuart;
 
     &:hover {
-      color: var(--color-blue-1) !important;
+      color: #dc0069 !important;
     }
 
     &.is-tab-el-active {
@@ -129,7 +129,7 @@
     transition: all 0.2s $easeOutQuart;
 
     &:hover {
-      color: var(--color-blue-1) !important;
+      color: #dc0069 !important;
     }
 
     &.is-tab-el-active {
