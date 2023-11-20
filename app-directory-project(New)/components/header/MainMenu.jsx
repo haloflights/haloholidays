@@ -49,7 +49,7 @@ const MainMenu = ({ style = "" }) => {
 
         <li className={isActiveParent ? "menu-item-has-children -has-mega-menu current":'menu-item-has-children -has-mega-menu'}>
           <a href="#">
-            <span className="mr-10">Categories</span>
+            <span className="mr-10">Holidays</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
           <div className="mega">

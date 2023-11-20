@@ -4,7 +4,7 @@
 import React, { useState } from "react";
 const counters = [
   { name: "Adults", defaultValue: 2 },
-  { name: "Children", defaultValue: 1 },
+  { name: "Children", defaultValue: 0 },
   { name: "Rooms", defaultValue: 1 },
 ];
 

@@ -15,13 +15,13 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
   const [activeNestedMenu, setActiveNestedMenu] = useState(0)
 
   const itemList = [
-    "Hotel",
-    "Tour",
-    "Activity",
-    "Holiday Rentals",
-    "Car",
+    "All Inclusive",
+    "Family",
+    "Budget",
+    "Luxury",
+    "Honeymoon",
+    "Beach",
     "Cruise",
-    "Flights",
   ];
 
 

@@ -9,8 +9,9 @@ const initialState = {
     { id: 5, name: "Car", icon: "icon-car" },
     { id: 6, name: "Cruise", icon: "icon-yatch" },
     { id: 7, name: "Flights", icon: "icon-tickets" },
+    
   ],
-  currentTab: "Hotel",
+  currentTab: "Cruise",
 };
 
 export const findPlaceSlice = createSlice({
