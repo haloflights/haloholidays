@@ -10,7 +10,8 @@ import Rentals from "@/components/rentals/Rentals";
 import Cars from "@/components/cars/Cars";
 import Cruise from "@/components/cruise/Cruise";
 import Flights from "@/components/flight/Flights";
-import Footer3 from "@/components/footer/footer-3";
+import CallToActions from "@/components/common/CallToActions";
+import DefaultFooter from "@/components/footer/default";
 import AddBanner from "@/components/home/home-3/AddBanner";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
 
@@ -359,7 +360,10 @@ const home_3 = () => {
       </section>
       {/* Popular Routes Sections */}
 
-      <Footer3 />
+      <CallToActions />
+      {/* End Call To Actions Section */}
+
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
+import Header3 from "@/components/header/header-3";
 import LocationTopBar from "@/components/common/LocationTopBar";
 import DefaultFooter from "@/components/footer/default";
 import Blog1 from "@/components/blog/Blog1";
@@ -16,7 +16,7 @@ const BlogListV1 = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
+      <Header3 />
       {/* End Header 1 */}
 
       <LocationTopBar />
