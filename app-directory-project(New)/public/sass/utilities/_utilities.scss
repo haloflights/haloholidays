@@ -176,7 +176,7 @@ $_displays: none, inline-block, block, flex;
 
 .border {
   &-type-1 {
-    border: 1px dashed var(--color-blue-1);
+    border: 1px dashed #dc0069;
   }
 
   &-top-light {
@@ -198,7 +198,7 @@ $_displays: none, inline-block, block, flex;
     border: 1px solid var(--color-dark-4);
   }
   &-blue-1 {
-    border: 1px solid var(--color-blue-1);
+    border: 1px solid #dc0069;
   }
   &-white-15 {
     border: 1px solid rgba(white, 0.15);
@@ -1705,7 +1705,7 @@ table.table-5 {
       }
 
       &:hover {
-        color: var(--color-blue-1);
+        color: #dc0069;
       }
     }
 
@@ -2041,7 +2041,7 @@ table.table-5 {
 }
 
 .noUi-connect {
-  background-color: var(--color-blue-1) !important;
+  background-color: #dc0069 !important;
   box-shadow: 0 !important;
 }
 
@@ -2051,7 +2051,7 @@ table.table-5 {
   height: 20px !important;
   top: 50% !important;
   transform: translateY(-50%);
-  border: 2px solid var(--color-blue-1);
+  border: 2px solid #dc0069;
   box-shadow: 0 !important;
 
   &::before {

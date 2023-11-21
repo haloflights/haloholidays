@@ -202,7 +202,7 @@ export const destinations5 = [
   {
     id: 1,
     colClass: "col-xl-3 col-md-4 col-sm-6",
-    img: "/img/destinations/2/1.png",
+    img: "/img/destinations/2/1_T.png",
     name: "los angeles",
     numberOfProperties: "1714",
     delayAnimation: "200",
@@ -210,7 +210,7 @@ export const destinations5 = [
   {
     id: 2,
     colClass: "col-xl-6 col-md-4 col-sm-6",
-    img: "/img/destinations/2/2.png",
+    img: "/img/destinations/2/2_T.png",
     name: "london",
     numberOfProperties: "1714",
     delayAnimation: "400",
@@ -218,7 +218,7 @@ export const destinations5 = [
   {
     id: 3,
     colClass: "col-xl-3 col-md-4 col-sm-6",
-    img: "/img/destinations/2/3.png",
+    img: "/img/destinations/2/3_T.png",
     name: "reykjavik",
     numberOfProperties: "1714",
     delayAnimation: "600",
@@ -226,7 +226,7 @@ export const destinations5 = [
   {
     id: 4,
     colClass: "col-xl-6 col-md-4 col-sm-6",
-    img: "/img/destinations/2/4.png",
+    img: "/img/destinations/2/4_T.png",
     name: "paris",
     numberOfProperties: "1714",
     delayAnimation: "200",
@@ -234,7 +234,7 @@ export const destinations5 = [
   {
     id: 5,
     colClass: "col-xl-3 col-md-4 col-sm-6",
-    img: "/img/destinations/2/5.png",
+    img: "/img/destinations/2/5_T.png",
     name: "amsterdam",
     numberOfProperties: "1714",
     delayAnimation: "400",
@@ -242,7 +242,7 @@ export const destinations5 = [
   {
     id: 6,
     colClass: "col-xl-3 col-md-4 col-sm-6",
-    img: "/img/destinations/2/6.png",
+    img: "/img/destinations/2/6_T.png",
     name: "istanbul",
     numberOfProperties: "1714",
     delayAnimation: "600",
