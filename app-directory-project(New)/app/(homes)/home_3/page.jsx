@@ -75,6 +75,26 @@ const home_3 = () => {
       </section>
       {/* End Why choose Section */}
 
+
+{/* Most Sold packages*/}
+      <section className=""> 
+      
+      <div className="container">
+        <div className="row justify-center text-center">
+          <div className="col-auto">
+            <div className="sectionTitle-lg"> 
+             <h3 className="sectionTitle__title"> Most Sold Packages</h3>
+              <p className="sectionTitle__ text mt-5 sm:mt-2"> This is some test sub heading </p>
+           </div>
+          </div>
+         </div>
+        </div>
+        {/* Most sold packages ends here */}
+
+
+      </section>
+
+
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
@@ -88,6 +108,9 @@ const home_3 = () => {
             </div>
           </div>
           {/* End .row */}
+
+
+          {/* Holiday   */ }
 
           <div className="row y-gap-40 justify-between pt-40 sm:pt-20">
             <TopDestinations />

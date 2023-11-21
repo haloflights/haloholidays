@@ -1,9 +1,9 @@
 import Wrapper from "@/components/layout/Wrapper";
-import MainHome from "../app/(homes)/home_1/page";
+import MainHome from "../app/(homes)/home_3/page";
 
 export const metadata = {
-  title: "Home-1 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Halo Holidays || Here For You",
+  description: "Halo Holidays - Travel & Tour ",
 };
 
 export default function Home() {

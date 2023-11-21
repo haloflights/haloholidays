@@ -4,25 +4,32 @@ const WhyChoose = () => {
   const blockContent = [
     {
       id: 1,
-      icon: "/img/featureIcons/3/1.svg",
-      title: "Best Price Guarantee",
+      icon: "/img/featureIcons/1/24-hours-support.gif",
+      title: "Support from Start to Finish",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "100",
     },
     {
       id: 2,
-      icon: "/img/featureIcons/3/2.svg",
-      title: "Easy & Quick Booking",
+      icon: "/img/featureIcons/2/pound-sterling.gif",
+      title: "Unbeatable Prices",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "200",
     },
     {
       id: 3,
-      icon: "/img/featureIcons/3/3.svg",
-      title: "Customer Care 24/7",
+      icon: "/img/featureIcons/3/space.gif",
+      title: "Unlimited Quotes",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "300",
     },
+    {
+      id : 4,
+      icon: "/img/featureIcons/3/route.gif",
+      title : "Flexible Bookings",
+      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+      delayAnimation : "300", 
+    }
   ];
   return (
     <>
