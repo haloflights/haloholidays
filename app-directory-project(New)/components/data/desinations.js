@@ -19,6 +19,8 @@ export const destinations1 = [
   { id: 18, city: "Florence", properties: "12,683" },
   { id: 19, city: "Mykonos", properties: "12,683" },
   { id: 20, city: "London", properties: "12,683" },
+  { id: 21, city: "Cancun", properties: "12,123" },
+  
 ];
 
 export const destinations2 = [
@@ -403,7 +405,47 @@ export const destinations8 = [
     delayAnimation: "600",
   },
 ];
+export const sold_packages = [
+  {
+    id: 1, 
+    colClass: "col-xl-3 col-md-4 col-sm-2",
+    img: "/img/destinations/2/1.png",
+    name: "Cancun",
+    numberOfProperties: "1234",
+    delayAnimation: "100",
+    width: "946",
+    height: "826",
+  },
+{
+  id: 2,
+  colClass: "col-xl-6 col-md-4 col-sm-6",
+  img: "/img/destinations/2/1_T.png",
+  name: "Bali",
+  numberOfProperties : "2345",
+  delayAnimation : "200"
+},
 
+{
+  id: 3,
+  colClass: "col-xl-3 col-md-3 col-sm-3",
+  img: "/img/destinations/2/2_T.png",
+  name: "Amsterdam",
+  numberOfProperties : "3456",
+  delayAnimation: "100",
+
+},
+
+{
+  id:4,
+  colClass: "col-xl-5 col-md-6 col-sm-5",
+  img: "/img/destinations/2/4_T.png",
+  name: "Maldives",
+  numberOfProperties: "1344",
+  delayAnimation: "100",
+}
+
+
+  ];
 export const destinations9 = [
   {
     id: 1,

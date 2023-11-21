@@ -13,6 +13,7 @@ import Flights from "@/components/flight/Flights";
 import Footer3 from "@/components/footer/footer-3";
 import AddBanner from "@/components/home/home-3/AddBanner";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
+import SoldPackages from "@/components/packages/SoldPackages";
 
 export const metadata = {
   title: "Home-3 || GoTrip - Travel & Tour React NextJS Template",
@@ -74,25 +75,6 @@ const home_3 = () => {
         {/* End .container */}
       </section>
       {/* End Why choose Section */}
-
-
-{/* Most Sold packages*/}
-      <section className=""> 
-      
-      <div className="container">
-        <div className="row justify-center text-center">
-          <div className="col-auto">
-            <div className="sectionTitle-lg"> 
-             <h3 className="sectionTitle__title"> Most Sold Packages</h3>
-              <p className="sectionTitle__ text mt-5 sm:mt-2"> This is some test sub heading </p>
-           </div>
-          </div>
-         </div>
-        </div>
-        {/* Most sold packages ends here */}
-
-
-      </section>
 
 
       <section className="layout-pt-md layout-pb-md">
