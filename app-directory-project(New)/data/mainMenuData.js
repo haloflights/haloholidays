@@ -7,10 +7,10 @@ export const homeItems = [
   //   name: "Home 02",
   //   routePath: "/home_2",
   // },
-  {
-    name: "Home 03",
-    routePath: "/home_3",
-  },
+  // {
+  //   name: "Home 03",
+  //   routePath: "/home_3",
+  // },
   // {
   //   name: "Home 04",
   //   routePath: "/home_4",
