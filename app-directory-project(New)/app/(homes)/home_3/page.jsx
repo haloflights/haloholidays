@@ -14,7 +14,6 @@ import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
 import AddBanner from "@/components/home/home-3/AddBanner";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
-import SoldPackages from "@/components/packages/SoldPackages";
 
 export const metadata = {
   title: "Home-3 || GoTrip - Travel & Tour React NextJS Template",
