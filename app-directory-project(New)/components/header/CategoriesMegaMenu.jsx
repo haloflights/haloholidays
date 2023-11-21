@@ -17,11 +17,12 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
   const itemList = [
     "All Inclusive",
     "Family",
-    "Budget",
+    "Couple",
     "Luxury",
     "Honeymoon",
     "Beach",
     "Cruise",
+    // "Last Minute",
   ];
 
 
@@ -48,7 +49,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
       <div className="tabs__controls row x-gap-40 y-gap-10 lg:x-gap-20 pb-30 js-tabs-controls">
         {itemList.map((item, i) => (
           <div className="col-auto" key={i} onClick={()=>setActiveNestedMenu(i)}>
-            <button className={`tabs__button text-light-1 fw-500 js-tabs-button ${activeNestedMenu == i ? 'nested-menu-active':'nested-menu-inactive'} `}>
+            <button className={`tabs__button text-light-1 fw-500 js-tabs-button  ${activeNestedMenu == i ? 'nested-menu-active':'nested-menu-inactive'} `}>
               {item}
             </button>
           </div>
@@ -85,13 +86,13 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
                 {/* End mega menu list left */}
 
                 <li className="mega__image d-flex relative">
-                  <Image
+                  {/* <Image
                     width={270}
                     height={300}
                     src={megaCol?.megaBanner}
                     alt="image"
                     className="rounded-4 js-lazy"
-                  />
+                  /> */}
 
                   <div className="absolute w-full h-full px-30 py-24">
                     <div className="text-22 fw-500 lh-15 text-white">
