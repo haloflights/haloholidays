@@ -1,5 +1,5 @@
 :root {
-  --swiper-theme-color: var(--color-blue-1);
+  --swiper-theme-color: #dc0069;
   --swiper-navigation-size: 30px;
 }
 html {
@@ -13,7 +13,7 @@ body {
   font-family: var(--font-primary);
   width: 100%;
   background-color: white;
-  color: #dc0069;
+  color: black;
   font-size: $font-size;
   line-height: 1.875;
 }
