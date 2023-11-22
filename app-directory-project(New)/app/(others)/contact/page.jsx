@@ -75,7 +75,7 @@ const Contact = () => {
       </section>
       {/* End Address Section */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-blue-2">
+      <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
