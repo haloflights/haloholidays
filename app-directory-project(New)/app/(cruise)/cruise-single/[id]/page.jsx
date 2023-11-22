@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
 import cruiseData from "@/data/cruise";
-import Header11 from "@/components/header/header-11";
+import Header3 from "@/components/header/header-3";
 import Overview from "@/components/cruise-single/Overview";
 import TopBreadCrumb from "@/components/cruise-single/TopBreadCrumb";
 import SidebarRight from "@/components/cruise-single/SidebarRight";
@@ -31,7 +31,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+      <Header3 />
       {/* End Header 1 */}
 
       <TopBreadCrumb />
