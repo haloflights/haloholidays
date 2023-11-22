@@ -478,246 +478,182 @@ export const categorieMegaMenuItems = [
 ];
 
 export const categorieMobileItems = [
-//   {
-//     id: 1,
-//     title: "Hotel",
-//     menuItems: [
-//       {
-//         id: 1,
-//         title: "Hotel List",
-//         menuList: [
-//           {
-//             name: "Hotel List v1",
-//             routePath: "/hotel-list-v1",
-//           },
-//           {
-//             name: "Hotel List v2",
-//             routePath: "/hotel-list-v2",
-//           },
-//           {
-//             name: "Hotel List v3",
-//             routePath: "/hotel-list-v3",
-//           },
-//           {
-//             name: "Hotel List v4",
-//             routePath: "/hotel-list-v4",
-//           },
-//           {
-//             name: "Hotel List v5",
-//             routePath: "/hotel-list-v5",
-//           },
-//         ],
-//       },
-//       {
-//         id: 2,
-//         title: "Hotel Single",
-//         menuList: [
-//           {
-//             name: "Hotel Single v1",
-//             routePath: "/hotel-single-v1/5",
-//           },
-//           {
-//             name: "Hotel Single v2",
-//             routePath: "/hotel-single-v2/5",
-//           },
-//         ],
-//       },
-//       {
-//         id: 3,
-//         title: "Hotel Booking",
-//         menuList: [
-//           {
-//             name: "Booking Page",
-//             routePath: "/booking-page",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     id: 2,
-//     title: "Tour",
-//     menuItems: [
-//       {
-//         id: 1,
-//         title: "Tour List",
-//         menuList: [
-//           {
-//             name: "Tour List v1",
-//             routePath: "/tour-list-v1",
-//           },
-//           {
-//             name: "Tour List v2",
-//             routePath: "/tour-list-v2",
-//           },
-//         ],
-//       },
-//       {
-//         id: 2,
-//         title: "Tour Pages",
-//         menuList: [
-//           {
-//             name: "Tour Map",
-//             routePath: "/tour-list-v3",
-//           },
-//           {
-//             name: "Tour Single",
-//             routePath: "/tour-single/5",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     id: 3,
-//     title: "Activity",
-//     menuItems: [
-//       {
-//         id: 1,
-//         title: "Activity List",
-//         menuList: [
-//           {
-//             name: "Activity List v1",
-//             routePath: "/activity-list-v1",
-//           },
-//           {
-//             name: "Activity List v2",
-//             routePath: "/activity-list-v2",
-//           },
-//         ],
-//       },
-//       {
-//         id: 2,
-//         title: "Activity Pages",
-//         menuList: [
-//           {
-//             name: "Activity Map",
-//             routePath: "/activity-list-v3",
-//           },
-//           {
-//             name: "Activity Single",
-//             routePath: "/activity-single/3",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     id: 4,
-//     title: "Hotel Rentals",
-//     menuItems: [
-//       {
-//         id: 1,
-//         title: "Rental List",
-//         menuList: [
-//           {
-//             name: "Rental List v1",
-//             routePath: "/rental-list-v1",
-//           },
-//           {
-//             name: "Rental List v2",
-//             routePath: "/rental-list-v2",
-//           },
-//         ],
-//       },
-//       {
-//         id: 2,
-//         title: "Rental Pages",
-//         menuList: [
-//           {
-//             name: "Rental Map",
-//             routePath: "/rental-list-v3",
-//           },
-//           {
-//             name: "Rental Single",
-//             routePath: "/rental-single/3",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     id: 5,
-//     title: "Car",
-//     menuItems: [
-//       {
-//         id: 1,
-//         title: "Car List",
-//         menuList: [
-//           {
-//             name: "Car List v1",
-//             routePath: "/car-list-v1",
-//           },
-//           {
-//             name: "Car List v2",
-//             routePath: "/car-list-v2",
-//           },
-//         ],
-//       },
-//       {
-//         id: 2,
-//         title: "Car Pages",
-//         menuList: [
-//           {
-//             name: "Car Map",
-//             routePath: "/car-list-v3",
-//           },
-//           {
-//             name: "Car Single",
-//             routePath: "/car-single/1",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     id: 6,
-//     title: "Cruise",
-//     menuItems: [
-//       {
-//         id: 1,
-//         title: "Cruise List",
-//         menuList: [
-//           {
-//             name: "Cruise List v1",
-//             routePath: "/cruise-list-v1",
-//           },
-//           {
-//             name: "Cruise List v2",
-//             routePath: "/cruise-list-v2",
-//           },
-//         ],
-//       },
-//       {
-//         id: 2,
-//         title: "Cruise Pages",
-//         menuList: [
-//           {
-//             name: "Cruise Map",
-//             routePath: "/cruise-list-v3",
-//           },
-//           {
-//             name: "Cruise Single",
-//             routePath: "/cruise-single/3",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     id: 7,
-//     title: "Flights",
-//     menuItems: [
-//       {
-//         id: 1,
-//         title: "Flight List",
-//         menuList: [
-//           {
-//             name: "Flight List v1",
-//             routePath: "/flight-list-v1",
-//           },
-//         ],
-//       },
-//     ],
-//   },
+  {
+    id: 1,
+    title: "All Inclusive",
+    menuList: [
+      {
+        name: "All Inclusive Deal 1 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "All Inclusive Deal 2 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "All Inclusive Deal 3 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "All Inclusive Deal 4 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "All Inclusive Deal 5 ",
+        routePath: "/cruise-list-v2",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Family",
+    menuList: [
+      {
+        name: "Family Deal 1",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Family Deal 2",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Family Deal 3",
+        routePath : "/cruise-list-v2",
+      },
+      {
+        name: "Family Deal 4",
+        routePath: "/cruise-list-v2", 
+      },
+       {
+        name: "Family Deal 5",
+        routePath: "/cruise-deal-v2",
+       }
+    ],
+  },
+  {
+    id: 3,
+    title: "Couple",
+    menuList: [
+      {
+        name: "Couple Deal 1",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: " Couple Deal 2",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Couple Deal 3",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Couple Deal 4",
+        routePath: "/cruise-deal-v2",
+      },
+      {
+        name: "Couple Deal 5",
+        routePath: "/cruise-deal-v2",
+      }
+    ],
+  },
+  {
+    id: 4,
+    title: "Luxury",
+    menuList: [
+      {
+        name: "Luxury Deal 1",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Luxury Deal 2",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Luxury Deal 3",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Luxury Deal 4",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Luxury Deal 5",
+        routePath: "/cruise-list-v2",
+      }
+    ],
+  },
+  {
+    id: 5,
+    title: "Honeymoon",
+    menuList: [
+      {
+        name: "Honeymoon Deal 1",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Honeymoon Deal 2",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Honeymoon  Deal 3",
+        routePath: "/cruise-list-v2", 
+      },
+      {
+        name: "Honeymoon Deal 4",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Honeymoon Deal 5",
+        routePath: "/cruise-list-v2",
+      }
+    ],
+  },
+  {
+    id: 6,
+    title: "Beach",
+    menuList: [
+      {
+        name: "Beach Deal 1",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Beach Deal 2",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Beach Deal 3",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Beach Deal 4",
+        routePath: "/cruise-list-v2",
+      }
+    ],
+  },
+  {
+    id: 7,
+    title: "Cruise",
+    menuList: [
+      {
+        name: "Cruise Deal 1",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Cruise Deal 2",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name : "Cruise Deal 3",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Cruise Deal 4",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Cruise Deal 5",
+        routePath: "",
+      }
+    ],
+  },
 ];
