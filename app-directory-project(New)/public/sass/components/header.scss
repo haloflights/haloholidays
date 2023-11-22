@@ -60,7 +60,7 @@
     position: relative;
 
     img {
-      width: 140px;
+      width: 200px;
 
       @include media-below(md) {
         max-width: 120px;
@@ -195,6 +195,7 @@
 
     .menu {
       .menu__nav {
+        margin-left: 80px;
       }
       li {
         position: relative;

@@ -63,10 +63,10 @@ export const pageItems = [
     name: "About",
     routePath: "/about",
   },
-  {
-    name: "Become Expert",
-    routePath: "/become-expert",
-  },
+  // {
+  //   name: "Become Expert",
+  //   routePath: "/become-expert",
+  // },
   {
     name: "Help Center",
     routePath: "/help-center",
