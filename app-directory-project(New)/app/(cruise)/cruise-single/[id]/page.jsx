@@ -98,6 +98,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
               <SidebarRight cruise={cruise} />
               
             </div>
+            
             {/* End .col-xl-4 */}
           </div>
           {/* End .row */}
