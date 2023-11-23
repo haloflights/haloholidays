@@ -47,8 +47,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
                 <div className="text-15 text-light-1">{cruise?.location}</div>
                 <button
                   data-x-click="mapFilter"
-                  className="text-15 text-blue-1 underline"
-                >
+                  className="text-15 text-blue-1 underline">
                   Show on map
                 </button>
               </div>
@@ -97,6 +96,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
 
             <div className="col-xl-4">
               <SidebarRight cruise={cruise} />
+              
             </div>
             {/* End .col-xl-4 */}
           </div>
