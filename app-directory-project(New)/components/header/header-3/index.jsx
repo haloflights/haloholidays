@@ -45,7 +45,7 @@ const Header1 = () => {
 
                 <div className="header-menu">
                   <div className="header-menu__content">
-                    <MainMenu style="text-dark-1" justify-content="center" />
+                    <MainMenu style="text-dark-1" />
                   </div>
                 </div>
                 {/* End header-menu */}
