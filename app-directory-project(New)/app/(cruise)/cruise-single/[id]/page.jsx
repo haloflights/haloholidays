@@ -98,6 +98,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
             <div className="col-xl-4">
               <SidebarRight cruise={cruise} />
             </div>
+            
             {/* End .col-xl-4 */}
           </div>
           {/* End .row */}
