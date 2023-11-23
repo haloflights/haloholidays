@@ -16,8 +16,8 @@ import MapPropertyFinder from "@/components/cruise-single/MapPropertyFinder";
 import GalleryCruiseSlider from "@/components/cruise-single/GalleryCruiseSlider";
 
 export const metadata = {
-  title: "Cruise Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "All Inclusive Deal || Halo Holidays - Here For You",
+  description: "All Inclusive Deal || Halo Holidays",
 };
 
 const CruiseSingleV1Dynamic = ({ params }) => {
