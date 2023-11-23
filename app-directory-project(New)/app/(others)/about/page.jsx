@@ -12,8 +12,8 @@ import Counter2 from "@/components/counter/Counter2";
 import Brand from "@/components/brand/Brand";
 
 export const metadata = {
-  title: "About || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "About || Halo Holidays - Here For You",
+  description: "About || Halo Holidays",
 };
 
 const About = () => {

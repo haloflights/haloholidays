@@ -22,8 +22,8 @@ import Rentals from "@/components/rentals/Rentals";
 import Hotels from "@/components/hotels/Hotels2";
 
 export const metadata = {
-  title: "Destinations || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Destinations || Halo Holidays - Here For You",
+  description: "Destinations || Halo Holidays",
 };
 
 const Destinations = () => {

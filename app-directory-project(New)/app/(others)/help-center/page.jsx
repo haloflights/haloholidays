@@ -7,8 +7,8 @@ import HelpSearchBlock from "@/components/block/HelpSearchBlock";
 import HelpBlock from "@/components/block/HelpBlock";
 
 export const metadata = {
-  title: "Help Center || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Help Center || Halo Holidays - Here For You",
+  description: "Help Center || Halo Holidays",
 };
 
 const HelpCenter = () => {

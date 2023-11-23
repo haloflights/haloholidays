@@ -14,6 +14,7 @@ import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
 import AddBanner from "@/components/home/home-3/AddBanner";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
+import Holidays from "@/components/home/home-3/Holidays";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -75,6 +76,26 @@ const home_3 = () => {
         {/* End .container */}
       </section>
       {/* End Why choose Section */}
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Holiday Types</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  We have a lot to offer
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-60 lg:pt-40">
+            <Holidays />
+          </div>
+          </div>
+          </section>
 
 
       <section className="layout-pt-md layout-pb-md">
