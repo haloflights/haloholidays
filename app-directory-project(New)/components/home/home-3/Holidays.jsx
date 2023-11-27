@@ -5,48 +5,58 @@ const HolidayBlock = () => {
     {
       id: 1,
       icon: "/img/pages/help/icons/1.svg",
-      title: "All Inclusive Holidays"
+      title: "All Inclusive Holidays",
+      url: "/destinations"
     },
     {
       id: 2,
       icon: "/img/pages/help/icons/2.svg",
-      title: "Beach Holidays"
+      title: "Beach Holidays",
+      url: "/destinations"
     },
     {
       id: 3,
       icon: "/img/pages/help/icons/3.svg",
-      title: "Cruise Holidays"
+      title: "Cruise Holidays",
+      url: "/destinations"
     },
     {
       id: 4,
       icon: "/img/pages/help/icons/4.svg",
-      title: "Honeymoon Holidays"
+      title: "Honeymoon Holidays",
+      url: "/destinations"
     },
     {
       id: 5,
       icon: "/img/pages/help/icons/5.svg",
-      title: "Family Holidays"
+      title: "Family Holidays",
+      url: "/destinations"
     },
     {
       id: 6,
       icon: "/img/pages/help/icons/6.svg",
-      title: "Luxury Holidays"
+      title: "Luxury Holidays",
+      url: "/destinations/"
     },
   ];
   return (
     <>
-      {holidayBlockContent.map((item) => (
-        <div className="col-lg-4 col-md-6" key={item.id}>
-          <div className="bg-blue-1-05 rounded-8 px-20 py-30 flex-center">
-            <div className="size-60 rounded-full flex-center mr-50">
-              <Image width={30} height={30} src={item.icon} alt="icon" />
-            </div>
-            <div className="mt-10 mr-30">
-              <div className="text-18 fw-500">{item.title}</div>
-            </div>
+      <div className="row">
+  {holidayBlockContent.map((item) => (
+    <div key={item.id} className="col-lg-4 col-md-6 mb-10 ">
+      <a href={`${item.url}`} className="text-decoration-none ">
+        <div className="bg-blue-1-05 rounded-8 px-10 py-30 flex-center">
+          <div className="size-60 rounded-full flex-center mr-50">
+            <Image width={30} height={30} src={item.icon} alt="icon" />
+          </div>
+          <div className="mt-10 mr-30">
+            <div className="text-18 fw-500">{item.title}</div>
           </div>
         </div>
-      ))}
+      </a>
+    </div>
+  ))}
+</div>
     </>
   );
 };
