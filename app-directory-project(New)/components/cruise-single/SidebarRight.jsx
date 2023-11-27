@@ -25,8 +25,12 @@ const SidebarRight = ({ cruise }) => {
           
         </div>
         {/* End d-flex */}
+
+
+
         <WhatsIncluded/>
         <div className="row y-gap-20 pt-30">
+          
           <FilterBox />
           
         </div>
