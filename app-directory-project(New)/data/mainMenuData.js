@@ -55,13 +55,17 @@ export const blogItems = [
   // },
 ];
 export const pageItems = [
-  {
-    name: "404",
-    routePath: "/404",
-  },
+  // {
+  //   name: "404",
+  //   routePath: "/404",
+  // },
   {
     name: "About",
     routePath: "/about",
+  },
+  {
+    name: "Contact",
+    routePath: "/contact",
   },
   // {
   //   name: "Become Expert",
@@ -71,10 +75,6 @@ export const pageItems = [
     name: "Help Center",
     routePath: "/help-center",
   },
-  // {
-  //   name: "Login",
-  //   routePath: "/login",
-  // },
   // {
   //   name: "Register",
   //   routePath: "/signup",
@@ -388,40 +388,41 @@ export const categorieMegaMenuItems = [
     menuCol: [
       {
         id: 1,
-        // megaBanner: "/img/backgrounds/1.png",
-        // title: "Things to do on your Cruise",
+        // megaBanner: "/img/backgrounds/5.png",
+        // title: "Things to do on your Next Car",
         btnText: "See Beach",
-        btnRoute: "/cruise-list-v1",
+        btnRoute: "/car-list-v1",
         menuItems: [
           {
             id: 1,
-            // title: "Cruise List",
+            // title: "Car List",
             menuList: [
               {
                 name: "Beach Deal 1",
                 routePath: "/cruise-single/2",
+                
               },
               {
                 name: "Beach Deal 2",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
               },
               {
                 name: "Beach Deal 3",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
               },
             ],
           },
           {
             id: 2,
-            // title: "Cruise Pages",
+            // title: "Car Pages",
             menuList: [
               {
                 name: "Beach Deal 4",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
               },
               {
                 name: "Beach Deal 5",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
               },
             ],
           },
@@ -434,27 +435,28 @@ export const categorieMegaMenuItems = [
     menuCol: [
       {
         id: 1,
-        // megaBanner: "/img/backgrounds/2.png",
-        // title: "Things to do on your flights",
+        // megaBanner: "/img/backgrounds/5.png",
+        // title: "Things to do on your Next Car",
         btnText: "See Cruise",
-        btnRoute: "/flight-list-v1",
+        btnRoute: "/car-list-v1",
         menuItems: [
           {
             id: 1,
-            // title: "Flight List",
+            // title: "Car List",
             menuList: [
               {
                 name: "Cruise Deal 1",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
+                
               },
               {
                 name: "Cruise Deal 2",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
               },
               {
                 name: "Cruise Deal 3",
-                routePath: "/cruise-list-v2",
-              }
+                routePath: "/cruise-single/2",
+              },
             ],
           },
           {
@@ -463,11 +465,11 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Cruise Deal 4",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
               },
               {
                 name: "Cruise Deal 5",
-                routePath: "/cruise-list-v2",
+                routePath: "/cruise-single/2",
               },
             ],
           },

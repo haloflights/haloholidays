@@ -93,7 +93,7 @@ const MainMenu = ({ style = "" }) => {
           } menu-item-has-children`}
         >
           <a href="#">
-            <span className="mr-10">Pages</span>
+            <span className="mr-10">More</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
           <ul className="subnav">
@@ -135,9 +135,9 @@ const MainMenu = ({ style = "" }) => {
           </ul>
         </li> */}
 
-        <li className={pathname === "/contact" ? "current" : ""}>
+        {/* <li className={pathname === "/contact" ? "current" : ""}>
           <Link href="/contact">Contact</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

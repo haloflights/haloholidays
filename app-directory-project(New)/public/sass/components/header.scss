@@ -303,12 +303,16 @@
         background-color: white;
         padding: 30px;
         border-radius: 4px;
-        color: #dc0069;
+        color: black;
         width: 800px;
         box-shadow: 0px 10px 30px 0px #05103608;
         transition: all 0.2s $easeOutQuart;
         opacity: 0;
         pointer-events: none;
+        :hover {
+          color: #dc0069;
+        }
+        
 
         &__content {
           display: flex;
