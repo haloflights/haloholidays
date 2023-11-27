@@ -5,58 +5,80 @@ const HolidayBlock = () => {
     {
       id: 1,
       icon: "/img/pages/help/icons/1.svg",
-      title: "All Inclusive Holidays",
+      title: "All Inclusive",
       url: "/destinations"
     },
     {
       id: 2,
       icon: "/img/pages/help/icons/2.svg",
-      title: "Beach Holidays",
+      title: "Beach",
       url: "/destinations"
     },
     {
       id: 3,
       icon: "/img/pages/help/icons/3.svg",
-      title: "Cruise Holidays",
+      title: "Cruise",
       url: "/destinations"
     },
     {
       id: 4,
       icon: "/img/pages/help/icons/4.svg",
-      title: "Honeymoon Holidays",
+      title: "Honeymoon",
       url: "/destinations"
     },
     {
       id: 5,
       icon: "/img/pages/help/icons/5.svg",
-      title: "Family Holidays",
+      title: "Family",
       url: "/destinations"
     },
     {
       id: 6,
       icon: "/img/pages/help/icons/6.svg",
-      title: "Luxury Holidays",
+      title: "Luxury",
       url: "/destinations/"
     },
-  ];
+    {
+      id: 7,
+      icon: "/img/pages/help/icons/4.svg",
+      title: "Honeymoon",
+      url: "/destinations"
+    },
+    {
+      id: 8,
+      icon: "/img/pages/help/icons/5.svg",
+      title: "Family",
+      url: "/destinations"
+    },
+];
   return (
     <>
       <div className="row">
   {holidayBlockContent.map((item) => (
-    <div key={item.id} className="col-lg-4 col-md-6 mb-10 ">
-      <a href={`${item.url}`} className="text-decoration-none ">
-        <div className="bg-blue-1-05 rounded-8 px-10 py-30 flex-center">
-          <div className="size-60 rounded-full flex-center mr-50">
-            <Image width={30} height={30} src={item.icon} alt="icon" />
+    <div key={item.id} className="col-lg-3 col-md-6 col-6 mb-5">
+      <a href={`${item.url}`} className="text-decoration-none">
+        <div className="holiday-item bg-blue-1-05 rounded-8 px-20 py-15 d-flex align-items-center hover-effect-new">
+          <div className="size-60 rounded-full flex-center mr-5">
+            <Image
+              width={25}
+              height={25}
+              src={item.icon}
+              alt="icon"
+              className="img-fluid desktop-icon" // Add a class for desktop icon
+            />
           </div>
-          <div className="mt-10 mr-30">
-            <div className="text-18 fw-500">{item.title}</div>
+          <div className="text-15 fw-500 ml-10">
+            {item.title}
           </div>
         </div>
       </a>
     </div>
   ))}
 </div>
+
+
+
+
     </>
   );
 };

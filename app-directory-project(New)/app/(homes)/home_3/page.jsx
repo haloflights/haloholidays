@@ -32,7 +32,7 @@ const home_3 = () => {
       <Hero3 />
       {/* End Hero 3 */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      {/* <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
@@ -43,15 +43,15 @@ const home_3 = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
-          <div className="row y-gap-20 pt-40">
+          {/* <div className="row y-gap-20 pt-40">
             <AddBanner />
-          </div>
+          </div> */}
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End container */}
-      </section>
+      {/* </section> */}
       {/* End AddBanner Section */}
 
       <section className="layout-pt-md layout-pb-md">

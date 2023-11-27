@@ -4,10 +4,8 @@ module.exports = [
     title: "Company",
     menuList: [
       { name: "About Us", routerPath: "/" },
-      { name: "Careers", routerPath: "/" },
       { name: "Blog", routerPath: "/" },
-      { name: "Press", routerPath: "/" },
-      { name: "Gift Cards", routerPath: "/" },
+      { name: "Destinations", routerPath: "/" },
     ],
   },
   {
