@@ -52,7 +52,7 @@ const MainMenu = ({ style = "" }) => {
             <span className="mr-10">Holidays</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
-          <div className="mega">
+          <div className="mega ">
             <CategoriesMegaMenu setIsActiveParent={setIsActiveParent} />
           </div>
         </li>

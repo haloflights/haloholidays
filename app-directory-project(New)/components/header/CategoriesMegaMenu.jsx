@@ -22,7 +22,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
     "Honeymoon",
     "Beach",
     "Cruise",
-    // "Last Minute",
+    "Last Minute",
   ];
 
 

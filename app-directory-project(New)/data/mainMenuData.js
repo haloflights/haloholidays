@@ -161,20 +161,7 @@ export const categorieMegaMenuItems = [
               
             ],
           },
-          // {
-          //   id: 2,
-          //   title: "Hotel Single",
-          //   menuList: [
-          //     {
-          //       name: "All inclusive deal 1",
-          //       routePath: "/hotel-single-v1/5",
-          //     },
-          //     {
-          //       name: "Hotel Single v2",
-          //       routePath: "/hotel-single-v2/3",
-          //     },
-          //   ],
-          // },
+          
           {
             id: 3,
            
@@ -271,7 +258,6 @@ export const categorieMegaMenuItems = [
           },
           {
             id: 2,
-            // title: "Activity Pages",
             menuList: [
               {
                 name: "Budget Deal 4",
@@ -477,6 +463,56 @@ export const categorieMegaMenuItems = [
       },
     ],
   },
+  {
+    id: 6,
+    menuCol: [
+      {
+        id: 1,
+        // megaBanner: "/img/backgrounds/5.png",
+        // title: "Things to do on your Next Car",
+        btnText: "See Last Minute",
+        btnRoute: "/car-list-v1",
+        menuItems: [
+          {
+            id: 1,
+            // title: "Car List",
+            menuList: [
+              {
+                name: "Last Minute Deal 1",
+                routePath: "/cruise-single/2",
+                
+              },
+              {
+                name: "Last Minute Deal 2",
+                routePath: "/cruise-single/2",
+              },
+              {
+                name: "Last Minute Deal 3",
+                routePath: "/cruise-single/2",
+              },
+            ],
+          },
+          {
+            id: 2,
+            // title: "Car Pages",
+            menuList: [
+              {
+                name: "Last Minute Deal 4",
+                routePath: "/cruise-single/2",
+              },
+              {
+                name: "Last Minute Deal 5",
+                routePath: "/cruise-single/2",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  
+
+  
 ];
 
 export const categorieMobileItems = [
@@ -656,6 +692,32 @@ export const categorieMobileItems = [
         name: "Cruise Deal 5",
         routePath: "",
       }
+    ],
+  },
+  {
+    id: 1,
+    title: "Last Minute",
+    menuList: [
+      {
+        name: "Last Minute Deal 1 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Last Minute Deal 2 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Last Minute Deal 3 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Last Minute Deal 4 ",
+        routePath: "/cruise-list-v2",
+      },
+      {
+        name: "Last Minute Deal 5 ",
+        routePath: "/cruise-list-v2",
+      },
     ],
   },
 ];
