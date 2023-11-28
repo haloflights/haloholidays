@@ -9,7 +9,7 @@ const ContactInfo = () => {
     {
       id: 2,
       title: "Need live support?",
-      action: "mailto:xyz@abc.com",
+      action: "mailto:contact@haloflights.us",
       text: "contact@haloflights.us",
     },
   ];

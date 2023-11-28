@@ -76,7 +76,7 @@ const Header1 = () => {
                 <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
                   <Link
                     href="tel:1302522656"
-                    className="button px-30 fw-400 text-14 -blue-1 bg-blue-1 h-50 text-white"
+                    className="button px-30 fw-500 text-14 -blue-1 bg-blue-1 h-50 text-white"
                   >
                     Call Us Now
                   </Link>
@@ -85,12 +85,12 @@ const Header1 = () => {
 
                 {/* Start mobile menu icon */}
                 <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1">
-                  <div>
+                  {/* <div>
                     <Link
                       href="/login"
                       className="d-flex items-center icon-user text-inherit text-22"
                     />
-                  </div>
+                  </div> */}
                   <div>
                     <button
                       className="d-flex items-center icon-menu text-inherit text-20"

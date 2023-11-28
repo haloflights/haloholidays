@@ -339,4 +339,4 @@ const home_3 = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(home_3), { ssr: false });
+export default dynamic(() => Promise.resolve(home_3), { ssr: true });
