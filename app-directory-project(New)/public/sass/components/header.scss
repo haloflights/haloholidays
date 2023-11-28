@@ -309,9 +309,7 @@
         transition: all 0.2s $easeOutQuart;
         opacity: 0;
         pointer-events: none;
-        :hover {
-          color: #dc0069;
-        }
+        
         
 
         &__content {
@@ -341,6 +339,9 @@
         a {
           padding-left: 0px;
           padding-right: 0px;
+        }
+        a:hover {
+          color: #dc0069;
         }
       }
     }
