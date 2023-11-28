@@ -5,7 +5,8 @@ const Address = () => {
       colClass: "col-lg-3",
       title: "Address",
       content: (
-        <>328 Queensberry Street, North Melbourne VIC 3051, Australia.</>
+        <>68A, George Lane, South Woodford,
+        London E18 1LW</>
       ),
     },
     {
@@ -14,7 +15,7 @@ const Address = () => {
       title: "Toll Free Customer Care",
       content: (
         <>
-          <a href="tel:+4733378901">+47 333 78 901</a>
+          <a href="tel:+(1) 302 520 2656">+(1) 302 520 2656</a>
         </>
       ),
     },
@@ -25,7 +26,7 @@ const Address = () => {
       content: (
         <>
           {" "}
-          <a href="mailto:i@gotrip.com">hi@gotrip.com</a>
+          <a href="mailto:contact@haloflights.us">contact@haloflights.us</a>
         </>
       ),
     },

@@ -27,7 +27,7 @@ const LocationTopBar = () => {
           </div>
           <div className="col-auto">
             <a href="#" className="text-14 text-light-1">
-              London Tourism: Best of London
+              Halo Holidays
             </a>
           </div>
         </div>

@@ -21,10 +21,10 @@ const CallToActions = () => {
           {/* End .col */}
 
           <div className="col-auto">
-            <div className="single-field -w-410 d-flex x-gap-10 y-gap-20">
+            <div className="single-field -w-410 d-flex x-gap-10 y-gap-20" >
               <div>
                 <input
-                  className="bg-white h-70"
+                  className="bg-white h-50"
                   type="text"
                   placeholder="Your Email"
                 />
@@ -32,7 +32,7 @@ const CallToActions = () => {
               {/* End email input */}
 
               <div>
-                <button className="button -md h-60 bg-blue-1 text-white" >
+                <button className="button -md h-50 bg-blue-1 text-white" >
                   Subscribe
                 </button>
               </div>

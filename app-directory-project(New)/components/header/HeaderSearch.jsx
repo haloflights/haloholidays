@@ -2,7 +2,7 @@ const HeaderSearch = () => {
   return (
     <div className="single-field relative d-flex items-center xl:d-none mr-20">
       <input
-        className="pl-50 border-light text-dark-1 h-50 rounded-8"
+        className="pl-50 border-light text-dark-1 h-40 rounded-8"
         type="text"
         required
         placeholder="Destination, Attraction, etc"

@@ -6,7 +6,7 @@ import TopHeaderFilter from "@/components/activity-list/activity-list-v1/TopHead
 import ActivityProperties from "@/components/activity-list/activity-list-v1/ActivityProperties";
 import Pagination from "@/components/activity-list/common/Pagination";
 import Sidebar from "@/components/activity-list/activity-list-v1/Sidebar";
-
+import Header3 from "@/components/header/header-3"
 export const metadata = {
   title: "Activity List v1 || GoTrip - Travel & Tour React NextJS Template",
   description: "GoTrip - Travel & Tour React NextJS Template",
@@ -20,7 +20,7 @@ const index = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+      <Header3 />
       {/* End Header 1 */}
 
       <section className="pt-40 pb-40 bg-light-2">

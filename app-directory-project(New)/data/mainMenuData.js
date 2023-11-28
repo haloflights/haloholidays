@@ -1,44 +1,44 @@
 export const homeItems = [
-  // {
-  //   name: "Home 01",
-  //   routePath: "/",
-  // },
-  // {
-  //   name: "Home 02",
-  //   routePath: "/home_2",
-  // },
-  // {
-  //   name: "Home 03",
-  //   routePath: "/home_3",
-  // },
-  // {
-  //   name: "Home 04",
-  //   routePath: "/home_4",
-  // },
-  // {
-  //   name: "Home 05",
-  //   routePath: "/home_5",
-  // },
-  // {
-  //   name: "Home 06",
-  //   routePath: "/home_6",
-  // },
-  // {
-  //   name: "Home 07",
-  //   routePath: "/home_7",
-  // },
-  // {
-  //   name: "Home 08",
-  //   routePath: "/home_8",
-  // },
-  // {
-  //   name: "Home 09",
-  //   routePath: "/home_9",
-  // },
-  // {
-  //   name: "Home 10",
-  //   routePath: "/home_10",
-  // },
+  {
+    name: "Home 01",
+    routePath: "/",
+  },
+  {
+    name: "Home 02",
+    routePath: "/home_2",
+  },
+  {
+    name: "Home 03",
+    routePath: "/home_3",
+  },
+  {
+    name: "Home 04",
+    routePath: "/home_4",
+  },
+  {
+    name: "Home 05",
+    routePath: "/home_5",
+  },
+  {
+    name: "Home 06",
+    routePath: "/home_6",
+  },
+  {
+    name: "Home 07",
+    routePath: "/home_7",
+  },
+  {
+    name: "Home 08",
+    routePath: "/home_8",
+  },
+  {
+    name: "Home 09",
+    routePath: "/home_9",
+  },
+  {
+    name: "Home 10",
+    routePath: "/home_10",
+  },
 ];
 export const blogItems = [
   // {
@@ -139,8 +139,8 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/7.png",
         // title: "Things to do on your hotel",
-        btnText: "See All Inclusive ",
-        btnRoute: "/hotel-list-v1",
+        btnText: "See All Inclusive Holidays ",
+        btnRoute: "/holidays/all-inclusive",
         menuItems: [
           {
             id: 1,
@@ -148,7 +148,7 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "All Inclusive Deal 1",
-                routePath: "/cruise-single/2",
+                routePath: "/",
               },
               {
                 name: "All Inclusive Deal 2",
@@ -187,7 +187,7 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/8.png",
         // title: "Things to do on your tour",
-        btnText: "See Family",
+        btnText: "See Family Holidays",
         btnRoute: "/tour-list-v1",
         menuItems: [
           {
@@ -232,9 +232,9 @@ export const categorieMegaMenuItems = [
     menuCol: [
       {
         id: 1,
-        // megaBanner: "/img/backgrounds/9.png",
+        megaBanner: "/img/backgrounds/9.png",
         // title: "Things to do on your activity",
-        btnText: "See Couple",
+        btnText: "See Couple Holidays",
         btnRoute: "/activity-list-v1",
         menuItems: [
           {
@@ -280,7 +280,7 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/10.png",
         // title: "Things to do on your rentals",
-        btnText: "See Luxury",
+        btnText: "See Luxury Holidays",
         btnRoute: "/rental-list-v1",
         menuItems: [
           {
@@ -329,7 +329,7 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/5.png",
         // title: "Things to do on your Next Car",
-        btnText: "See Honeymoon",
+        btnText: "See Honeymoon Holidays",
         btnRoute: "/car-list-v1",
         menuItems: [
           {
@@ -376,7 +376,7 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/5.png",
         // title: "Things to do on your Next Car",
-        btnText: "See Beach",
+        btnText: "See Beach Holidays",
         btnRoute: "/car-list-v1",
         menuItems: [
           {
@@ -423,7 +423,7 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/5.png",
         // title: "Things to do on your Next Car",
-        btnText: "See Cruise",
+        btnText: "See Cruise Holidays",
         btnRoute: "/car-list-v1",
         menuItems: [
           {
@@ -470,7 +470,7 @@ export const categorieMegaMenuItems = [
         id: 1,
         // megaBanner: "/img/backgrounds/5.png",
         // title: "Things to do on your Next Car",
-        btnText: "See Last Minute",
+        btnText: "See Last Minute Holidays",
         btnRoute: "/car-list-v1",
         menuItems: [
           {

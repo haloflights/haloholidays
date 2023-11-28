@@ -30,7 +30,7 @@ const Header1 = () => {
   return (
     <>
       <header className={`header bg-white ${navbar ? "is-sticky" : ""}`}>
-        <div className="header__container px-30 sm:px-20">
+        <div className="header__container px-30 sm:px-20 ">
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center" >
@@ -76,7 +76,7 @@ const Header1 = () => {
                 <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
                   <Link
                     href="tel:1302522656"
-                    className="button px-30 fw-500 text-14 -blue-1 bg-blue-1 h-50 text-white"
+                    className="button px-30 fw-500 text-15 -blue-1 bg-blue-1 h-40 text-white"
                   >
                     Call Us Now
                   </Link>

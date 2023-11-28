@@ -2,7 +2,7 @@ export const tourCategories1 = [
   {
     id: 1,
     icon: "icon-nature",
-    name: "Wildlife Tour",
+    name: "All Inclusive Holidays",
     tourNumber: "5",
     price: "650",
     dealyAimation: "",
@@ -10,7 +10,7 @@ export const tourCategories1 = [
   {
     id: 2,
     icon: "icon-hiking ",
-    name: "Adventure Tour",
+    name: "Family Holidays",
     tourNumber: "4",
     price: "550",
     dealyAimation: "100",
@@ -18,7 +18,7 @@ export const tourCategories1 = [
   {
     id: 3,
     icon: "icon-city ",
-    name: "City Tours",
+    name: "Couple Holidays",
     tourNumber: "8",
     price: "700",
     dealyAimation: "200",
@@ -26,7 +26,7 @@ export const tourCategories1 = [
   {
     id: 4,
     icon: "icon-museum ",
-    name: "Museum Tours",
+    name: "Luxury Holidays",
     tourNumber: "6",
     price: "800",
     dealyAimation: "300",
@@ -34,7 +34,7 @@ export const tourCategories1 = [
   {
     id: 5,
     icon: "icon-beach-umbrella ",
-    name: "Beaches Tour",
+    name: "Beach Holidays",
     tourNumber: "5",
     price: "550",
     dealyAimation: "400",
@@ -42,7 +42,7 @@ export const tourCategories1 = [
   {
     id: 6,
     icon: "icon-nature",
-    name: "Wildlife Tour",
+    name: "Honeymoon Holidays",
     tourNumber: "5",
     price: "650",
     dealyAimation: "500",
@@ -50,7 +50,7 @@ export const tourCategories1 = [
   {
     id: 7,
     icon: "icon-hiking ",
-    name: "Adventure Tour",
+    name: "Cruise Holidays",
     tourNumber: "4",
     price: "550",
     dealyAimation: "600",
@@ -58,7 +58,7 @@ export const tourCategories1 = [
   {
     id: 8,
     icon: "icon-city ",
-    name: "City Tours",
+    name: "Last Minute Holidays",
     tourNumber: "8",
     price: "700",
     dealyAimation: "700",

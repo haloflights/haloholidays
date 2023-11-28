@@ -65,7 +65,8 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
                 <li className="mega__grid">
                   {megaCol?.menuItems?.map((item) => (
                     <div className="mega__item" key={item.id}>
-                      <div className="text-15 fw-500">{item.title}</div>
+                      <div className="text-15 fw-500">
+                      {item.title}</div>
                       <div className="y-gap-5 text-15 pt-5">
                         {item?.menuList?.map((list, i) => (
                           <div
@@ -100,7 +101,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
                     </div>
                     <Link
                       href={megaCol?.btnRoute}
-                      className="button subnav-button text-uppercase h-50 px-30 -blue-1 text-dark-1 bg-white mt-20 d-inline-flex"
+                      className="button subnav-button text-normal h-40 px-10 -blue-1 text-dark-1 bg-white mt-5 d-inline-flex"
                     >
                       {megaCol?.btnText}
                     </Link>
