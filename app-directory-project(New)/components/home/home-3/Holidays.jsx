@@ -11,43 +11,43 @@ const HolidayBlock = () => {
     {
       id: 2,
       icon: "/img/pages/help/icons/2.svg",
-      title: "Beach",
+      title: "Family",
       url: "/destinations"
     },
     {
       id: 3,
       icon: "/img/pages/help/icons/3.svg",
-      title: "Cruise",
+      title: "Couple",
       url: "/destinations"
     },
     {
       id: 4,
       icon: "/img/pages/help/icons/4.svg",
-      title: "Honeymoon",
+      title: "Luxury",
       url: "/destinations"
     },
     {
       id: 5,
       icon: "/img/pages/help/icons/5.svg",
-      title: "Family",
+      title: "Honeymoon",
       url: "/destinations"
     },
     {
       id: 6,
       icon: "/img/pages/help/icons/6.svg",
-      title: "Luxury",
+      title: "Beach",
       url: "/destinations/"
     },
     {
       id: 7,
       icon: "/img/pages/help/icons/4.svg",
-      title: "Honeymoon",
+      title: "Cruise",
       url: "/destinations"
     },
     {
       id: 8,
       icon: "/img/pages/help/icons/5.svg",
-      title: "Family",
+      title: "Last Minute",
       url: "/destinations"
     },
 ];
