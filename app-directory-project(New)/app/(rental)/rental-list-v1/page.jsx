@@ -1,15 +1,15 @@
 import CallToActions from "@/components/common/CallToActions";
-import Header11 from "@/components/header/header-11";
 import DefaultFooter from "@/components/footer/default";
 import MainFilterSearchBox from "@/components/rental-list/rental-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/rental-list/rental-list-v1/TopHeaderFilter";
 import RentalProperties from "@/components/rental-list/rental-list-v1/RentalProperties";
 import Pagination from "@/components/rental-list/common/Pagination";
 import Sidebar from "@/components/rental-list/rental-list-v1/Sidebar";
+import Header3 from "@/components/header/header-3"
 
 export const metadata = {
-  title: "Rental List v1 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Halo Holidays || Here For You",
+  description: "Halo Holidays - Travel & Tour ",
 };
 
 const index = () => {
@@ -20,7 +20,7 @@ const index = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+      <Header3 />
       {/* End Header 1 */}
 
       <section className="pt-40 pb-40 bg-light-2">

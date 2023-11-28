@@ -1,5 +1,5 @@
 import FilterBox from "../../components/cruise-single/filter-box";
-
+import WhatsIncluded from "./whatsIncluded";
 const SidebarRight = ({ cruise }) => {
   return (
     <div className="ml-50 lg:ml-0">
@@ -9,6 +9,8 @@ const SidebarRight = ({ cruise }) => {
             <span className="text-20 fw-500">US${cruise?.price}</span>
             <span className="text-14 text-light-1 ml-5">nights</span>
           </div>
+
+          
           <div className="d-flex items-center">
             <div className="text-14 text-right mr-10">
               <div className="lh-15 fw-500">Exceptional</div>
@@ -20,11 +22,17 @@ const SidebarRight = ({ cruise }) => {
               <div className="text-14 fw-600 text-white">{cruise?.ratings}</div>
             </div>
           </div>
+          
         </div>
         {/* End d-flex */}
 
+
+
+        <WhatsIncluded/>
         <div className="row y-gap-20 pt-30">
+          
           <FilterBox />
+          
         </div>
       </div>
       {/* End px-30 FilterBox */}

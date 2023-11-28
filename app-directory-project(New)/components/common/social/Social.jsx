@@ -1,9 +1,9 @@
 const Social = () => {
   const socialContent = [
-    { id: 1, icon: "icon-facebook", link: "https://facebok.com/" },
-    { id: 2, icon: "icon-twitter", link: "https://twitter.com/" },
-    { id: 3, icon: "icon-instagram", link: "https://instagram.com/" },
-    { id: 4, icon: "icon-linkedin", link: "https://linkedin.com/" },
+    { id: 1, icon: "icon-facebook", link: "https://www.facebook.com/haloflights" },
+    { id: 2, icon: "icon-twitter", link: "https://twitter.com/HaloFlights" },
+    { id: 3, icon: "icon-instagram", link: "https://www.instagram.com/haloflights/?hl=en" },
+    { id: 4, icon: "icon-linkedin", link: "https://www.linkedin.com/company/halo-flights/" },
   ];
   return (
     <>

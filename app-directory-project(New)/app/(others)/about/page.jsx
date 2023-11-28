@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
+import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/block/BlockGuide";
 import Block1 from "@/components/about/Block1";
@@ -12,8 +12,8 @@ import Counter2 from "@/components/counter/Counter2";
 import Brand from "@/components/brand/Brand";
 
 export const metadata = {
-  title: "About || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "About || Halo Holidays - Here For You",
+  description: "About || Halo Holidays",
 };
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
+      <Header3/>
       {/* End Header 1 */}
 
       <section className="section-bg layout-pt-lg layout-pb-lg">

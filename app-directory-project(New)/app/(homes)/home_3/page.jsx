@@ -1,22 +1,22 @@
 import dynamic from "next/dynamic";
 import Header3 from "@/components/header/header-3";
 import Hero3 from "@/components/hero/hero-3";
-import TopDestinations from "@/components/destinations/TopDestinations";
 import Hotels from "@/components/hotels/Hotels2";
 import Link from "next/link";
 import Tours from "@/components/tours/Tours";
 import Activity from "@/components/activity/Activity";
 import Rentals from "@/components/rentals/Rentals";
-import Cars from "@/components/cars/Cars";
 import Cruise from "@/components/cruise/Cruise";
-import Flights from "@/components/flight/Flights";
-import Footer3 from "@/components/footer/footer-3";
-import AddBanner from "@/components/home/home-3/AddBanner";
+import CallToActions from "@/components/common/CallToActions";
+import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
+import DiscountsBanner from "@/components/home/home-5/DiscountsBanner";
+import Tours3 from "@/components/tours/Tours3";
+import TourCategories from "@/components/home/home-5/TourCategories";
 
 export const metadata = {
-  title: "Home-3 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Halo Holidays || Here For You",
+  description: "Halo Holidays - Travel & Tour ",
 };
 
 const home_3 = () => {
@@ -30,7 +30,7 @@ const home_3 = () => {
       <Hero3 />
       {/* End Hero 3 */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      {/* <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
@@ -41,15 +41,15 @@ const home_3 = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
-          <div className="row y-gap-20 pt-40">
+          {/* <div className="row y-gap-20 pt-40">
             <AddBanner />
-          </div>
+          </div> */}
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End container */}
-      </section>
+      {/* </section> */}
       {/* End AddBanner Section */}
 
       <section className="layout-pt-md layout-pb-md">
@@ -75,23 +75,70 @@ const home_3 = () => {
       </section>
       {/* End Why choose Section */}
 
-
-{/* Most Sold packages*/}
-      <section className=""> 
-      
-      <div className="container">
-        <div className="row justify-center text-center">
-          <div className="col-auto">
-            <div className="sectionTitle-lg"> 
-             <h3 className="sectionTitle__title"> Most Sold Packages</h3>
-              <p className="sectionTitle__ text mt-5 sm:mt-2"> This is some test sub heading </p>
-           </div>
+      {/* <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Holiday Types</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  We have a lot to offer
+                </p>
+              </div>
+            </div>
           </div>
-         </div>
+          {/* End .row */}
+
+          {/* <div className="row y-gap-30 pt-60 lg:pt-40">
+            <Holidays />
+          </div>
+          </div> */}
+          {/* </section> */} 
+
+
+          <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Choose Your Holiday Type</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <div className="d-flex x-gap-15 items-center ">
+                <div className="col-auto">
+                  <button className="d-flex items-center text-24 arrow-left-hover js-tour-type-prev">
+                    <i className="icon icon-arrow-left" />
+                  </button>
+                </div>
+                {/* End prev */}
+
+                <div className="col-auto">
+                  <div className="pagination -dots text-border js-tour-type-pag" />
+                </div>
+                {/* End pagination */}
+
+                <div className="col-auto">
+                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next">
+                    <i className="icon icon-arrow-right" />
+                  </button>
+                </div>
+                {/* End next */}
+              </div>
+            </div>
+            {/* End .col */}
+          </div>
+          {/* End .row */}
+
+          <div className="relative overflow-hidden pt-40 sm:pt-20">
+            <TourCategories />
+          </div>
         </div>
-        {/* Most sold packages ends here */}
-
-
       </section>
 
 
@@ -100,7 +147,7 @@ const home_3 = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top Destinations</h2>
+                <h2 className="sectionTitle__title">Explore Hot Deals</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   These popular destinations have a lot to offer
                 </p>
@@ -113,8 +160,22 @@ const home_3 = () => {
           {/* Holiday   */ }
 
           <div className="row y-gap-40 justify-between pt-40 sm:pt-20">
-            <TopDestinations />
+            {/* <TopDestinations /> */}
+            {/* <DiscountsBanner /> */}
           </div>
+          <div className="row y-gap-30 pt-40">
+            <div className="col-xl-5">
+              <DiscountsBanner />
+            </div>
+            {/* End col-xl-5 */}
+
+            <div className="col-xl-7">
+              <Tours3 />
+            </div>
+            {/* End col-xl-7 */}
+          </div>
+
+
           {/* End .row */}
         </div>
         {/* End .container */}
@@ -257,39 +318,7 @@ const home_3 = () => {
       </section>
       {/* Featured Rentals Sections */}
 
-      <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row y-gap-20 justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Popular Car Hire</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
-              </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                More <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
-            {/* End .col */}
-          </div>
-          {/* End .row */}
-
-          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
-            <Cars />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* Popular Car Hire Sections */}
+    
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -307,8 +336,7 @@ const home_3 = () => {
             <div className="col-auto">
               <Link
                 href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1">
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
@@ -325,7 +353,7 @@ const home_3 = () => {
       </section>
       {/* Features Cruise Deals Sections */}
 
-      <section className="layout-pt-md layout-pb-lg">
+      {/* <section className="layout-pt-md layout-pb-lg">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
@@ -335,34 +363,37 @@ const home_3 = () => {
                   Interdum et malesuada fames ac ante ipsum
                 </p>
               </div>
-            </div>
+            </div> */}
             {/* End .col */}
 
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <Link
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
               >
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row y-gap-30 pt-40 sm:pt-20">
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20">
             <Flights />
-          </div>
+          </div> */}
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
-      </section>
+       {/* </section> */}
       {/* Popular Routes Sections */}
 
-      <Footer3 />
+      <CallToActions />
+      {/* End Call To Actions Section */}
+
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );
 };
 
-export default dynamic(() => Promise.resolve(home_3), { ssr: false });
+export default dynamic(() => Promise.resolve(home_3), { ssr: true });

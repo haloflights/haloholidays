@@ -333,3 +333,25 @@
     }
   }
 }
+
+.hover-effect-new:hover {
+  border: 1px solid #fd9fcd; /* Change this to your new hover border color */
+  box-shadow: 0 0 10px rgba(145, 145, 145, 0.3);
+  /* Add any other styles for the new hover effect */
+}
+/* Default styles for desktop icon */
+.desktop-icon {
+  /* Add your desktop styles here */
+}
+
+/* Mobile-specific styles for icon */
+@media (max-width: 767px) {
+  
+  .holiday-item .size-60 {
+    /* Add styles for the mobile icon here */
+    width: 20px; /* Adjust the width for mobile */
+    height: 20px; /* Adjust the height for mobile */
+  }
+
+}
+

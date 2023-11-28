@@ -198,6 +198,17 @@ export const destinations4 = [
   },
 ];
 
+export const sold_packages = [
+{
+  id: 1, 
+  colClass: "col-xl-3 col-md-4 col-sm-6",
+  img: "/img/destinations/2/1_T.png",
+  name: "Cancun",
+  numberOfProperties: "1234",
+  delayAnimation: "100"
+}
+]
+
 export const destinations5 = [
   {
     id: 1,

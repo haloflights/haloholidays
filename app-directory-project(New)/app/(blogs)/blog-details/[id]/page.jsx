@@ -1,5 +1,5 @@
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
+import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import LocationTopBar from "@/components/common/LocationTopBar";
 import RelatedBlog from "@/components/blog/blog-details/RelatedBlog";
@@ -11,8 +11,8 @@ import BlogNavigator from "@/components/blog/blog-details/BlogNavigator";
 import Comments from "@/components/blog/blog-details/Comments";
 
 export const metadata = {
-  title: "Blog Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Blog 1 || Halo Holidays - Here For You",
+  description: "Blog 1 || Halo Holidays",
 };
 
 const BlogSingleDynamic = ({ params }) => {
@@ -24,7 +24,7 @@ const BlogSingleDynamic = ({ params }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
+      <Header3 />
       {/* End Header 1 */}
 
       <LocationTopBar />

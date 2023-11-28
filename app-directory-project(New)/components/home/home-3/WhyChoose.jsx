@@ -16,7 +16,7 @@ const WhyChoose = () => {
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "200",
     },
-    {
+    { 
       id: 3,
       icon: "/img/featureIcons/3/space.gif",
       title: "Unlimited Quotes",
@@ -28,7 +28,7 @@ const WhyChoose = () => {
       icon: "/img/featureIcons/3/route.gif",
       title : "Flexible Bookings",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-      delayAnimation : "300", 
+      delayAnimation : "400", 
     }
   ];
   return (
@@ -55,7 +55,9 @@ const WhyChoose = () => {
               <p className="text-15 mt-10">{item.text}</p>
             </div>
           </div>
+          
         </div>
+        
       ))}
     </>
   );

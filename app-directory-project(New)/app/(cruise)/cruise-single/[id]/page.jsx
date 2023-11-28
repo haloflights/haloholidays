@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
 import cruiseData from "@/data/cruise";
-import Header11 from "@/components/header/header-11";
+import Header3 from "@/components/header/header-3";
 import Overview from "@/components/cruise-single/Overview";
 import TopBreadCrumb from "@/components/cruise-single/TopBreadCrumb";
 import SidebarRight from "@/components/cruise-single/SidebarRight";
@@ -16,8 +16,8 @@ import MapPropertyFinder from "@/components/cruise-single/MapPropertyFinder";
 import GalleryCruiseSlider from "@/components/cruise-single/GalleryCruiseSlider";
 
 export const metadata = {
-  title: "Cruise Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "All Inclusive Deal || Halo Holidays - Here For You",
+  description: "All Inclusive Deal || Halo Holidays",
 };
 
 const CruiseSingleV1Dynamic = ({ params }) => {
@@ -31,7 +31,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+      <Header3 />
       {/* End Header 1 */}
 
       <TopBreadCrumb />
@@ -47,8 +47,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
                 <div className="text-15 text-light-1">{cruise?.location}</div>
                 <button
                   data-x-click="mapFilter"
-                  className="text-15 text-blue-1 underline"
-                >
+                  className="text-15 text-blue-1 underline">
                   Show on map
                 </button>
               </div>
@@ -97,7 +96,9 @@ const CruiseSingleV1Dynamic = ({ params }) => {
 
             <div className="col-xl-4">
               <SidebarRight cruise={cruise} />
+              
             </div>
+            
             {/* End .col-xl-4 */}
           </div>
           {/* End .row */}

@@ -26,6 +26,10 @@ button {
   transition: all 0.3s $easeOutQuart;
 }
 
+.subnav-button{
+  border: 1px solid #dc0069;
+}
+
 .button {
   &.-sm {
   }

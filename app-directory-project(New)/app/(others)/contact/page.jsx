@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
+import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/block/BlockGuide";
 import Address from "@/components/block/Address";
@@ -9,8 +9,8 @@ import ContactForm from "@/components/common/ContactForm";
 import LocationTopBar from "@/components/common/LocationTopBar";
 
 export const metadata = {
-  title: "Contact || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Contact || Halo Holidays - Here For You",
+  description: "Contact || Halo Holidays",
 };
 
 const Contact = () => {
@@ -21,8 +21,8 @@ const Contact = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
-      {/* End Header 1 */}
+      <Header3 />
+      {/* End Header 3 */}
 
       <LocationTopBar />
       {/* End location top bar section */}
@@ -33,7 +33,7 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182586.0420340798!2d-73.99038430252834!3d40.749936548349346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1670824458615!5m2!1sen!2sbd"
             loading="lazy"
           ></iframe>
-        </div>
+        </div> 
       </div>
       {/* End map section */}
 
@@ -75,7 +75,7 @@ const Contact = () => {
       </section>
       {/* End Address Section */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-blue-2">
+      <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">

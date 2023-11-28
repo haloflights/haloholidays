@@ -4,10 +4,8 @@ module.exports = [
     title: "Company",
     menuList: [
       { name: "About Us", routerPath: "/" },
-      { name: "Careers", routerPath: "/" },
       { name: "Blog", routerPath: "/" },
-      { name: "Press", routerPath: "/" },
-      { name: "Gift Cards", routerPath: "/" },
+      { name: "Destinations", routerPath: "/" },
     ],
   },
   {
@@ -23,15 +21,15 @@ module.exports = [
   },
   {
     id: 3,
-    title: "Other Services",
+    title: "Holidays",
     menuList: [
-      { name: "Car hire", routerPath: "/" },
-      { name: "Activity Finder", routerPath: "/" },
-      { name: "Tour List", routerPath: "/" },
-      { name: "Flight finder", routerPath: "/" },
-      { name: "Cruise Ticket", routerPath: "/" },
-      { name: "Holiday Rental", routerPath: "/" },
-      { name: "Travel Agents", routerPath: "/" },
+      { name: "All Inclusive", routerPath: "/" },
+      { name: "Beach", routerPath: "/" },
+      { name: "Couple", routerPath: "/" },
+      { name: "Cruise", routerPath: "/" },
+      { name: "Family", routerPath: "/" },
+      { name: "Honeymoon", routerPath: "/" },
+      { name: "Luxury", routerPath: "/" },
     ],
   },
 ];

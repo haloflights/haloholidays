@@ -30,17 +30,17 @@ const Header1 = () => {
   return (
     <>
       <header className={`header bg-white ${navbar ? "is-sticky" : ""}`}>
-        <div className="header__container px-30 sm:px-20">
+        <div className="header__container px-30 sm:px-20 ">
           <div className="row justify-between items-center">
             <div className="col-auto">
-              <div className="d-flex items-center">
+              <div className="d-flex items-center" >
                 <Link href="/" className="header-logo mr-20">
                   <img src="/img/general/Holidays_black.png" alt="logo icon" />
                   <img src="/img/general/logo-dark.svg" alt="logo icon" />
                 </Link>
                 {/* End logo */}
 
-                <HeaderSearch />
+                
                 {/* End logo */}
 
                 <div className="header-menu">
@@ -57,7 +57,7 @@ const Header1 = () => {
             <div className="col-auto">
               <div className="d-flex items-center">
                 <div className="row x-gap-20 items-center xxl:d-none">
-                  <CurrenctyMegaMenu textClass="text-dark-1" />
+                  {/* <CurrenctyMegaMenu textClass="text-dark-1" /> */}
                   {/* End Megamenu for Currencty */}
 
                   {/* Start vertical devider*/}
@@ -66,30 +66,31 @@ const Header1 = () => {
                   </div>
                   {/* End vertical devider*/}
 
-                  <LanguageMegaMenu textClass="text-dark-1" />
+                  {/* <LanguageMegaMenu textClass="text-dark-1" /> */}
                   {/* End Megamenu for Language */}
                 </div>
                 {/* End language and currency selector */}
+                <HeaderSearch />
 
                 {/* Start btn-group */}
                 <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
                   <Link
-                    href="/signup"
-                    className="button px-30 fw-400 text-14 -blue-1 bg-blue-1 h-50 text-white"
+                    href="tel:1302522656"
+                    className="button px-30 fw-500 text-15 -blue-1 bg-blue-1 h-40 text-white"
                   >
-                    Sign In / Register
+                    Call Us Now
                   </Link>
                 </div>
                 {/* End btn-group */}
 
                 {/* Start mobile menu icon */}
                 <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1">
-                  <div>
+                  {/* <div>
                     <Link
                       href="/login"
                       className="d-flex items-center icon-user text-inherit text-22"
                     />
-                  </div>
+                  </div> */}
                   <div>
                     <button
                       className="d-flex items-center icon-menu text-inherit text-20"
