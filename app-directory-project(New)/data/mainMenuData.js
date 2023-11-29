@@ -242,15 +242,15 @@ export const categorieMegaMenuItems = [
             // title: "Activity List",
             menuList: [
               {
-                name: "Budget Deal 1",
+                name: "Couple Deal 1",
                 routePath: "/cruise-single/2",
               },
               {
-                name: "Budget Deal 2",
+                name: "Couple Deal 2",
                 routePath: "/cruise-single/2",
               },
               {
-                name: "Budget Deal 3",
+                name: "Couple Deal 3",
                 routePath: "/cruise-single/2",
               },
               
@@ -260,11 +260,11 @@ export const categorieMegaMenuItems = [
             id: 2,
             menuList: [
               {
-                name: "Budget Deal 4",
+                name: "Couple Deal 4",
                 routePath: "/cruise-single/2",
               },
               {
-                name: "Budget Deal 5",
+                name: "Couple Deal 5",
                 routePath: "/cruise-single/2",
               },
             ],
