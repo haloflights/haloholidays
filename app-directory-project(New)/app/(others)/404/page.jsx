@@ -3,7 +3,7 @@ import CallToActions from "@/components/common/CallToActions";
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import NotFound from "@/components/common/NotFound";
-
+import Header3 from "@/components/header/header-3";
 export const metadata = {
   title: "404 || Halo Holidays - Here For You",
   description: "404 || Halo Holidays",
