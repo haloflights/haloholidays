@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import Blog4 from "@/components/blog/Blog4";
 import Brand2 from "@/components/brand/Brand2";
 import Footer2 from "@/components/footer/footer-2";
-import Header2 from "@/components/header/header-2";
-import Hero2 from "@/components/hero/hero-2";
+import Header3 from "@/components/header/header-3";
+import Hero5 from "@/components/hero/hero-5";
 import AppBanner from "@/components/home/home-2/AppBanner";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
 import CallToActions from "@/components/home/home-2/CallToActions";
@@ -23,10 +23,10 @@ const beach_holidays = () => {
     <>
       {/* End Page Title */}
 
-      <Header2 />
+      <Header3 />
       {/* End Header 2 */}
 
-      <Hero2 />
+      <Hero5 />
       {/* End Hero 2 */}
 
       <section className="layout-pt-lg layout-pb-md">

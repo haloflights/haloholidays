@@ -13,6 +13,7 @@ import WhyChoose from "@/components/home/home-3/WhyChoose";
 import DiscountsBanner from "@/components/home/home-5/DiscountsBanner";
 import Tours3 from "@/components/tours/Tours3";
 import TourCategories from "@/components/home/home-5/TourCategories";
+import TopDestinations from "@/components/destinations/TopDestinations";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -136,6 +137,7 @@ const home_3 = () => {
           {/* End .row */}
 
           <div className="relative overflow-hidden pt-40 sm:pt-20">
+            {/* <TopDestinations/> */}
             <TourCategories />
           </div>
         </div>
