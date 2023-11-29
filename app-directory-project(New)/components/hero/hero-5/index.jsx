@@ -16,9 +16,9 @@ const Index = () => {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              Best Travel{" "}
+              All Inclusive{" "}
               <span className="text-blue-1 relative">
-                Experience{" "}
+                Luxury Holidays{" "}
                 <span className="-line">
                   <img src="/img/general/line.png" alt="image" />
                 </span>
