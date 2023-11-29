@@ -10,7 +10,7 @@ const TourCategories = () => {
   return (
     <>
       <Swiper
-        spaceBetween={30}
+        spaceBetween={20}
         modules={[Navigation, Pagination]}
         navigation={{
           nextEl: ".js-tour-type-next",

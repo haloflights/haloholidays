@@ -117,7 +117,7 @@ const MobileMenu = () => {
               {categorieMobileItems.map((item) => (
                 // <SubMenu label={item.title} key={item.id} className={isActiveNestedParent == item.id ? 'menu-active-link':'inactive-menu'}>
                   // {item.menuList.map((single) => (
-                    <SubMenu label={item.title} key={item.id} href={item.url} className={isActiveNestedParentTwo == item.title ? 'menu-active-link':'inactive-menu'} >
+                    <SubMenu label={item.title} key={item.id} className={isActiveNestedParentTwo == item.title ? 'menu-active-link':'inactive-menu'} >
                       {item.menuList.map((menu, i) => (
                         <MenuItem
                           key={i}
