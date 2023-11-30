@@ -164,7 +164,7 @@
           }
         }
       }
-    }
+    } 
   }
 
   &.-dashboard {
@@ -343,6 +343,8 @@
         }
         a:hover {
           color: #dc0069;
+          padding: 5px;
+          background-color: color-opac(blue-1, 0.05);
         }
       }
     }
