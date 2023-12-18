@@ -165,7 +165,7 @@
           }
         }
       }
-    }
+    } 
   }
 
   &.-dashboard {
@@ -349,6 +349,8 @@
           padding-right: 5px;
           border-radius: 3px;
           transition: all 0.2s $easeOutQuart;
+          padding: 5px;
+          background-color: color-opac(blue-1, 0.05);
         }
       }
     }
