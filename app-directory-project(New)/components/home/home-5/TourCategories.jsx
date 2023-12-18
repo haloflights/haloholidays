@@ -52,7 +52,8 @@ const TourCategories = () => {
                     {item.name}
                   </h4>
                   <p className="text-light-1 lh-14 text-14 mt-5">
-                    {item.tourNumber} Tours From ${item.price}
+                    {/* {item.tourNumber} Tours From ${item.price} */}
+                    {item.holidays}
                   </p>
                 </div>
               </Link>

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 
 const WhyChoose = () => {
   const blockContent = [
@@ -8,6 +10,7 @@ const WhyChoose = () => {
       title: "Support from Start to Finish",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "100",
+     
     },
     {
       id: 2,
@@ -15,6 +18,7 @@ const WhyChoose = () => {
       title: "Unbeatable Prices",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "200",
+      
     },
     { 
       id: 3,
@@ -22,6 +26,7 @@ const WhyChoose = () => {
       title: "Unlimited Quotes",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "300",
+      
     },
     {
       id : 4,
@@ -29,6 +34,7 @@ const WhyChoose = () => {
       title : "Flexible Bookings",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
       delayAnimation : "400", 
+      
     }
   ];
   return (
@@ -53,6 +59,14 @@ const WhyChoose = () => {
             <div className="text-center mt-30">
               <h4 className="text-18 fw-500">{item.title}</h4>
               <p className="text-15 mt-10">{item.text}</p>
+
+              {/* <Link href={item.url}> */}
+
+              {/* <h1>
+                Test Page
+                
+                 </h1>
+              </Link> */}
             </div>
           </div>
           

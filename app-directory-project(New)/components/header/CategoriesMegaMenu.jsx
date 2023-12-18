@@ -101,8 +101,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
                     </div>
                     <Link
                       href={megaCol?.btnRoute}
-                      className="button subnav-button text-normal h-40 px-10 -blue-1 text-dark-1 bg-white mt-5 d-inline-flex"
-                    >
+                      className="button subnav-button text-normal h-40 px-10 -blue-1 text-dark-1 bg-white mt-5 d-inline-flex">
                       {megaCol?.btnText}
                     </Link>
                   </div>

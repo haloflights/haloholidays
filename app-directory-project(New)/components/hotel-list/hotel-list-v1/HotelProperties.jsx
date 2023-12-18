@@ -10,7 +10,7 @@ import Link from "next/link";
 const HotelProperties = () => {
   return (
     <>
-      {hotelsData.slice(0, 7).map((item) => (
+      {hotelsData.slice(0, hotelsData.length).map((item) => (
         <div className="col-12" key={item?.id}>
           <div className="border-top-light pt-30">
             <div className="row x-gap-20 y-gap-20">

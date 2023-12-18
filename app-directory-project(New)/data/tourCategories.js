@@ -2,74 +2,82 @@ export const tourCategories1 = [
   {
     id: 1,
     icon: "icon-nature",
-    name: "All Inclusive Holidays",
+    name: "All Inclusive",
     url: "all_inclusive_holidays",
     tourNumber: "5",
     price: "650",
     dealyAimation: "",
+    holidays : "Holidays"
   },
   {
     id: 2,
     icon: "icon-hiking ",
-    name: "Family Holidays",
+    name: "Family ",
     url:"family_holidays",
     tourNumber: "4",
     price: "550",
     dealyAimation: "100",
+    holidays : "Holidays"
   },
   {
     id: 3,
     icon: "icon-city ",
-    name: "Couple Holidays",
+    name: "Couple ",
     url:"couple_holidays",
     tourNumber: "8",
     price: "700",
     dealyAimation: "200",
+    holidays : "Holidays"
   },
   {
     id: 4,
     icon: "icon-museum ",
-    name: "Luxury Holidays",
+    name: "Luxury ",
     url:"luxury_holidays",
     tourNumber: "6",
     price: "800",
     dealyAimation: "300",
+    holidays : "Holidays"
   },
   {
     id: 5,
     icon: "icon-beach-umbrella ",
-    name: "Beach Holidays",
+    name: "Beach ",
     url: "beach_holidays",
     tourNumber: "5",
     price: "550",
     dealyAimation: "400",
+    holidays : "Holidays"
   },
   {
     id: 6,
     icon: "icon-nature",
-    name: "Honeymoon Holidays",
+    name: "Honeymoon ",
     url: "honeymoon_holidays",
     tourNumber: "5",
     price: "650",
     dealyAimation: "500",
+    holidays : "Holidays"
   },
   {
     id: 7,
     icon: "icon-hiking ",
-    name: "Cruise Holidays",
+    name: "Cruise ",
     url: "cruise_holidays",
     tourNumber: "4",
     price: "550",
     dealyAimation: "600",
+    holidays : "Holidays"
   },
   {
     id: 8,
     icon: "icon-city ",
-    name: "Last Minute Holidays",
+    name: "Last Minute ",
     url: "last_minute_holidays",
     tourNumber: "8",
     price: "700",
     dealyAimation: "700",
+    holidays : "Holidays"
   },
   {
     id: 9,

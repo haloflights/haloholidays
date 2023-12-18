@@ -1,5 +1,59 @@
+//
+// 'use client'
+// import axios from "axios";
+// import {useEffect, useState} from "react";
+//
+//
+// const Hotels = () => {
+//   const [hotelsData, setHotelsData] = useState([]);
+//
+//
+//   const baseURL = 'https://booking-com15.p.rapidapi.com/api/v1/hotels/searchHotels';
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         const response = await axios.get(baseURL, {
+//           params: {
+//             dest_id: '-2092174',
+//             search_type: 'CITY',
+//             arrival_date: '2023-12-28',
+//             departure_date: '2024-01-04',
+//             adults: '1',
+//             children_age: '0,17',
+//             room_qty: '1',
+//             page_number: '1',
+//             languagecode: 'en-us',
+//             currency_code: 'AED'
+//           },
+//           headers: {
+//             'X-RapidAPI-Key': '4625a5f741msh2845f89966d858dp158d2ejsna3f0de6935aa',
+//             'X-RapidAPI-Host': 'booking-com15.p.rapidapi.com'
+//           },
+//         });
+//
+//
+//         setHotelsData(response.data);
+//
+//         const flightsData = response.data.data;
+//         const hotelName = flightsData.general.name;
+//         const flights = response.data;
+//         // const daysArray = flightsData.flights;
+//         console.log(flightsData)
+//         console.log(flights);
+//
+//       } catch (error) {
+//         console.error('Error fetching data:', error.message);
+//         // Handle error as needed
+//       }
+//     };
+//
+//     fetchData();
+//   }, []);
+//
+// }
 export const hotelsData = [
   {
+
     id: 1,
     tag: "Breakfast Included",
     slideImg: ["/img/hotels/1.png"],

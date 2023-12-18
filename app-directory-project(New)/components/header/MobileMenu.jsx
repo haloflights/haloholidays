@@ -203,7 +203,7 @@ const MobileMenu = () => {
             </SubMenu>
             {/* End  All Pages Menu */}
 
-            <SubMenu label="Dashboard" className={ pathname.split('/')[1] == 'dashboard'  || pathname.split('/')[1] == 'vendor-dashboard' ? "menu-active-link":''}>
+            {/* <SubMenu label="Dashboard" className={ pathname.split('/')[1] == 'dashboard'  || pathname.split('/')[1] == 'vendor-dashboard' ? "menu-active-link":''}>
               {dashboardItems.map((item, i) => (
                 <MenuItem
                   key={i}
@@ -217,7 +217,7 @@ const MobileMenu = () => {
                   {item.name}
                 </MenuItem>
               ))}
-            </SubMenu>
+            </SubMenu> */}
             {/* End  All Dashboard Menu */}
 
             <MenuItem
