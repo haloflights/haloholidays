@@ -22,10 +22,10 @@ const Subscribe = () => {
                 Sign up and we&apos;ll send the best deals to you
               </p>
 
-              <div className="single-field -w-410 d-flex x-gap-10 flex-wrap y-gap-20 pt-30">
+              <div className="single-field -w-408 d-flex x-gap-10 flex-wrap y-gap-10 pt-15">
                 <div className="col-auto">
                   <input
-                    className="col-12 bg-white h-60"
+                    className="col-8 bg-white h-40"
                     type="text"
                     placeholder="Your Email"
                     required
@@ -35,7 +35,7 @@ const Subscribe = () => {
                 <div className="col-auto">
                   <button
                     type="submit"
-                    className="button -md h-60 -blue-1 bg-yellow-1 text-dark-1"
+                    className=" col-8 button -md h-40 -blue-1 bg-yellow-1 text-dark-1"
                   >
                     Subscribe
                   </button>

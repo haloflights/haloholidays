@@ -99,7 +99,7 @@ const home_3 = () => {
 
           <section className="layout-pt-md layout-pb-md">
         <div className="container">
-          <div className="row y-gap-20 justify-between items-end">
+          <div className="row y-gap-20 justify-between items-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Choose Your Holiday Type</h2>
@@ -110,11 +110,30 @@ const home_3 = () => {
             </div>
             {/* End .col */}
 
+            
+
             <div className="col-auto">
-              <div className="d-flex x-gap-15 items-center ">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+              >
+                More <div className="icon-arrow-top-right ml-15" />
+              </Link>
+            </div>
+            {/* End .col */}
+          </div>
+          {/* End .row */}
+
+          <div className="relative overflow-hidden pt-40 sm:pt-20">
+            {/* <TopDestinations/> */}
+            <TourCategories />
+            
+          </div>
+          <div className="col-auto ">
+              <div className="d-flex x-gap-19 items-center ml-1000 ">
                 <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-left-hover js-tour-type-prev">
-                    <i className="icon icon-arrow-left" />
+                  <button className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev">
+                    <i className="icon icon-arrow-left " />
                   </button>
                 </div>
                 {/* End prev */}
@@ -125,22 +144,15 @@ const home_3 = () => {
                 {/* End pagination */}
 
                 <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next">
+                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next ">
                     <i className="icon icon-arrow-right" />
                   </button>
                 </div>
                 {/* End next */}
               </div>
             </div>
-            {/* End .col */}
-          </div>
-          {/* End .row */}
-
-          <div className="relative overflow-hidden pt-40 sm:pt-20">
-            {/* <TopDestinations/> */}
-            <TourCategories />
-          </div>
         </div>
+        
       </section>
 
 
@@ -162,8 +174,7 @@ const home_3 = () => {
           {/* Holiday   */ }
 
           <div className="row y-gap-40 justify-between pt-40 sm:pt-20">
-            {/* <TopDestinations /> */}
-            {/* <DiscountsBanner /> */}
+           
           </div>
           <div className="row y-gap-30 pt-40">
             <div className="col-xl-5">
@@ -216,7 +227,7 @@ const home_3 = () => {
       </section>
       {/* End  Hotel sections */}
 
-      <section className="layout-pt-md layout-pb-md">
+      {/* <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
@@ -226,30 +237,31 @@ const home_3 = () => {
                   Interdum et malesuada fames ac ante ipsum
                 </p>
               </div>
-            </div>
+            </div> */}
             {/* End .col */}
 
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <Link
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
               >
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
             <Tours />
-          </div>
+          </div> */}
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
-      </section>
+      {/* </section> */}
       {/* End Tours Sections */}
 
+{/* 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">
@@ -259,29 +271,29 @@ const home_3 = () => {
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames ac ante ipsum
                 </p>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
             {/* End .col */}
 
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <Link
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
               >
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
             <Activity />
-          </div>
+          </div> */}
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
-      </section>
+      {/* </section> */}
       {/* Trending Activity Sections */}
 
       <section className="layout-pt-md layout-pb-md">

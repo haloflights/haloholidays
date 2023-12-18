@@ -61,6 +61,7 @@
 
     img {
       width: 200px;
+      margin-top: -38px;
 
       @include media-below(md) {
         max-width: 200px;
@@ -164,7 +165,7 @@
           }
         }
       }
-    }
+    } 
   }
 
   &.-dashboard {
@@ -287,7 +288,7 @@
 
             &:hover {
               color: #dc0069;
-              background-color: color-opac(blue-1, 0.05);
+              // background-color: color-opac(blue-1, 0.05);
               // background-color: #dc0069;
             }
           }
@@ -343,6 +344,13 @@
         }
         a:hover {
           color: #dc0069;
+          background-color: rgba(220, 0, 105, 0.05);
+          padding-left: 8px;
+          padding-right: 5px;
+          border-radius: 3px;
+          transition: all 0.2s $easeOutQuart;
+          padding: 5px;
+          background-color: color-opac(blue-1, 0.05);
         }
       }
     }
@@ -498,6 +506,7 @@
           font-size: 18px;
           padding: 0 20px;
           transform: translateY(100%);
+          // background-color: color-opac(blue-1, 0.05) !important;
         }
 
         &__backBtn {

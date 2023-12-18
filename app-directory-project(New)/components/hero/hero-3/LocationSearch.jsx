@@ -1,44 +1,103 @@
 
 'use client'
 
-import { useState } from "react";
+import {useEffect, useState} from "react";
+import axios from "axios";
 
-const LocationSearch = () => {
+const LocationSearch = ({onSelect}) => {
   const [searchValue, setSearchValue] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
+  const [hotelsData, setHotelsData] = useState(null);
+  const baseURL = 'https://booking-com15.p.rapidapi.com/api/v1/hotels/searchDestination';
+  const [suggestions, setSuggestions] = useState([]);
 
-  const locationSearchContent = [
-    {
-      id: 1,
-      name: "London",
-      address: "Greater London, United Kingdom",
-    },
-    {
-      id: 2,
-      name: "New York",
-      address: "New York State, United States",
-    },
-    {
-      id: 3,
-      name: "Paris",
-      address: "France",
-    },
-    {
-      id: 4,
-      name: "Madrid",
-      address: "Spain",
-    },
-    {
-      id: 5,
-      name: "Santorini",
-      address: "Greece",
-    },
-  ];
+  const fetchData = async () => {
+    try {
+      const response = await axios.get(baseURL, {
+        params: {
+          query: searchValue,
+        },
+        headers: {
+          'X-RapidAPI-Key': '4625a5f741msh2845f89966d858dp158d2ejsna3f0de6935aa',
+          'X-RapidAPI-Host': 'booking-com15.p.rapidapi.com'
+        },});
+
+
+
+
+      setSuggestions(response.data);
+
+      const hotelData = response.data.data;
+      const hotelName = hotelData.label;
+
+      // console.log(daysArray);
+
+      for (const day of hotelData) {
+        console.log(day.city_name, day.label, day.name);
+      }
+    } catch (error) {
+      console.error('Error fetching data:', error.message);
+      // Handle error as needed
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const locationSearchContent = hotelsData ? hotelsData.map(function(element) {
+    return {
+      id: element.id,
+      name: element.name,
+      address: element.address,
+      // Add other properties as needed
+    };
+  }) : [];
+
+  // const locationSearchContent = [
+  //     {
+  //     id: 1,
+  //     name: "London",
+  //     address: "Greater London, United Kingdom",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "New York",
+  //     address: "New York State, United States",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Paris",
+  //     address: "France",
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "Madrid",
+  //     address: "Spain",
+  //   },
+  //   {
+  //     id: 5,
+  //     name: "Santorini",
+  //     address: "Greece",
+  //   },
+  // ];
 
   const handleOptionClick = (item) => {
+    fetchData();
     setSearchValue(item.name);
     setSelectedItem(item);
   };
+
+  const handleInputChange = (e) => {
+    setSearchValue(e.target.value);
+  }
+
+  const handleSelect = (selectedValue) => {
+    setSearchValue(selectedValue);
+    setSuggestions([]);
+    onSelect(selectedValue); // Pass the selected value to the parent or another component
+  };
+
 
   return (
     <>
@@ -56,7 +115,10 @@ const LocationSearch = () => {
               placeholder="Where are you going?"
               className="js-search js-dd-focus"
               value={searchValue}
-              onChange={(e) => setSearchValue(e.target.value)}
+              // onChange={(e) => setSearchValue(e.target.value)}
+              onChange={handleInputChange}
+              onClick={handleOptionClick}
+
             />
           </div>
         </div>

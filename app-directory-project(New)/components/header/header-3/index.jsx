@@ -35,7 +35,7 @@ const Header1 = () => {
             <div className="col-auto">
               <div className="d-flex items-center" >
                 <Link href="/" className="header-logo mr-20">
-                  <img src="/img/general/Holidays_black.png" alt="logo icon" />
+                  <img src="/img/general/Halo_holidays.svg" alt="logo icon" />
                   <img src="/img/general/logo-dark.svg" alt="logo icon" />
                 </Link>
                 {/* End logo */}
@@ -70,17 +70,30 @@ const Header1 = () => {
                   {/* End Megamenu for Language */}
                 </div>
                 {/* End language and currency selector */}
-                <HeaderSearch />
+                {/* <HeaderSearch /> */}
 
                 {/* Start btn-group */}
-                <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
+              <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
+
+                  
                   <Link
                     href="tel:1302522656"
-                    className="button px-30 fw-500 text-15 -blue-1 bg-blue-1 h-40 text-white"
+                    className="button call_us_now px-30 fw-500 text-15 -blue-1 bg-blue-1 h-40 text-white"
                   >
                     Call Us Now
                   </Link>
-                </div>
+                </div> 
+
+
+            {/* <div className="button-item">
+              <Link href="tel:1302522656">
+              <button className="mainSearch__submit button text-center mr-20 -dark-4 py-25 px-12 h-40 col-12 rounded-4 bg-blue-1 text-white">
+                <i className="icon-mobile text-20 mr-10 " />
+                Call Us Now
+              </button>
+              </Link>
+            </div> */}
+
                 {/* End btn-group */}
 
                 {/* Start mobile menu icon */}

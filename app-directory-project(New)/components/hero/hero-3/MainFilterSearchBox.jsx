@@ -11,7 +11,9 @@ const MainFilterSearchBox = () => {
   const { tabs, currentTab } = useSelector((state) => state.hero) || {};
   const dispatch = useDispatch();
   const Router = useRouter()
-
+  const handleSelection = (searchValue) => {
+    console.log(searchValue);
+  }
   return (
     <>
       <div className="tabs -bookmark js-tabs">
@@ -34,7 +36,7 @@ const MainFilterSearchBox = () => {
       <div className="tabs__content js-tabs-content">
         <div className="mainSearch bg-white pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 rounded-4">
           <div className="button-grid items-center">
-            <LocationSearch />
+            <LocationSearch onSelect={handleSelection} />
             {/* End Location */}
 
             <div className="searchMenu-date px-30 lg:py-20 lg:px-0 js-form-dd js-calendar">

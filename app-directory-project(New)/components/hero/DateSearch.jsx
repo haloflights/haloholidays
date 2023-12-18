@@ -22,7 +22,7 @@ const DateSearch = () => {
         containerClassName="custom_container-picker"
         value={dates}
         onChange={setDates}
-        numberOfMonths={2}
+        numberOfMonths={3}
         offsetY={10}
         range
         rangeHover

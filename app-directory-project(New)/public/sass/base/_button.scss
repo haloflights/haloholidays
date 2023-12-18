@@ -91,4 +91,12 @@ button {
     background-color: white !important;
     color: var(--color-dark-1) !important;
   }
+
+.call_us_now {
+  &:hover{
+    background-color: white;
+    color: #dc0069;
+    border: #dc0069;
+  }
+}
 }
