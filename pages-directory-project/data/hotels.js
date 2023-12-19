@@ -1,3 +1,31 @@
+
+const axios = require('axios');
+
+const api_url = 'https://hotels4.p.rapidapi.com/locations/v3/search';
+const api_key = '2c996c63e3msh1ef4b7225029d1ep110dcejsnd463bb377a97';
+const host = 'hotels4.p.rapidapi.com';
+const headers = {
+  'X-RapidAPI-Key': api_key,
+  'X-RapidAPI-Host': host,
+  'content-type': 'application/json'
+};
+
+const params = {
+  q: 'new york',
+  locale: 'en_US',
+  langid: '1033',
+  siteid: '300000001'
+}
+try {
+  const response = await axios.request(options);
+  console.log(response.data);
+} catch (error) {
+  console.error(error);
+}
+
+
+export const getHotels = () => reponse;
+
 export const hotelsData = [
   {
     id: 1,
