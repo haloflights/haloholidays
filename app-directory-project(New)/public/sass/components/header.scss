@@ -61,7 +61,7 @@
 
     img {
       width: 200px;
-      margin-top: -38px;
+      // margin-left: 15px;
 
       @include media-below(md) {
         max-width: 200px;
@@ -350,7 +350,7 @@
           border-radius: 3px;
           transition: all 0.2s $easeOutQuart;
           padding: 5px;
-          background-color: color-opac(blue-1, 0.05);
+          // background-color: color-opac(blue-1, 0.05);
         }
       }
     }

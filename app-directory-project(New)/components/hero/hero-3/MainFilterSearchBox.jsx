@@ -54,7 +54,7 @@ const MainFilterSearchBox = () => {
 
             <div className="button-item">
               <button
-                className="mainSearch__submit button -dark-1 py-15 px-35 h-50 col-12 rounded-4 bg-blue-1 text-white"
+                className="mainSearch__submit button -dark-1 py-15 px-35 h-50 col-12 rounded-4 bg-blue-1 text-white" aria-label="search" role="button"
                 onClick={() => Router.push("/hotel-list-v1")}
               >
                 <i className="icon-search text-20 mr-10" />

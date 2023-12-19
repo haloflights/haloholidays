@@ -212,8 +212,9 @@ const home_3 = () => {
               <Link
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="more"
               >
-                More <div className="icon-arrow-top-right ml-15" />
+                More <div className="icon-arrow-top-right ml-15"  />
               </Link>
             </div>
           </div>

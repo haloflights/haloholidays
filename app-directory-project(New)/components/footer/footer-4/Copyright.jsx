@@ -13,6 +13,7 @@ const Copyright = () => {
                 className="mx-2"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label=""
               >
                 ib-themes
               </a>

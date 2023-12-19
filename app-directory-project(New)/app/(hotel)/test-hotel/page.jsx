@@ -5,10 +5,10 @@ import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v5/MainFilte
 import Pagination from "@/components/hotel-list/common/Pagination";
 import HotelProperties from "@/components/hotel-list/hotel-list-v5/HotelProperties";
 import DropdownSelelctBar from "@/components/hotel-list/common/DropdownSelelctBar";
-import TestHotel from "@/components/hotels/testHotel";
+
 export const metadata = {
-  title: "Hotel List v5 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Halo Holidays || Here For You",
+  description: "Halo Holidays - Travel & Tour ",
 };
 
 const index = () => {
@@ -83,7 +83,7 @@ const index = () => {
 
             <div className="row y-gap-30">
 
-            <TestHotel/>
+            {/* <TestHotel/> */}
 
               <HotelProperties />
             </div>

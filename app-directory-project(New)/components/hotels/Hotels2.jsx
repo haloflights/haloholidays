@@ -55,11 +55,11 @@ const Hotels2 = () => {
     const char =
       props.type === "next" ? (
         <>
-          <i className="icon icon-chevron-right text-12"></i>
+          <i className="icon icon-chevron-right text-12  " aria-label="right"></i>
         </>
       ) : (
         <>
-          <span className="icon icon-chevron-left text-12"></span>
+          <span className="icon icon-chevron-left text-12" aria-label="left"></span>
         </>
       );
     return (
@@ -82,6 +82,7 @@ const Hotels2 = () => {
             <Link
               href={`/hotel-single-v1/${item.id}`}
               className="hotelsCard -type-1 hover-inside-slider"
+              aria-label="hotel-id"
             >
               <div className="hotelsCard__image">
                 <div className="cardImage inside-slider">
@@ -107,12 +108,12 @@ const Hotels2 = () => {
                   </Slider>
 
                   <div className="cardImage__wishlist">
-                    <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                    <button className="button -blue-1 bg-white size-30 rounded-full shadow-2" aria-label="wish-list">
                       <i className="icon-heart text-12" />
                     </button>
                   </div>
 
-                  <div className="cardImage__leftBadge">
+                  <div className="cardImage__leftBadge" aria-label="leftBadge">
                     <div
                       className={`py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase ${
                         isTextMatched(item?.tag, "breakfast included")
