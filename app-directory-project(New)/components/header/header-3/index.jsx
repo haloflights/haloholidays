@@ -75,7 +75,7 @@ const Header1 = () => {
                   
                   <Link
                     href="tel:1302522656"
-                    className="button call_us_now px-30 fw-500 text-15 -blue-1 bg-blue-1 h-40 text-white"
+                    className="button call_us_now px-30 fw-500 text-15 -blue-1 bg-blue-1 h-30 text-white"
                   >
                     Call Us Now
                   </Link>
