@@ -22,6 +22,7 @@ const DiscountsBanner = () => {
           <a
             href="#"
             className="button px-48 py-15 -blue-1 -min-180 bg-white text-dark-1"
+            aria-label="book now"
           >
             Book Now
           </a>

@@ -79,7 +79,8 @@ const Tours3 = () => {
                   </div>
 
                   <div className="cardImage__wishlist">
-                    <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                    <button className="button -blue-1 bg-white size-30 rounded-full shadow-2"
+                    aria-label="wishlist">
                       <i className="icon-heart text-12" />
                     </button>
                   </div>
