@@ -9,7 +9,7 @@ const Copyright = () => {
             <div className="d-flex items-center">
               © {new Date().getFullYear()} by
               <a
-                href="https://haloflights.us/"
+                href="https://haloholidays.us/"
                 className="mx-2"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -21,13 +21,13 @@ const Copyright = () => {
           </div>
           {/* End .col */}
 
-          <div className="col-auto">
+          {/* <div className="col-auto">
             <div className="d-flex x-gap-15">
-              <a href="#" aria-label="privacy">Privacy</a>
-              <a href="#" aria-label="terms">Terms</a>
-              <a href="#" aria-label="sitemap">Site Map</a>
+              <a href="/" aria-label="privacy">Privacy</a>
+              <a href="/terms" aria-label="terms">Terms</a>
+              <a href="/terms" aria-label="sitemap">Site Map</a>
             </div>
-          </div>
+          </div> */}
           {/* End .col */}
         </div>
         {/* End .row */}

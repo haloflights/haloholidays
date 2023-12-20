@@ -14,8 +14,8 @@ import FilterHotels3 from "@/components/hotels/FilterHotels3";
 import AllInclusiveHero from "@/components/hero/all-inclusive-hero";
 
 export const metadata = {
-  title: "all_inclusive || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "All Inclusive Holidays || Here For You",
+  description: "Halo Holidays - Travel & Tour ",
 };
 
 const all_inclusive_holidays = () => {

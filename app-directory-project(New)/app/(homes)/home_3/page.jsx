@@ -3,8 +3,6 @@ import Header3 from "@/components/header/header-3";
 import Hero3 from "@/components/hero/hero-3";
 import Hotels from "@/components/hotels/Hotels2";
 import Link from "next/link";
-import Tours from "@/components/tours/Tours";
-import Activity from "@/components/activity/Activity";
 import Rentals from "@/components/rentals/Rentals";
 import Cruise from "@/components/cruise/Cruise";
 import CallToActions from "@/components/common/CallToActions";
@@ -13,7 +11,6 @@ import WhyChoose from "@/components/home/home-3/WhyChoose";
 import DiscountsBanner from "@/components/home/home-5/DiscountsBanner";
 import Tours3 from "@/components/tours/Tours3";
 import TourCategories from "@/components/home/home-5/TourCategories";
-import TopDestinations from "@/components/destinations/TopDestinations";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",

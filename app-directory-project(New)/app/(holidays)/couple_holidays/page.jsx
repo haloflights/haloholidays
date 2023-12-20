@@ -1,9 +1,9 @@
 import dynamic from "next/dynamic";
 import Blog4 from "@/components/blog/Blog4";
 import Brand2 from "@/components/brand/Brand2";
-import Footer2 from "@/components/footer/footer-2";
+import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
-import CoupleHero from "@/components/hero/couple-hero";
+import Beachhero from "@/components/hero/beach-hero/";
 import AppBanner from "@/components/home/home-2/AppBanner";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
 import CallToActions from "@/components/home/home-2/CallToActions";
@@ -14,9 +14,9 @@ import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
 
 export const metadata = {
-    title: "Halo Holidays || Here For You",
-    description: "Halo Holidays - Travel & Tour ",
-  };
+  title: "all_inclusive || GoTrip - Travel & Tour React NextJS Template",
+  description: "GoTrip - Travel & Tour React NextJS Template",
+};
 
 const couple_holidays = () => {
   return (
@@ -26,8 +26,7 @@ const couple_holidays = () => {
       <Header3 />
       {/* End Header 2 */}
 
-      {/* <Hero5 /> */}
-      <CoupleHero/>
+      <Beachhero />
       {/* End Hero 2 */}
 
       <section className="layout-pt-lg layout-pb-md">
@@ -156,7 +155,7 @@ const couple_holidays = () => {
       <CallToActions />
       {/* End CallToActions Section */}
 
-      <Footer2 />
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );

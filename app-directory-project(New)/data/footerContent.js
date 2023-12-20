@@ -3,20 +3,20 @@ module.exports = [
     id: 1,
     title: "Company",
     menuList: [
-      { name: "About Us", routerPath: "/" },
-      { name: "Blog", routerPath: "/" },
-      { name: "Destinations", routerPath: "/" },
+      { name: "About Us", routerPath: "/about" },
+      { name: "Blog", routerPath: "/blog-list-v1" },
+      { name: "Destinations", routerPath: "/destinations" },
     ],
   },
   {
     id: 2,
     title: "Support",
     menuList: [
-      { name: "Contact", routerPath: "/" },
+      { name: "Contact", routerPath: "/contact" },
       { name: "Legal Notice", routerPath: "/" },
-      { name: "Privacy Policy", routerPath: "/" },
-      { name: "Terms and Conditions", routerPath: "/" },
-      { name: "Sitemap", routerPath: "/" },
+      { name: "Privacy Policy", routerPath: "/terms" },
+      { name: "Terms and Conditions", routerPath: "/terms" },
+      { name: "Sitemap", routerPath: "/terms" },
     ],
   },
   {

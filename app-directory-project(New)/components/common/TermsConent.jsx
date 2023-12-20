@@ -2,10 +2,14 @@
 'use client'
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import index from "../activity-single/filter-box";
 
 const TermsConent = () => {
+
+  
+
   return (
-    <Tabs>
+    <Tabs >
       <div className="row y-gap-30">
         <div className="col-lg-3">
           <div className="px-30 py-30 rounded-4 border-light">
@@ -13,13 +17,13 @@ const TermsConent = () => {
               <Tab className="col-12 tabs__button js-tabs-button">
                 General Terms of Use
               </Tab>
-              <Tab className="col-12 tabs__button js-tabs-button">
+              <Tab className="col-12 tabs__button js-tabs-button" >
                 Privacy policy
               </Tab>
               <Tab className="col-12 tabs__button js-tabs-button">
                 Cookie Policy
               </Tab>
-              <Tab className="col-12 tabs__button js-tabs-button">
+              <Tab className="col-12 tabs__button js-tabs-button" >
                 Best Price Guarantee
               </Tab>
             </TabList>
@@ -84,7 +88,7 @@ const TermsConent = () => {
           </TabPanel>
           {/* End  General Terms of Use */}
 
-          <TabPanel>
+          <TabPanel tabId="basic-tab-two">
             <div className="tabs__content js-tabs-content" data-aos="fade">
               <h1 className="text-30 fw-600 mb-15"> Privacy policy</h1>
               <h2 className="text-16 fw-500">1. Your Agreement</h2>

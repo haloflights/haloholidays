@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import Blog4 from "@/components/blog/Blog4";
 import Brand2 from "@/components/brand/Brand2";
-import Footer2 from "@/components/footer/footer-2";
+import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import FamilyHero from "@/components/hero/family-hero";
 import AppBanner from "@/components/home/home-2/AppBanner";
@@ -156,7 +156,7 @@ const family_holidays = () => {
       <CallToActions />
       {/* End CallToActions Section */}
 
-      <Footer2 />
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );
