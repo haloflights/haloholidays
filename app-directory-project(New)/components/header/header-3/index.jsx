@@ -10,7 +10,7 @@ const Header1 = () => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 10) {
+    if (window.scrollY >= 5) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -26,12 +26,12 @@ const Header1 = () => {
 
   return (
     <>
-      <header className={`header bg-white ${navbar ? "is-sticky" : ""}`}>
-        <div className="header__container px-30 sm:px-20 ">
+      <header className={`header bg-white ${navbar ? "is-sticky" : ""}`} >
+        <div className="header__container px-40 sm:px-30 ">
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center" >
-                <Link href="/" className="header-logo mr-20">
+                <Link href="/" className="header-logo mr-50">
                   <img src="/img/general/Halo_holidays.png" alt="logo icon" width="250" height="400"/>
                   <img src="/img/general/logo-dark.svg" alt="logo icon" />
                 </Link>
