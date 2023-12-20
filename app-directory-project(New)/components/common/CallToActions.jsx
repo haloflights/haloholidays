@@ -2,7 +2,7 @@ const CallToActions = () => {
   return (
     <section className="layout-pt-md layout-pb-md bg-dark-2">
       <div className="container">
-        <div className="row y-gap-30 justify-between items-center">
+        <div className="row y-gap-30 justify-between  items-center">
           <div className="col-auto">
             <div className="row y-gap-20  flex-wrap items-center">
               <div className="col-auto">
@@ -24,7 +24,7 @@ const CallToActions = () => {
             <div className="single-field -w-410 d-flex x-gap-10 y-gap-20" >
               <div>
                 <input
-                  className="bg-white h-50"
+                  className="bg-white h-40"
                   type="text"
                   placeholder="Your Email"
                 />
@@ -32,7 +32,7 @@ const CallToActions = () => {
               {/* End email input */}
 
               <div>
-                <button className="button -md h-50 bg-blue-1 text-white" >
+                <button className="button -md h-40 bg-blue-1 text-white" >
                   Subscribe
                 </button>
               </div>
