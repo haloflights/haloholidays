@@ -3,7 +3,7 @@ import Blog4 from "@/components/blog/Blog4";
 import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
-import Beachhero from "@/components/hero/beach-hero/";
+import CoupleHero from "@/components/hero/couple-hero/";
 import AppBanner from "@/components/home/home-2/AppBanner";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
 import CallToActions from "@/components/home/home-2/CallToActions";
@@ -26,7 +26,7 @@ const couple_holidays = () => {
       <Header3 />
       {/* End Header 2 */}
 
-      <Beachhero />
+      <CoupleHero />
       {/* End Hero 2 */}
 
       <section className="layout-pt-lg layout-pb-md">
@@ -149,10 +149,10 @@ const couple_holidays = () => {
       <Subscribe />
       {/* End Subscribe Section */}
 
-      <AppBanner />
+      {/* <AppBanner /> */}
       {/* End AppBanner Section */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End CallToActions Section */}
 
       <DefaultFooter />

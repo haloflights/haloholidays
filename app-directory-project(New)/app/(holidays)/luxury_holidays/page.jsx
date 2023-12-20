@@ -3,7 +3,7 @@ import Blog4 from "@/components/blog/Blog4";
 import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
-import LastMinuteHero from "@/components/hero/last-minute-hero";
+import LuxuryHero from "@/components/hero/luxury-hero";
 import AppBanner from "@/components/home/home-2/AppBanner";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
 import CallToActions from "@/components/home/home-2/CallToActions";
@@ -27,7 +27,7 @@ const luxury_holidays = () => {
       {/* End Header 2 */}
 
       {/* <Hero5 /> */}
-      <LastMinuteHero />
+      <LuxuryHero />
       {/* End Hero 2 */}
 
       <section className="layout-pt-lg layout-pb-md">
@@ -150,10 +150,10 @@ const luxury_holidays = () => {
       <Subscribe />
       {/* End Subscribe Section */}
 
-      <AppBanner />
+      {/* <AppBanner /> */}
       {/* End AppBanner Section */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End CallToActions Section */}
 
       <DefaultFooter />

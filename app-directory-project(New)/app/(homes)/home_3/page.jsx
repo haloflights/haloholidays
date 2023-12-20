@@ -113,8 +113,10 @@ const home_3 = () => {
               <Link
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="more"
               >
-                More <div className="icon-arrow-top-right ml-15" />
+                More <div className="icon-arrow-top-right ml-15" 
+                aria-label="arrow-top-right"/>
               </Link>
             </div>
             {/* End .col */}
@@ -129,7 +131,8 @@ const home_3 = () => {
           <div className="col-auto ">
               <div className="d-flex x-gap-19 items-center ml-1000 ">
                 <div className="col-auto">
-                  <button className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev">
+                  <button className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev"
+                  aria-label="arrow-left">
                     <i className="icon icon-arrow-left " />
                   </button>
                 </div>
@@ -141,7 +144,8 @@ const home_3 = () => {
                 {/* End pagination */}
 
                 <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next ">
+                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next "
+                  aria-label="arrow-right">
                     <i className="icon icon-arrow-right" />
                   </button>
                 </div>
@@ -313,6 +317,7 @@ const home_3 = () => {
               <Link
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="more"
               >
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
@@ -348,7 +353,8 @@ const home_3 = () => {
             <div className="col-auto">
               <Link
                 href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1">
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="more">
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>

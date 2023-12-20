@@ -133,7 +133,7 @@ const all_inclusive_holidays = () => {
                   Get inspiration for your next trip
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
+                  Blogs will go here
                 </p>
               </div>
             </div>

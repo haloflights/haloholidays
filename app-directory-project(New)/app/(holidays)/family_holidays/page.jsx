@@ -132,7 +132,7 @@ const family_holidays = () => {
                   Get inspiration for your next trip
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
+               Blogs Will go here
                 </p>
               </div>
             </div>
@@ -150,10 +150,10 @@ const family_holidays = () => {
       <Subscribe />
       {/* End Subscribe Section */}
 
-      <AppBanner />
+      {/* <AppBanner /> */}
       {/* End AppBanner Section */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End CallToActions Section */}
 
       <DefaultFooter />

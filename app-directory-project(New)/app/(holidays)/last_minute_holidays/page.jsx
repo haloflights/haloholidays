@@ -150,10 +150,10 @@ const last_minute_holidays = () => {
       <Subscribe />
       {/* End Subscribe Section */}
 
-      <AppBanner />
+      {/* <AppBanner /> */}
       {/* End AppBanner Section */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End CallToActions Section */}
 
       <DefaultFooter />

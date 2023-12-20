@@ -14,7 +14,7 @@ const index = () => {
                 className="text-50 lg:text-40 md:text-30 text-white"
                 data-aos="fade-up"
               >
-                Couple Holidays <br />Your Gateway to Stress-Free Travel
+                Beach Holidays <br />Your Gateway to Stress-Free Travel
               </h1><br />
               <p
                 className="text-white mt-6 md:mt-10"

@@ -107,7 +107,7 @@ const Rentals = () => {
 
                   <div className="cardImage__wishlist">
                     <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                      <i className="icon-heart text-12" />
+                      <i className="icon-heart text-12" aria-label="heart" />
                     </button>
                   </div>
 
