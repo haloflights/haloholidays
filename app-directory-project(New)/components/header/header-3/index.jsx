@@ -32,8 +32,8 @@ const Header1 = () => {
             <div className="col-auto">
               <div className="d-flex items-center" >
                 <Link href="/" className="header-logo mr-50">
-                  <img src="/img/general/Halo_holidays.png" alt="logo icon" width="250" height="400"/>
-                  <img src="/img/general/logo-dark.svg" alt="logo icon" />
+                  <img src="/img/general/Halo Holidaysuk.svg" alt="logo icon" width="250" height="400"/>
+                  {/* <img src="/img/general/logo-dark.svg" alt="logo icon" /> */}
                 </Link>
                 {/* End logo */}
 
