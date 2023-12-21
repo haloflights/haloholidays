@@ -203,6 +203,10 @@
 
         a {
           cursor: pointer;
+          // color: #dc0069;
+        }
+        a:hover{
+          color: #dc0069;
         }
 
         &.menu-item-has-children:hover {
@@ -256,6 +260,7 @@
 
         a {
           padding: 0 10px;
+          // background-color: #dc0069;
         }
       }
 
@@ -288,7 +293,7 @@
 
             &:hover {
               color: #dc0069;
-              // background-color: color-opac(blue-1, 0.05);
+              background-color: color-opac(blue-1, 0.05);
               // background-color: #dc0069;
             }
           }
@@ -552,7 +557,7 @@
 
 // active menu
 .menu__nav li.current {
-  color: #dc0069;
+  // color: #dc0069;
 }
 .mega__grid div.current {
   color: black;

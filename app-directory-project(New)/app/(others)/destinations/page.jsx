@@ -78,7 +78,9 @@ const Destinations = () => {
           <div className="pt-30 mt-30 border-top-light" />
           <div className="row y-gap-20">
             <div className="col-12">
-              <h2 className="text-22 fw-500">General info</h2>
+              
+              <h2 className="text-22 fw-500" >General info</h2>
+            
             </div>
             {/* End .col */}
             <GeneralInfo />

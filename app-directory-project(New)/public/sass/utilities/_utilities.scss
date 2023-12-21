@@ -1747,10 +1747,10 @@ table.table-5 {
       flex-direction: column;
 
       > li > a {
-        font-size: 20px;
+        font-size: 30px;
 
         &:hover {
-          background-color: color-opac(blue-1, 0.05) !important;
+          background-color: color-opac(pink-1, 0.05) !important;
         }
       }
     }

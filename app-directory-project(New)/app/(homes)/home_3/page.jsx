@@ -157,7 +157,7 @@ const home_3 = () => {
       </section>
 
 
-      <section className="layout-pt-md layout-pb-md">
+      {/* <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
@@ -174,27 +174,27 @@ const home_3 = () => {
 
           {/* Holiday   */ }
 
-          <div className="row y-gap-40 justify-between pt-40 sm:pt-20">
+          {/* <div className="row y-gap-40 justify-between pt-40 sm:pt-20">
            
           </div>
           <div className="row y-gap-30 pt-40">
             <div className="col-xl-5">
-              <DiscountsBanner />
-            </div>
+              <DiscountsBanner /> */}
+            {/* </div> */}
             {/* End col-xl-5 */}
 
-            <div className="col-xl-7">
-              <Tours3 />
-            </div>
+            {/* <div className="col-xl-7"> */}
+              {/* <Tours3 /> */}
+            {/* </div> */}
             {/* End col-xl-7 */}
-          </div>
+          {/* </div> */}
 
 
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
-      </section>
-      {/* End Top Destinations Section */}
+      {/* // </section> */} 
+            {/* End Top Destinations Section */}
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
