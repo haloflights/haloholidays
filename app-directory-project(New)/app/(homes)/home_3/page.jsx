@@ -8,9 +8,8 @@ import Cruise from "@/components/cruise/Cruise";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
-import DiscountsBanner from "@/components/home/home-5/DiscountsBanner";
-import Tours3 from "@/components/tours/Tours3";
 import TourCategories from "@/components/home/home-5/TourCategories";
+import TrustBox from "@/components/trustpilot/trustbox";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -93,6 +92,26 @@ const home_3 = () => {
           </div> */}
           {/* </section> */} 
 
+          <section >
+        <div className="container">
+          <div className="row justify-center text-center">
+           
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Testimonials</h2>
+         
+                  These popular destinations have a lot to offer
+         
+              </div>
+            
+          </div>
+          {/* End .row */}
+
+            <TrustBox />
+      
+          {/* End row */}
+        </div>
+        {/* End .container */}
+      </section>
 
           <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -404,7 +423,7 @@ const home_3 = () => {
         {/* End .container */}
        {/* </section> */}
       {/* Popular Routes Sections */}
-
+     
       <CallToActions />
       {/* End Call To Actions Section */}
 
