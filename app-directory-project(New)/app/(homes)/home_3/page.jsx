@@ -95,11 +95,12 @@ const home_3 = () => {
           <section >
         <div className="container">
           <div className="row justify-center text-center">
-           
+           <br/>
+           <br/>
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Testimonials</h2>
+                <h2 className="sectionTitle__title">Experience the Love</h2>
          
-                  These popular destinations have a lot to offer
+                Discover the stories behind our success
          
               </div>
             
