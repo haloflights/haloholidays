@@ -27,9 +27,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+      
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
