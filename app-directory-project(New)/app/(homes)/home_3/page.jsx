@@ -92,7 +92,7 @@ const home_3 = () => {
           </div> */}
           {/* </section> */} 
 
-          <section >
+          {/* <section >
         <div className="container">
           <div className="row justify-center text-center">
            <br/>
@@ -107,13 +107,12 @@ const home_3 = () => {
           </div>
           {/* End .row */}
 
-            <TrustBox />
+            {/* <TrustBox /> */}
       
           {/* End row */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
-      </section>
-
+      {/* // </section> */} 
           <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row y-gap-20 justify-between items-center">
