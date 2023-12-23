@@ -148,9 +148,9 @@ const home_3 = () => {
             
           </div>
           <div className="col-auto ">
-              <div className="d-flex x-gap-19 items-center ml-1000 ">
+              <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
                 <div className="col-auto">
-                  <button className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev"
+                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev"
                   aria-label="arrow-left">
                     <i className="icon icon-arrow-left " />
                   </button>
