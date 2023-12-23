@@ -424,7 +424,7 @@ const home_3 = () => {
        {/* </section> */}
       {/* Popular Routes Sections */}
      
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />

@@ -81,7 +81,7 @@ const HelpCenter = () => {
       </section>
       {/* End faq section block */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />

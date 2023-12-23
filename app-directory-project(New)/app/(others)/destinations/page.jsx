@@ -395,7 +395,7 @@ const Destinations = () => {
       </section>
       {/* End top destinations */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />

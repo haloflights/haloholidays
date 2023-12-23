@@ -98,7 +98,7 @@ const Contact = () => {
       </section>
       {/* End Why Choose Us section */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />

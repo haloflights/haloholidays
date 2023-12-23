@@ -166,7 +166,7 @@ const About = () => {
       </section>
       {/* End testimonial section */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />
