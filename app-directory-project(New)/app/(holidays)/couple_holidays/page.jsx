@@ -146,7 +146,7 @@ const couple_holidays = () => {
       </section>
       {/* End blog Section */}
 
-      <Subscribe />
+      {/* <Subscribe /> */}
       {/* End Subscribe Section */}
 
       {/* <AppBanner /> */}
