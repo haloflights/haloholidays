@@ -13,6 +13,7 @@ if (window.Trustpilot) {
 }
   }, []);
   return (
+    <>
 <div
   ref={ref} // We need a reference to this element to load the TrustBox in the effect.
  className="trustpilot-widget" 
@@ -27,9 +28,10 @@ if (window.Trustpilot) {
  data-font-family="Open Sans"
  // [ long list of data attributes...]
 >
-  <Link href="https://www.trustpilot.com/review/example.com" target="_blank" rel="noopener"> Trustpilot
+  <Link href="https://www.trustpilot.com/review/haloflights.us" target="_blank" rel="noopener"> Trustpilot
   </Link>
 </div>
+</>
   );
 };
 export default TrustBox;
