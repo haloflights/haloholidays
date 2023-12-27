@@ -8,12 +8,12 @@ import Cruise from "@/components/cruise/Cruise";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
-import DiscountsBanner from "@/components/home/home-5/DiscountsBanner";
-import Tours3 from "@/components/tours/Tours3";
 import TourCategories from "@/components/home/home-5/TourCategories";
 import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
-import TrustBox from "@/components/trustpilot/page";
+// import TrustBox from "@/components/trustpilot/page";
+import TrustBox from "@/components/trustpilot/trustbox";
+
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -96,6 +96,26 @@ const home_3 = () => {
           </div> */}
           {/* </section> */} 
 
+          <section >
+        <div className="container">
+          <div className="row justify-center text-center">
+           <br/>
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Experience the Love</h2>
+         
+                Discover the stories behind our success
+         
+              </div>
+            
+          </div>
+          {/* End .row */}
+
+            <TrustBox />
+      
+          {/* End row */}
+        </div>
+        {/* End .container */}
+      </section>
 
           <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -132,9 +152,9 @@ const home_3 = () => {
             
           </div>
           <div className="col-auto ">
-              <div className="d-flex x-gap-19 items-center ml-1000 ">
+              <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
                 <div className="col-auto">
-                  <button className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev"
+                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev"
                   aria-label="arrow-left">
                     <i className="icon icon-arrow-left " />
                   </button>
@@ -499,9 +519,9 @@ const home_3 = () => {
       </section>
 
 
-  <TrustBox/>
-
-      <CallToActions />
+  {/* <TrustBox/> */}
+     
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />

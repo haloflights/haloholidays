@@ -4,8 +4,9 @@ const Block1 = () => {
   return (
     <>
       <div className="col-lg-5">
-        <h2 className="text-30 fw-600">About Halo Holidays</h2>
-        <p className="mt-5"></p>
+
+        <h2 className="text-30 fw-600">About Haloholidays.us</h2>
+        <p className="mt-5">These popular destinations have a lot to offer</p>
         <p className="text-dark-1 mt-60 lg:mt-40 md:mt-20">
     
 Welcome to Halo, established in 2018 as a sanctuary for discerning travelers seeking journeys that blend the wisdom of experience with the thrill of exploration. We are more than just a travel agency; we are your seasoned companion, your insightful guide, and your empathetic friend in the dynamic world of travel. With branches in the UK and Sri Lanka, our expertise spans diverse cultures and landscapes, ensuring that your travel experience is as rich and varied as the destinations themselves.

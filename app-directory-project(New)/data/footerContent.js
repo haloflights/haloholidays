@@ -30,6 +30,7 @@ module.exports = [
       { name: "Family Holidays", routerPath: "/family_holidays" },
       { name: "Honeymoon Holidays", routerPath: "/honeymoon_holidays" },
       { name: "Luxury Holidays", routerPath: "/luxury_holidays" },
+      {name: "Last Minute Holidays" , routerPath: "/last_minute_holidays"}
     ],
   },
 ];

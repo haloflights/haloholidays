@@ -70,7 +70,7 @@ const MobileMenu = () => {
     <>
       <div className="pro-header d-flex align-items-center justify-between border-bottom-light">
         <Link href="/">
-        <img src="/img/general/Halo_holidays.png" alt="logo icon" width="250" margin="400" />
+        <img src="/img/general/Halo Holidaysuk.svg" alt="logo icon" width="250" height="400" />
         </Link>
         {/* End logo */}
 

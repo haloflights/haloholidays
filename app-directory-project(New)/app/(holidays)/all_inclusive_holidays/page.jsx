@@ -165,7 +165,7 @@ const all_inclusive_holidays = () => {
       </section>
       {/* End blog Section */}
 
-      <Subscribe />
+      {/* <Subscribe /> */}
       {/* End Subscribe Section */}
 
       {/* <AppBanner /> */}

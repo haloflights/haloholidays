@@ -193,7 +193,7 @@ const CruiseSingleV1Dynamic = ({ params }) => {
 
       {/* End facilites section */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />
