@@ -16,6 +16,7 @@ import {
   dashboardItems,
   categorieMobileItems,
   categorieMegaMenuItems,
+  holidayItems,
 } from "../../data/mainMenuData";
 import {
   isActiveLink,
@@ -70,7 +71,7 @@ const MobileMenu = () => {
     <>
       <div className="pro-header d-flex align-items-center justify-between border-bottom-light">
         <Link href="/">
-        <img src="/img/general/Halo Holidaysuk.svg" alt="logo icon" width="250" height="400" />
+        <img src="/img/general/Halo Holidaysuk.svg" alt="logo icon" width="200" height="200" />
         </Link>
         {/* End logo */}
 
@@ -113,7 +114,25 @@ const MobileMenu = () => {
             {/* </SubMenu> */}
             {/* End  All Home Menu */}
 
-            <SubMenu label="Holidays" className={isActiveParent ? 'menu-active-link':'' }>
+
+            <SubMenu label="Holidays" className={ holidayItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}>
+              {holidayItems.map((item, i) => (
+                <MenuItem
+                  key={i}
+                  onClick={()=>router.push(item.routePath)}
+                  className={
+                    isActiveLink(item.routePath, pathname)
+                      ? "menu-active-link"
+                      : "inactive-menu"
+                  }
+                >
+                  {item.name}
+                </MenuItem>
+              ))}
+            </SubMenu>
+            {/* End  All Pages Menu */}
+
+            <SubMenu label="Destinations" className={isActiveParent ? 'menu-active-link':'' }>
               {categorieMobileItems.map((item) => (
                 // <SubMenu label={item.title} key={item.id} className={isActiveNestedParent == item.id ? 'menu-active-link':'inactive-menu'}>
                   // {item.menuList.map((single) => (
@@ -156,18 +175,6 @@ const MobileMenu = () => {
             {/* End  All Categories Menu */}
 
 
-            <MenuItem
-             onClick={()=>router.push("/destinations")}
-             className={
-              pathname === "/destinations"
-                ? "menu-active-link"
-                : ""
-            }
-              
-            >
-              Destinations
-            </MenuItem>
-            {/* End  Desitinations Menu */}
 
             {/* <SubMenu label="Blog" className={ blogItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}> */}
               {/* {blogItems.map((item, i) => ( */}
@@ -186,7 +193,7 @@ const MobileMenu = () => {
             {/* </SubMenu> */}
             {/* End  All Blog Menu */}
 
-            <SubMenu label="Pages" className={ pageItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}>
+            <SubMenu label="More" className={ pageItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}>
               {pageItems.map((item, i) => (
                 <MenuItem
                   key={i}
@@ -220,16 +227,6 @@ const MobileMenu = () => {
             </SubMenu> */}
             {/* End  All Dashboard Menu */}
 
-            <MenuItem
-             onClick={()=>router.push("/contact")}
-             className={
-              pathname === "/contact" ? "menu-active-link" : ""
-            }
-             
-            >
-              Contact
-            </MenuItem>
-            {/* End Contact  Menu */}
           </Menu>
         </Sidebar>
 
