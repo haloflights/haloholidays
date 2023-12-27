@@ -234,6 +234,14 @@ const home_3 = () => {
         </div>
       </section>
 
+
+      <section>
+      <div className="masthead__bg ml-60">
+        <img alt="image" src="/img/backgrounds/things to do.jpg" className="js-lazy" width="1249" height="728"/>
+      </div>
+
+      </section>
+
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">

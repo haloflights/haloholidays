@@ -24,7 +24,7 @@ const WhyChoose = () => {
       id: 3,
       icon: "/img/featureIcons/quote-request.svg",
       title: "ATOL Protection",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      text: `Your peace of mind is paramount. With ATOL protection, every aspect of your trip is secure, promising worry-free travel and financial safety so dont worry..`,
       delayAnimation: "300",
       
     },
