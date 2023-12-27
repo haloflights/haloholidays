@@ -9,7 +9,11 @@ import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
 import TourCategories from "@/components/home/home-5/TourCategories";
+import Blog4 from "@/components/blog/Blog4";
+import Travellers from "@/components/home/home-2/Travellers";
+// import TrustBox from "@/components/trustpilot/page";
 import TrustBox from "@/components/trustpilot/trustbox";
+
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -54,9 +58,9 @@ const home_3 = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Why Choose Us</h2>
+                <h2 className="sectionTitle__title">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
                 </p>
               </div>
             </div>
@@ -99,9 +103,9 @@ const home_3 = () => {
           <div className="row y-gap-20 justify-between items-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Choose Your Holiday Type</h2>
+                <h2 className="sectionTitle__title">Choose your All Inclusive Holiday Type</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                With Halo Holidays, finding your perfect escape is effortless. Whether you're dreaming of a serene beach retreat, a romantic honeymoon hideaway, or an action-packed family adventure, our diverse range of all-inclusive holiday types caters to every desire. Select from last-minute getaways, luxurious cruises, or tailor-made family or couple holidays. Each experience is crafted to provide you with unforgettable moments and unparalleled value. Start exploring now and find the holiday that resonates with your idea of the perfect vacation.
                 </p>
               </div>
             </div>
@@ -194,6 +198,8 @@ const home_3 = () => {
         {/* </div> */}
         {/* End .container */}
       {/* // </section> */} 
+
+      
             {/* End Top Destinations Section */}
 
       <section className="layout-pt-md layout-pb-md">
@@ -201,7 +207,72 @@ const home_3 = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Recommended Hotels</h2>
+                <h2 className="sectionTitle__title">Explore Our Top Destinations for All Inclusive Holidays</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
+                aria-label="more"
+              >
+                More <div className="icon-arrow-top-right ml-15"  />
+              </Link>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+          <Travellers/>
+          </div>
+          {/* End relative */}
+        </div>
+      </section>
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Last Minute Holidays</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
+                aria-label="more"
+              >
+                More <div className="icon-arrow-top-right ml-15"  />
+              </Link>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Hotels />
+          </div>
+          {/* End relative */}
+        </div>
+      </section>
+
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Best All Inclusive Holidays</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames ac ante ipsum
                 </p>
@@ -298,8 +369,8 @@ const home_3 = () => {
       {/* </section> */}
       {/* Trending Activity Sections */}
 
-      <section className="layout-pt-md layout-pb-md">
-        <div className="container">
+      {/* <section className="layout-pt-md layout-pb-md"> */}
+        {/* <div className="container">
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
@@ -310,10 +381,10 @@ const home_3 = () => {
                   Interdum et malesuada fames ac ante ipsum
                 </p>
               </div>
-            </div>
+            </div> */}
             {/* End .col */}
 
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <Link
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
@@ -321,18 +392,18 @@ const home_3 = () => {
               >
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+          {/* <div className="y-gap-30 pt-40 sm:pt-20 item_gap-x30">
             <Rentals />
-          </div>
+          </div> */}
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
-      </section>
+      {/* </section> */}
       {/* Featured Rentals Sections */}
 
     
@@ -404,6 +475,32 @@ const home_3 = () => {
         {/* End .container */}
        {/* </section> */}
       {/* Popular Routes Sections */}
+
+      <section className="layout-pt-lg layout-pb-md">
+        <div className="container">
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">
+                  Get inspiration for your next trip
+                </h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Blogs will go here
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* End .row  */}
+          <div className="row y-gap-30 pt-40">
+            <Blog4 />
+          </div>
+          {/* End .row */}
+        </div>
+        {/* End .container */}
+      </section>
+
+
+  {/* <TrustBox/> */}
      
       {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
