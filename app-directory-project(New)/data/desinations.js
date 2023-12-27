@@ -70,59 +70,54 @@ export const destinations3 = [
   {
     id: 1,
     img: "/img/destinations/1/1.png",
-    title: "United Kingdom",
+    title: "Spain",
     travellers: "147,681",
     delayAnimation: "0",
   },
   {
     id: 2,
     img: "/img/destinations/1/2.png",
-    title: "Italy",
+    title: "Turkey",
     travellers: "147,681",
     delayAnimation: "100",
   },
   {
     id: 3,
     img: "/img/destinations/1/3.png",
-    title: "France",
+    title: "Greece",
     travellers: "147,681",
     delayAnimation: "200",
   },
   {
     id: 4,
     img: "/img/destinations/1/4.png",
-    title: "Turkey",
+    title: "Portugal",
     travellers: "147,681",
     delayAnimation: "300",
   },
   {
     id: 5,
     img: "/img/destinations/1/5.png",
-    title: "Spain",
+    title: "Egypt",
     travellers: "147,681",
     delayAnimation: "400",
   },
   {
     id: 6,
     img: "/img/destinations/1/1.png",
-    title: "United Kingdom",
+    title: "United Cyprus",
     travellers: "147,681",
     delayAnimation: "500",
   },
   {
     id: 7,
     img: "/img/destinations/1/2.png",
-    title: "Italy",
+    title: "Maldives",
     travellers: "147,681",
     delayAnimation: "600",
   },
-  {
-    id: 8,
-    img: "/img/destinations/1/3.png",
-    title: "France",
-    travellers: "147,681",
-    delayAnimation: "700",
-  },
+ 
+ 
 ];
 
 export const destinations4 = [

@@ -8,7 +8,7 @@ const WhyChoose = () => {
       id: 1,
       icon: "/img/featureIcons/support.svg",
       title: "Support from Start to Finish",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      text: `Questions or need assistance? Our dedicated team is here for you 24/7, ensuring your holiday experiences are smooth and enjoyable from start to finish.`,
       delayAnimation: "100",
      
     },
@@ -16,14 +16,14 @@ const WhyChoose = () => {
       id: 2,
       icon: "/img/featureIcons/discount.svg",
       title: "Unbeatable Prices",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      text: `Rest assured, you're getting the best deal possible. Our best price guarantee means you can book your all-inclusive holiday knowing you've made a smart choice.`,
       delayAnimation: "200",
       
     },
     { 
       id: 3,
       icon: "/img/featureIcons/quote-request.svg",
-      title: "Unlimited Quotes",
+      title: "ATOL Protection",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnimation: "300",
       
@@ -32,7 +32,7 @@ const WhyChoose = () => {
       id : 4,
       icon: "/img/featureIcons/booking.svg",
       title : "Flexible Bookings",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+      text: `Plan your holiday with confidence. Our flexible booking options allow you to adapt as your plans change, offering peace of mind every step of the way.`,
       delayAnimation : "400", 
       
     }

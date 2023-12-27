@@ -47,7 +47,7 @@ const MainMenu = ({ style = "" }) => {
         </li>
         {/* End home page menu */}
 
-        <li className={isActiveParent ? "menu-item-has-children -has-mega-menu current":'menu-item-has-children -has-mega-menu'}>
+        <li className={isActiveParent ? "menu-item-has-children -has-mega-menu ":'menu-item-has-children -has-mega-menu'}>
           <a href="#">
             <span className="mr-10">Holidays</span>
             <i className="icon icon-chevron-sm-down" />
@@ -68,10 +68,14 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(blogItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <a href="/blog-list-v1">
-            <span className="mr-10">Blog</span>
+          <li className={pathname === "/blog-list-v1" ? "current" : ""}>
+          <Link href="/blog-list-v1">Blogs</Link>
+        </li>
+
+      
+          
             {/* <i className="icon icon-chevron-sm-down" /> */}
-          </a>
+          
           {/* <ul className="subnav">
             {blogItems.map((menu, i) => (
               <li
