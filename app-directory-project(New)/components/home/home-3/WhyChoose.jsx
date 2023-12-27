@@ -60,13 +60,6 @@ const WhyChoose = () => {
               <h4 className="text-18 fw-500">{item.title}</h4>
               <p className="text-15 mt-10">{item.text}</p>
 
-              {/* <Link href={item.url}> */}
-
-              {/* <h1>
-                Test Page
-                
-                 </h1>
-              </Link> */}
             </div>
           </div>
           

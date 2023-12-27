@@ -475,7 +475,7 @@ const TermsConent = () => {
 
               <p className="text-15 text-dark-1 mt-5">
               <b>Cancellations:</b> You may cancel your booking at any time. Cancellation requests must be sent to us in writing to Customer Services, 
-              Halo Holidays, Crowborough Hill Stores Flat, Crowborough Hill, Crowborough, East Sussex, England, TN6 2SD, or by email to : contact@haloholidays.co.uk by the
+              Halo Holidays, Crowborough Hill Stores Flat, Crowborough Hill, Crowborough, East Sussex, England, TN6 2SD, or by email to :<a href="contact@haloholidays.co.uk"> contact@haloholidays.co.uk </a> by the
                lead name on your booking and it will not take effect until received by us. Upon receipt of your cancellation request, the principal(s) or supplier(s) may be 
                entitled to charge a cancellation fee. Cancellation fees may be as much as 100% of the total price of the travel service depending on when cancellation occurs.
                 Bookings are usually non-refundable unless stated otherwise any time after the date of booking. 

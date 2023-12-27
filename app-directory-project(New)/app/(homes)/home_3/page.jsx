@@ -92,26 +92,7 @@ const home_3 = () => {
           </div> */}
           {/* </section> */} 
 
-          <section >
-        <div className="container">
-          <div className="row justify-center text-center">
-           <br/>
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Experience the Love</h2>
-         
-                Discover the stories behind our success
-         
-              </div>
-            
-          </div>
-          {/* End .row */}
-
-            <TrustBox />
-      
-          {/* End row */}
-        </div>
-        {/* End .container */}
-      </section>
+          
 
           <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -426,6 +407,30 @@ const home_3 = () => {
      
       {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
+
+      <section >
+        <div className="container">
+          <div className="row justify-center text-center">
+           <br/> 
+              <div className="sectionTitle -md mb-40">
+                <h2 className="sectionTitle__title ">Experience the Love</h2>
+         
+                Discover the stories behind our success
+         
+              </div>
+              <br/> 
+            
+          </div>
+          {/* End .row */}
+
+            <TrustBox />
+      
+          {/* End row */}
+        </div>
+        <br/><br/>
+        {/* End .container */}
+      </section>
+
 
       <DefaultFooter />
       {/* End Footer Section */}
