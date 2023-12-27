@@ -301,6 +301,46 @@
         }
       }
 
+      .subnav-right {
+        position: absolute;
+        top: -9px; /* Adjust the positioning to align below the menu item */
+        left: 100%; /* Align to the left of the menu item */
+        width: 100px; /* Set the width to your desired value */
+        background-color: white;
+        box-shadow: 0px 0px 10px 0px #0510360d;
+        z-index: 1000;
+        display: none;
+        opacity: 1;
+        padding: 30px;
+        transition: all 0.2s ease-out;
+        border-radius: 4px;
+        min-width: 260px;
+        display: flex; /* Use flexbox to arrange sub-items in a row */
+        flex-wrap: wrap; /* Wrap items to the next row when there are more than 5 */
+        gap: 40px;
+      }
+      
+      .menu-item:hover .subnav-right {
+        display: flex; /* Show the subnav on hover and use flexbox */
+      }
+      
+      .subnav-right li {
+        width: 20%; /* Set the width for each column (5 columns) */
+        line-height: 0;
+        box-sizing: border-box; /* Include padding and border in the total width */
+        padding: 5px;
+        text-align: center; /* Center the content in each column */
+        /* Optional: Add styles for better appearance */
+        
+        white-space: nowrap;
+        margin-left: 10px;
+      }
+      
+      .subnav-right li:last-child {
+        border-bottom: none; /* Remove border for the last sub-item in each column */
+      }
+      
+
       .mega-mobile {
         display: none;
       }
@@ -313,7 +353,7 @@
         border-radius: 3px;
         margin-top: -9px;
         color: black;
-        width: 830px;
+        width: 200px;
         box-shadow: 0px 10px 30px 0px #05103608;
         transition: all 0.2s $easeOutQuart;
         opacity: 0;
@@ -328,8 +368,8 @@
 
         &__grid {
           display: grid;
-          gap: 60px;
-          grid-template-columns: auto auto auto;
+          gap: 10px;
+          grid-template-columns: 100%;
         }
 
         &__item {

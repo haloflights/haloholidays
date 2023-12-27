@@ -88,6 +88,325 @@ export const pageItems = [
   //   routePath: "/invoice",
   // },
 ];
+export const holidayItems = [
+  {
+    name: "All Inclusive Holidays",
+    routePath: "/all_inclusive_holidays",
+  },
+  {
+    name: "Family Holidays",
+    routePath: "/family_holidays",
+  },
+  {
+    name: "Couple Holidays",
+    routePath: "/couple_holidays",
+  },
+  {
+    name: "Luxury Holidays",
+    routePath: "/luxury_holidays",
+  },
+  {
+    name: "Honeymoon Holidays",
+    routePath: "/honeymoon_holidays",
+  },
+  {
+    name: "Beach Holidays",
+    routePath: "/beach_holidays",
+  },
+  {
+    name: "Cruise Holidays",
+    routePath: "/cruise_holidays",
+  },
+  {
+    name: "Last Minute Holidays",
+    routePath: "/last_minute_holidays",
+  },
+];
+export const destinationItems = [
+  {
+    name: "Europe",
+    routePath: "/all_inclusive_holidays",
+    subItems: [
+      {
+        name: "Option 1",
+        routePath: "/all_inclusive_holidays/option1",
+      },
+      {
+        name: "Option 2",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 3",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 4",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 5",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 6",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 7",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 8",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 9",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 10",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      // Add more sub-items as needed
+    ],
+  },
+  {
+    name: "Asia",
+    routePath: "/family_holidays",
+    subItems: [
+      {
+        name: "Option 1",
+        routePath: "/all_inclusive_holidays/option1",
+      },
+      {
+        name: "Option 2",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 3",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 4",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 5",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 6",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 7",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 8",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 9",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 10",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      // Add more sub-items as needed
+    ],
+  },
+  {
+    name: "Africa",
+    routePath: "/couple_holidays",
+    subItems: [
+      {
+        name: "Option 1",
+        routePath: "/all_inclusive_holidays/option1",
+      },
+      {
+        name: "Option 2",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 3",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 4",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 5",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 6",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 7",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 8",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 9",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 10",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      // Add more sub-items as needed
+    ],
+  },
+  {
+    name: "Central America",
+    routePath: "/luxury_holidays",
+    subItems: [
+      {
+        name: "Option 1",
+        routePath: "/all_inclusive_holidays/option1",
+      },
+      {
+        name: "Option 2",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 3",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 4",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 5",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 6",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 7",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 8",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 9",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 10",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      // Add more sub-items as needed
+    ],
+  },
+  {
+    name: "North America",
+    routePath: "/honeymoon_holidays",
+    subItems: [
+      {
+        name: "Option 1",
+        routePath: "/all_inclusive_holidays/option1",
+      },
+      {
+        name: "Option 2",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 3",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 4",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 5",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 6",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 7",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 8",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 9",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 10",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      // Add more sub-items as needed
+    ],
+  },
+  {
+    name: "Caribbean",
+    routePath: "/beach_holidays",
+    subItems: [
+      {
+        name: "Option 1",
+        routePath: "/all_inclusive_holidays/option1",
+      },
+      {
+        name: "Option 2",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 3",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 4",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 5",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 6",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 7",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 8",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 9",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      {
+        name: "Option 10",
+        routePath: "/all_inclusive_holidays/option2",
+      },
+      // Add more sub-items as needed
+    ],
+  },
+];
+
 export const dashboardItems = [
   {
     name: "Dashboard",
@@ -137,586 +456,196 @@ export const categorieMegaMenuItems = [
     menuCol: [
       {
         id: 1,
-        // megaBanner: "/img/backgrounds/7.png",
-        // title: "Things to do on your hotel",
-        btnText: "See All Inclusive Holidays ",
-        btnRoute: "/all_inclusive_holidays",
         menuItems: [
           {
             id: 1,
-            // title: "Hotel List",
             menuList: [
               {
-                name: "All Inclusive Deal 1",
+                name: "Europe",
                 routePath: "/",
               },
               {
-                name: "All Inclusive Deal 2",
+                name: "Asia",
                 routePath: "/cruise-single/2",
               },
               {
-                name: "All Inclusive Deal 3",
+                name: "North America",
                 routePath: "/cruise-single/2",
               },
-              
+              {
+                name: "Asia",
+                routePath: "/cruise-single/2",
+              },
+              {
+                name: "Central America",
+                routePath: "/cruise-single/2",
+              },
+              {
+                name: "Africa",
+                routePath: "/cruise-single/2",
+              },
             ],
           },
           
-          {
-            id: 3,
-           
-            menuList: [
-              {
-                name: "All Inclusive Deal 4",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "All Inclusive Deal 5",
-                routePath: "/cruise-single/2",
-              }
-            ],
-          },
         ],
       },
     ],
   },
-  {
-    id: 2,
-    menuCol: [
-      {
-        id: 1,
-        // megaBanner: "/img/backgrounds/8.png",
-        // title: "Things to do on your tour",
-        btnText: "See Family Holidays",
-        btnRoute: "/family_holidays",
-        menuItems: [
-          {
-            id: 1,
-            // title: "Tour List",
-            menuList: [
-              {
-                name: "Family Deal 1",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Family Deal 2",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Family Deal 3",
-                routePath: "/cruise-single/2",
-              },
-              
-            ],
-          },
-          {
-            id: 2,
-            // title: "Tour Pages",
-            menuList: [
-              {
-                name: "Family Deal 4",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Family Deal 5",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 3,
-    menuCol: [
-      {
-        id: 1,
-        megaBanner: "/img/backgrounds/9.png",
-        // title: "Things to do on your activity",
-        btnText: "See Couple Holidays",
-        btnRoute: "/couple_holidays",
-        menuItems: [
-          {
-            id: 1,
-            // title: "Activity List",
-            menuList: [
-              {
-                name: "Couple Deal 1",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Couple Deal 2",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Couple Deal 3",
-                routePath: "/cruise-single/2",
-              },
-              
-            ],
-          },
-          {
-            id: 2,
-            menuList: [
-              {
-                name: "Couple Deal 4",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Couple Deal 5",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 4,
-    menuCol: [
-      {
-        id: 1,
-        // megaBanner: "/img/backgrounds/10.png",
-        // title: "Things to do on your rentals",
-        btnText: "See Luxury Holidays",
-        btnRoute: "/luxury_holidays",
-        menuItems: [
-          {
-            id: 1,
-            // title: "Rental List",
-            menuList: [
-              {
-                name: "Luxury Deal 1",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Luxury Deal 2",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Luxury Deal 3",
-                routePath: "/cruise-single/2",
-                
-              }
-            ],
-          },
-          {
-            id: 2,
-            // title: "Rental Pages",
-            menuList: [
-              {
-                name: "Luxury Deal 4",
-                routePath: "/cruise-single/2",
-                
-              },
-              {
-                name: "Luxury Deal 5",
-                routePath: "/cruise-single/2",
-                
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 5,
-    menuCol: [
-      {
-        id: 1,
-        // megaBanner: "/img/backgrounds/5.png",
-        // title: "Things to do on your Next Car",
-        btnText: "See Honeymoon Holidays",
-        btnRoute: "/honeymoon_holidays",
-        menuItems: [
-          {
-            id: 1,
-            // title: "Car List",
-            menuList: [
-              {
-                name: "Honeymoon Deal 1",
-                routePath: "/cruise-single/2",
-                
-              },
-              {
-                name: "Honeymoon Deal 2",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Honeymoon Deal 3",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-          {
-            id: 2,
-            // title: "Car Pages",
-            menuList: [
-              {
-                name: "Honeymoon Deal 4",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Honeymoon Deal 5",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 6,
-    menuCol: [
-      {
-        id: 1,
-        // megaBanner: "/img/backgrounds/5.png",
-        // title: "Things to do on your Next Car",
-        btnText: "See Beach Holidays",
-        btnRoute: "/beach_holidays",
-        menuItems: [
-          {
-            id: 1,
-            // title: "Car List",
-            menuList: [
-              {
-                name: "Beach Deal 1",
-                routePath: "/cruise-single/2",
-                
-              },
-              {
-                name: "Beach Deal 2",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Beach Deal 3",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-          {
-            id: 2,
-            // title: "Car Pages",
-            menuList: [
-              {
-                name: "Beach Deal 4",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Beach Deal 5",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 7,
-    menuCol: [
-      {
-        id: 1,
-        // megaBanner: "/img/backgrounds/5.png",
-        // title: "Things to do on your Next Car",
-        btnText: "See Cruise Holidays",
-        btnRoute: "/cruise_holidays",
-        menuItems: [
-          {
-            id: 1,
-            // title: "Car List",
-            menuList: [
-              {
-                name: "Cruise Deal 1",
-                routePath: "/cruise-single/2",
-                
-              },
-              {
-                name: "Cruise Deal 2",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Cruise Deal 3",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-          {
-            id: 2,
-            // title: "Car Pages",
-            menuList: [
-              {
-                name: "Cruise Deal 4",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Cruise Deal 5",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 6,
-    menuCol: [
-      {
-        id: 1,
-        // megaBanner: "/img/backgrounds/5.png",
-        // title: "Things to do on your Next Car",
-        btnText: "See Last Minute Holidays",
-        btnRoute: "/last_minute_holidays",
-        menuItems: [
-          {
-            id: 1,
-            // title: "Car List",
-            menuList: [
-              {
-                name: "Last Minute Deal 1",
-                routePath: "/cruise-single/2",
-                
-              },
-              {
-                name: "Last Minute Deal 2",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Last Minute Deal 3",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-          {
-            id: 2,
-            // title: "Car Pages",
-            menuList: [
-              {
-                name: "Last Minute Deal 4",
-                routePath: "/cruise-single/2",
-              },
-              {
-                name: "Last Minute Deal 5",
-                routePath: "/cruise-single/2",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  
-
-  
 ];
 
 export const categorieMobileItems = [
   {
     id: 1,
-    title: "All Inclusive",
-    url: "all_inclusive_holidays",
+    title: "Europe",
     menuList: [
       {
-        name: "All Inclusive Deal 1 ",
+        name: "Deal 1",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "All Inclusive Deal 2 ",
+        name: "Deal 2",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "All Inclusive Deal 3 ",
+        name: "Deal 3",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "All Inclusive Deal 4 ",
+        name: "Deal 4",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "All Inclusive Deal 5 ",
+        name: "Deal 5",
         routePath: "/cruise-list-v2",
       },
     ],
   },
   {
     id: 2,
-    title: "Family",
+    title: "Asia",
     menuList: [
       {
-        name: "Family Deal 1",
+        name: "Deal 1",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Family Deal 2",
+        name: "Deal 2",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Family Deal 3",
-        routePath : "/cruise-list-v2",
+        name: "Deal 3",
+        routePath: "/cruise-list-v2",
       },
       {
-        name: "Family Deal 4",
-        routePath: "/cruise-list-v2", 
+        name: "Deal 4",
+        routePath: "/cruise-list-v2",
       },
-       {
-        name: "Family Deal 5",
-        routePath: "/cruise-deal-v2",
-       }
+      {
+        name: "Deal 5",
+        routePath: "/cruise-list-v2",
+      },
     ],
   },
   {
     id: 3,
-    title: "Couple",
+    title: "Africa",
     menuList: [
       {
-        name: "Couple Deal 1",
+        name: "Deal 1",
         routePath: "/cruise-list-v2",
       },
       {
-        name: " Couple Deal 2",
+        name: "Deal 2",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Couple Deal 3",
+        name: "Deal 3",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Couple Deal 4",
-        routePath: "/cruise-deal-v2",
+        name: "Deal 4",
+        routePath: "/cruise-list-v2",
       },
       {
-        name: "Couple Deal 5",
-        routePath: "/cruise-deal-v2",
-      }
+        name: "Deal 5",
+        routePath: "/cruise-list-v2",
+      },
     ],
   },
   {
     id: 4,
-    title: "Luxury",
+    title: "Central America",
     menuList: [
       {
-        name: "Luxury Deal 1",
+        name: "Deal 1",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Luxury Deal 2",
+        name: "Deal 2",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Luxury Deal 3",
+        name: "Deal 3",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Luxury Deal 4",
+        name: "Deal 4",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Luxury Deal 5",
+        name: "Deal 5",
         routePath: "/cruise-list-v2",
-      }
+      },
     ],
   },
   {
     id: 5,
-    title: "Honeymoon",
+    title: "North America",
     menuList: [
       {
-        name: "Honeymoon Deal 1",
+        name: "Deal 1",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Honeymoon Deal 2",
+        name: "Deal 2",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Honeymoon  Deal 3",
-        routePath: "/cruise-list-v2", 
-      },
-      {
-        name: "Honeymoon Deal 4",
+        name: "Deal 3",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Honeymoon Deal 5",
+        name: "Deal 4",
         routePath: "/cruise-list-v2",
-      }
+      },
+      {
+        name: "Deal 5",
+        routePath: "/cruise-list-v2",
+      },
     ],
   },
   {
     id: 6,
-    title: "Beach",
+    title: "Caribbean",
     menuList: [
       {
-        name: "Beach Deal 1",
+        name: "Deal 1",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Beach Deal 2",
+        name: "Deal 2",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Beach Deal 3",
+        name: "Deal 3",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Beach Deal 4",
-        routePath: "/cruise-list-v2",
-      }
-    ],
-  },
-  {
-    id: 7,
-    title: "Cruise",
-    menuList: [
-      {
-        name: "Cruise Deal 1",
+        name: "Deal 4",
         routePath: "/cruise-list-v2",
       },
       {
-        name: "Cruise Deal 2",
-        routePath: "/cruise-list-v2",
-      },
-      {
-        name : "Cruise Deal 3",
-        routePath: "/cruise-list-v2",
-      },
-      {
-        name: "Cruise Deal 4",
-        routePath: "/cruise-list-v2",
-      },
-      {
-        name: "Cruise Deal 5",
-        routePath: "",
-      }
-    ],
-  },
-  {
-    id: 1,
-    title: "Last Minute",
-    menuList: [
-      {
-        name: "Last Minute Deal 1 ",
-        routePath: "/cruise-list-v2",
-      },
-      {
-        name: "Last Minute Deal 2 ",
-        routePath: "/cruise-list-v2",
-      },
-      {
-        name: "Last Minute Deal 3 ",
-        routePath: "/cruise-list-v2",
-      },
-      {
-        name: "Last Minute Deal 4 ",
-        routePath: "/cruise-list-v2",
-      },
-      {
-        name: "Last Minute Deal 5 ",
+        name: "Deal 5",
         routePath: "/cruise-list-v2",
       },
     ],
