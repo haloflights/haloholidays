@@ -25,7 +25,7 @@
   transition: all 0.3s $easeOutCubic;
 
   &:hover {
-    color: var(--color-purple-1);
+    color: var(--color-blue-1);
     transform: translateX(-5px) scale(1.25);
   }
 }
@@ -33,7 +33,7 @@
   transition: all 0.3s $easeOutCubic;
 
   &:hover {
-    color: var(--color-purple-1);
+    color: var(--color-blue-1);
     transform: translateX(5px) scale(1.25);
   }
 }
