@@ -27,6 +27,7 @@ export const destinations2 = [
     hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
     city: "New York",
     img: "/img/destinations/1/1.png",
+    category: "europe",
   },
   {
     id: 2,
@@ -69,35 +70,35 @@ export const destinations2 = [
 export const destinations3 = [
   {
     id: 1,
-    img: "/img/destinations/1/1.png",
+    img: "/img/destinations/1/spain.jpg",
     title: "Spain",
     travellers: "147,681",
     delayAnimation: "0",
   },
   {
     id: 2,
-    img: "/img/destinations/1/2.png",
+    img: "/img/destinations/1/turkey.jpg",
     title: "Turkey",
     travellers: "147,681",
     delayAnimation: "100",
   },
   {
     id: 3,
-    img: "/img/destinations/1/3.png",
+    img: "/img/destinations/1/greece.jpg",
     title: "Greece",
     travellers: "147,681",
     delayAnimation: "200",
   },
   {
     id: 4,
-    img: "/img/destinations/1/4.png",
+    img: "/img/destinations/1/portugal.jpg",
     title: "Portugal",
     travellers: "147,681",
     delayAnimation: "300",
   },
   {
     id: 5,
-    img: "/img/destinations/1/5.png",
+    img: "/img/destinations/1/egypt.jpg",
     title: "Egypt",
     travellers: "147,681",
     delayAnimation: "400",
@@ -513,3 +514,16 @@ export const destinations10 = [
     delayAnimation: "400",
   },
 ];
+
+
+export const destinationsresults =
+[
+  {
+    id: 1,
+    img: "/img/destinations/4/2.png",
+    location: "london",
+    numberOfProperties: "1714",
+    delayAnimation: "400",
+    category: "europe",
+  },
+]

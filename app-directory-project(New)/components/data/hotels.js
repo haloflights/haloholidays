@@ -4,7 +4,7 @@ export const hotelsData = [
     tag: "Breakfast Included",
     slideImg: ["/img/hotels/1.png"],
     img: "/img/hotels/1.png",
-    title: "The Montcalm At Brewery London City",
+    title: "amry Brewery London City",
     location: "Westminster Borough, London",
     ratings: "4.7",
     numberOfReviews: "3014",
@@ -196,3 +196,5 @@ export const hotelsData = [
     delayAnimation: "800",
   },
 ];
+
+

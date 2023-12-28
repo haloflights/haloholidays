@@ -8,7 +8,6 @@ import Cruise from "@/components/cruise/Cruise";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/home/home-3/WhyChoose";
-import WhyChooseMobile from "@/components/home/home-3/WhyChooseMobile";
 import TourCategories from "@/components/home/home-5/TourCategories";
 import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
@@ -54,21 +53,21 @@ const home_3 = () => {
       {/* </section> */}
       {/* End AddBanner Section */}
 
-      <section className="layout-pt-md layout-pb-md d-none d-sm-block">
+      <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
+                {/* <p className=" sectionTitle__text mt-5 sm:mt-0">
                 Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
           {/* End .row */}
 
-          <div className="row y-gap-40 justify-between pt-50">
+          <div className="row y-gap-40 justify-between pt-50 mb-30">
             <WhyChoose />
           </div>
           {/* End row */}
@@ -76,53 +75,6 @@ const home_3 = () => {
         {/* End .container */}
       </section>
       {/* End Why choose Section */}
-
-      <section className="layout-pt-md layout-pb-md d-md-none">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row y-gap-40 justify-between pt-50">
-            <WhyChooseMobile />
-          </div>
-          {/* End row */}
-          <div className="col-auto ">
-              <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
-                <div className="col-auto">
-                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev"
-                  aria-label="arrow-left">
-                    <i className="icon icon-arrow-left " />
-                  </button>
-                </div>
-                {/* End prev */}
-
-                <div className="col-auto">
-                  <div className="pagination -dots text-border js-tour-type-pag" />
-                </div>
-                {/* End pagination */}
-
-                <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next "
-                  aria-label="arrow-right">
-                    <i className="icon icon-arrow-right" />
-                  </button>
-                </div>
-                {/* End next */}
-              </div>
-            </div>
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End Why choose Mobile Section */}
 
       {/* <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -144,7 +96,7 @@ const home_3 = () => {
           </div> */}
           {/* </section> */} 
 
-          
+         
 
           <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -153,7 +105,7 @@ const home_3 = () => {
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Choose your All Inclusive Holiday Type</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                With Halo Holidays, finding your perfect escape is effortless. Whether you're dreaming of a serene beach retreat, a romantic honeymoon hideaway, or an action-packed family adventure, our diverse range of all-inclusive holiday types caters to every desire. Select from last-minute getaways, luxurious cruises, or tailor-made family or couple holidays. Each experience is crafted to provide you with unforgettable moments and unparalleled value. Start exploring now and find the holiday that resonates with your idea of the perfect vacation.
+                Discover your ideal getaway with Halo Holidays. Choose from serene beaches, romantic escapes, or family adventures, all with all-inclusive ease. Our handpicked holidays—from last-minute deals to luxury cruises—are designed for memorable experiences and great value. Dive into our selection and find your perfect vacation today.
                 </p>
               </div>
             </div>
@@ -161,16 +113,7 @@ const home_3 = () => {
 
             
 
-            <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-                aria-label="more"
-              >
-                More <div className="icon-arrow-top-right ml-15" 
-                aria-label="arrow-top-right"/>
-              </Link>
-            </div>
+          
             {/* End .col */}
           </div>
           {/* End .row */}
@@ -183,7 +126,7 @@ const home_3 = () => {
           <div className="col-auto ">
               <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
                 <div className="col-auto">
-                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev -blue-1"
+                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev"
                   aria-label="arrow-left">
                     <i className="icon icon-arrow-left " />
                   </button>
@@ -255,50 +198,34 @@ const home_3 = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Explore Our Top Destinations for All Inclusive Holidays</h2>
+                <h2 className="sectionTitle__title">Top Destinations for All Inclusive Holidays</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                  Confused where you should go? Explore our top destinations for all inclusive Holidays
                 </p>
               </div>
             </div>
             {/* End .col */}
 
-            <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
-                aria-label="more"
-              >
-                More <div className="icon-arrow-top-right ml-15"  />
-              </Link>
-            </div>
+        
           </div>
           {/* End .row */}
 
-          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+          <div className="row y-gap-30 pt-20 sm:pt-20 item_gap-x30">
           <Travellers/>
+        
           </div>
           {/* End relative */}
+
+          <div className="text-center pt-40">
+              <Link
+                href="#"
+                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
+                aria-label="more"
+              >
+                Explore more destinations 
+              </Link>
+            </div>
         </div>
-      </section>
-
-
-      <section className="layout-pt-md layout-pb-md">
-      <div className="container">
-        <div className="row y-gap-20 justify-between items-end">
-          <div className="col-auto">
-          <div className="sectionTitle -md">
-                <h3 className="sectionTitle__title">Things to do in All Inclusive Holidays</h3>
-                <p className=" sectionTitle__text mb-40 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
-                <img alt="things to do image" src="/img/backgrounds/things_to_do.jpg" className="js-lazy " width="1340" height="250"/>
-              </div>
-        
-      </div>
-      </div>
-      </div>
-
       </section>
 
       <section className="layout-pt-md layout-pb-md">
@@ -306,23 +233,15 @@ const home_3 = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Last Minute All inclusive Holidays</h2>
+                <h2 className="sectionTitle__title">Last Minute Holidays</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                  Finding a Last Minute Holiday can be stressfull sometimes, but not with us. We take care of the stress bringing you nothing but the best.
                 </p>
               </div>
             </div>
             {/* End .col */}
 
-            <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
-                aria-label="more"
-              >
-                More <div className="icon-arrow-top-right ml-15"  />
-              </Link>
-            </div>
+           
           </div>
           {/* End .row */}
 
@@ -330,6 +249,17 @@ const home_3 = () => {
             <Hotels />
           </div>
           {/* End relative */}
+
+          <div className="text-center pt-40">
+              <Link
+                href="#"
+                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
+                aria-label="more"
+              >
+                Show me more
+              </Link>
+            </div>
+
         </div>
       </section>
 
@@ -339,7 +269,7 @@ const home_3 = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Affordable All inclusive Holidays</h2>
+                <h2 className="sectionTitle__title">Best All Inclusive Holidays</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames ac ante ipsum
                 </p>
@@ -482,7 +412,7 @@ const home_3 = () => {
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Featured Cruise Deals</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                Exclusive Deals for Your All-Inclusive Escape
+                  Interdum et malesuada fames ac ante ipsum
                 </p>
               </div>
             </div>
@@ -549,7 +479,7 @@ const home_3 = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                Stay Updated with All-Inclusive Insights
+                  Get inspiration for your next trip
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Blogs will go here
@@ -567,70 +497,10 @@ const home_3 = () => {
       </section>
 
 
-
-      <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row y-gap-20 justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top All Inclusive Holidays Hotels</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                Exclusive Deals for Your All-Inclusive Escape
-                </p>
-              </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-                aria-label="more">
-                More <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
-            {/* End .col */}
-          </div>
-          {/* End .row */}
-
-          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
-            <Cruise />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* Features Cruise Deals Sections */}
-
-
   {/* <TrustBox/> */}
      
       {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
-
-      <section >
-        <div className="container">
-          <div className="row justify-center text-center">
-           <br/> 
-              <div className="sectionTitle -md mb-40">
-                <h2 className="sectionTitle__title ">Experience the Love</h2>
-         
-                Discover the stories behind our success
-         
-              </div>
-              <br/> 
-            
-          </div>
-          {/* End .row */}
-
-            <TrustBox />
-      
-          {/* End row */}
-        </div>
-        <br/><br/>
-        {/* End .container */}
-      </section>
-
 
       <DefaultFooter />
       {/* End Footer Section */}

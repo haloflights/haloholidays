@@ -14,14 +14,14 @@ const index = () => {
                 className="text-60 lg:text-40 md:text-30 text-white"
                 data-aos="fade-up"
               >
-                All Inclusive Holidays <br />Your Gateway to Stress-Free Travel
+                All Inclusive Holidays <br />
               </h1>
               <p
-                className="text-white mt-6 md:mt-10"
+                className="text-40 text-white mt-6 md:mt-10"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Discover amazing places at exclusive deals
+                Your Gateway to Stress-free Travel
               </p>
             </div>
             {/* End hero title */}
