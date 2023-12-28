@@ -549,3 +549,5 @@ export const destinations10 = [
     delayAnimation: "400",
   },
 ];
+
+
