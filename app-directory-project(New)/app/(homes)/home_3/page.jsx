@@ -277,24 +277,21 @@ const home_3 = () => {
             </div>
             {/* End .col */}
 
-           
+            <div className="col-auto">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
+                aria-label="more"
+              >
+                More <div className="icon-arrow-top-right ml-15"  />
+              </Link>
+            </div>
           </div>
           {/* End .row */}
 
           <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
             <Hotels />
           </div>
-
-          <div className="text-center pt-40">
-              <Link
-                href="#"
-                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
-                aria-label="more"
-              >
-                Explore more destinations 
-              </Link>
-            </div>
-            
           {/* End relative */}
         </div>
       </section>

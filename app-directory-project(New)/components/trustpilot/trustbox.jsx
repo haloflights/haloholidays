@@ -17,20 +17,22 @@ if (window.Trustpilot) {
 <div
   ref={ref} // We need a reference to this element to load the TrustBox in the effect.
  className="trustpilot-widget" 
- data-locale="en-US"
- data-template-id="54ad5defc6454f065c28af8b"
- data-businessunit-id="61a4b09e7f15887ca7dbf014" 
- data-style-height="240px"
- data-style-width="100%"
- data-theme="light"
- data-stars="2,3,4,5"
- data-review-languages="en"
+//  class="trustpilot-widget" 
+ data-locale="en-US" 
+ data-template-id="53aa8912dec7e10d38f59f36"
+ data-businessunit-id="61a4b09e7f15887ca7dbf014"
+ data-style-height="140px" 
+ data-style-width="100%" 
+ data-theme="light" 
+ data-stars="2,3,4,5" 
+ data-review-languages="en" 
  data-font-family="Open Sans"
  // [ long list of data attributes...]
->
-  <Link href="https://www.trustpilot.com/review/haloflights.us" target="_blank" rel="noopener"> Trustpilot
-  </Link>
+><p>
+  <Link href="https://www.trustpilot.com/review/haloflights.us" target="_blank" rel="noopener"> Trustpilot </Link>
+  </p>
 </div>
+
 </>
   );
 };

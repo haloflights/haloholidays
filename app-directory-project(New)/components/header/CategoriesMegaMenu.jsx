@@ -14,16 +14,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
   const pathname = usePathname();
   const [activeNestedMenu, setActiveNestedMenu] = useState(0)
 
-  const itemList = [
-    "All Inclusive",
-    "Family",
-    "Couple",
-    "Luxury",
-    "Honeymoon",
-    "Beach",
-    "Cruise",
-    "Last Minute",
-  ];
+
 
 
  useEffect(() => {
@@ -46,7 +37,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
  
   return (
     <div className="tabs -underline-2 js-tabs">
-      <div className="tabs__controls row x-gap-40 y-gap-10 lg:x-gap-20 pb-30 js-tabs-controls">
+      {/* <div className="tabs__controls row x-gap-40 y-gap-10 lg:x-gap-20 pb-30 js-tabs-controls">
         {itemList.map((item, i) => (
           <div className="col-auto" key={i} onClick={()=>setActiveNestedMenu(i)}>
             <button className={`tabs__button  text-light-1 fw-500 js-tabs-button  ${activeNestedMenu == i ? 'nested-menu-active':'nested-menu-inactive'} `}>
@@ -55,14 +46,14 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
           </div>
         ))}
       </div>
-      {/* End tab-controls */}
+      End tab-controls */}
 
-      <div className="tabs__content js-tabs-content">
+      <div className="">
       
           <div className={'react-tabs__tab-panel--selected'}>
             {categorieMegaMenuItems[activeNestedMenu]?.menuCol?.map((megaCol, i) => (
-              <ul className="mega__content" key={i}>
-                <li className="mega__grid">
+              <ul className="" key={i}>
+                <li className="">
                   {megaCol?.menuItems?.map((item) => (
                     <div className="mega__item" key={item.id}>
                       <div className="text-15 fw-500">
@@ -95,7 +86,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
                     className="rounded-4 js-lazy"
                   /> */}
 
-                  <div className="absolute w-full h-full px-30 py-24">
+                  {/* <div className="absolute w-full h-full px-30 py-24">
                     <div className="text-22 fw-500 lh-15 text-white">
                       {megaCol?.title}
                     </div>
@@ -104,7 +95,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
                       className="button subnav-button text-normal h-40 px-10 -blue-1 text-dark-1 bg-white mt-5 d-inline-flex">
                       {megaCol?.btnText}
                     </Link>
-                  </div>
+                  </div> */}
                 </li>
                 {/* End mega menu right images */}
               </ul>
