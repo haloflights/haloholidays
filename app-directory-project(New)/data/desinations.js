@@ -272,7 +272,7 @@ export const destinations3 = [
     title: "Turkey",
     travellers: "147,681",
     delayAnimation: "100",
-    link: "/europe"
+    link: "/turkey"
   },
   {
     id: 3,
@@ -280,7 +280,7 @@ export const destinations3 = [
     title: "Greece",
     travellers: "147,681",
     delayAnimation: "200",
-    link: "/europe"
+    link: "/greece"
   },
   {
     id: 4,
@@ -288,7 +288,7 @@ export const destinations3 = [
     title: "Portugal",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/europe"
+    link: "/portugal"
   },
   {
     id: 5,
@@ -296,7 +296,7 @@ export const destinations3 = [
     title: "Egypt",
     travellers: "147,681",
     delayAnimation: "400",
-    link: "/europe"
+    link: "/egypt"
   },
   {
     id: 6,
@@ -304,7 +304,7 @@ export const destinations3 = [
     title: "United Cyprus",
     travellers: "147,681",
     delayAnimation: "500",
-    link: "/europe"
+    link: "/cyprus"
   },
   {
     id: 7,
@@ -312,8 +312,65 @@ export const destinations3 = [
     title: "Maldives",
     travellers: "147,681",
     delayAnimation: "600",
-    link: "/europe"
+    link: "/maldives"
   },
+
+  {
+    id: 8,
+    img: "/img/destinations/1/2.png",
+    title: "Thailand",
+    travellers: "147,681",
+    delayAnimation: "600",
+    link: "/thailand"
+  },
+  {
+    id: 9,
+    img: "/img/destinations/1/2.png",
+    title: "Dubai",
+    travellers: "147,681",
+    delayAnimation: "600",
+    link: "/dubai"
+  },
+  {
+    id: 10,
+    img: "/img/destinations/1/2.png",
+    title: "Indonesia",
+    travellers: "147,681",
+    delayAnimation: "600",
+    link: "/indonesia"
+  },
+  {
+    id: 11,
+    img: "/img/destinations/1/2.png",
+    title: "Mauritius",
+    travellers: "147,681",
+    delayAnimation: "600",
+    link: "/mauritius"
+  },
+  {
+    id: 12,
+    img: "/img/destinations/1/2.png",
+    title: "Egypt",
+    travellers: "147,681",
+    delayAnimation: "600",
+    link: "/egypt"
+  },
+  {
+    id: 13,
+    img: "/img/destinations/1/2.png",
+    title: "Mexico",
+    travellers: "147,681",
+    delayAnimation: "600",
+    link: "/mexico"
+  },
+  {
+    id: 14,
+    img: "/img/destinations/1/2.png",
+    title: "Jamaica",
+    travellers: "147,681",
+    delayAnimation: "600",
+    link: "/jamaica"
+  }
  
  
 ];

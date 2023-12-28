@@ -9,14 +9,14 @@ import WhyChooseMobile from "@/components/home/home-3/WhyChooseMobile";
 import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
-import CoupleHero from "@/components/hero/couple-hero/";
+import MaldivesHero from "@/components/hero/maldives-hero/";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
   description: "Halo Holidays - Travel & Tour ",
 };
 
-const europe = () => {
+const maldives = () => {
   return (
     <>
       {/* End Page Title */}
@@ -24,7 +24,7 @@ const europe = () => {
       <Header3 />
       {/* End Header 3 */}
 
-      <CoupleHero />
+      <MaldivesHero />
       {/* End Hero 3 */}
 
       {/* <section className="layout-pt-lg layout-pb-md">
@@ -576,4 +576,4 @@ const europe = () => {
   );
 };
 
-export default europe;
+export default maldives;

@@ -12,6 +12,7 @@ import Travellers from "@/components/home/home-2/Travellers";
 import Link from "next/link";
 import Hotels from "@/components/hotels/Hotels";
 import Cruise from "@/components/cruise/Cruise";
+import TrustBox from "@/components/trustpilot/page";
 
 export const metadata = {
   title: "all_inclusive || GoTrip - Travel & Tour React NextJS Template",
@@ -189,7 +190,7 @@ const couple_holidays = () => {
       {/* Features Cruise Deals Sections */}
 
 
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
+      {/* <section className="layout-pt-lg layout-pb-lg bg-dark-3">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">
@@ -197,30 +198,56 @@ const couple_holidays = () => {
             </div>
             {/* End .col */}
 
-            <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
+            {/* <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
               <Testimonial />
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row justify-center text-center pt-60">
+          {/* <div className="row justify-center text-center pt-60">
             <div className="col-auto">
               <div className="text-15 lh-1 text-white">
                 Trusted by the world’s best
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
 
-          <div className="px-40 md:px-0">
+          {/* <div className="px-40 md:px-0">
             <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
               <Brand2 />
             </div>
           </div>
-        </div>
-      </section>
+        </div> 
+      </section> */}
       {/* End testimonial and brand sections Section */}
+
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-content-center items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Experience The Love</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                 This is why we do What We do
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+            <TrustBox/>
+          </div>
+          {/* End .row */}
+
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div> */}
+          {/* End .row */}
+        </div>
+       
+        {/* End .container */}
+      </section>
 
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
@@ -276,6 +303,42 @@ const couple_holidays = () => {
             <Hotels />
           </div>
           {/* End relative */}
+        </div>
+      </section>
+
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Last Minute Holidays</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Finding a Last Minute Holiday can be stressfull sometimes, but not with us. We take care of the tsress bringing you nothing but the best.
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+           
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Hotels />
+          </div>
+          {/* End relative */}
+
+          <div className="text-center pt-40">
+              <Link
+                href="#"
+                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
+                aria-label="more"
+              >
+                Show me more
+              </Link>
+            </div>
+
         </div>
       </section>
 

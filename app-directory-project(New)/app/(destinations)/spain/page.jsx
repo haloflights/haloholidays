@@ -9,14 +9,15 @@ import WhyChooseMobile from "@/components/home/home-3/WhyChooseMobile";
 import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
-import CoupleHero from "@/components/hero/couple-hero/";
+import SpainHero from "@/components/hero/spain-hero/";
+import FilterHotels4 from "@/components/hotels/FilterHotels4";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
   description: "Halo Holidays - Travel & Tour ",
 };
 
-const europe = () => {
+const spain = () => {
   return (
     <>
       {/* End Page Title */}
@@ -24,7 +25,7 @@ const europe = () => {
       <Header3 />
       {/* End Header 3 */}
 
-      <CoupleHero />
+      <SpainHero />
       {/* End Hero 3 */}
 
       {/* <section className="layout-pt-lg layout-pb-md">
@@ -163,11 +164,11 @@ const europe = () => {
           {/* </div> */}
           {/* End .row */}
 
-          {/* <div className="relative overflow-hidden pt-40 sm:pt-20"> */}
+          {/* // <div className="relative overflow-hidden pt-40 sm:pt-20"> */}
             {/* <TopDestinations/> */}
-            {/* <FilterHotels4 />
+            {/* <FilterHotels4 /> */}
             
-          </div>
+          {/* </div>
           <div className="col-auto ">
               <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
                 <div className="col-auto">
@@ -192,9 +193,9 @@ const europe = () => {
                 {/* End next */}
               {/* </div>
             </div>
-        </div>
+        </div> */}
         
-      </section> */} 
+      {/* </section> */} 
 
 
       {/* <section className="layout-pt-md layout-pb-md">
@@ -278,7 +279,7 @@ const europe = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Cities Will Go here</h2>
+                <h2 className="sectionTitle__title">Last Minute Holidays</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Finding a Last Minute Holiday can be stressfull sometimes, but not with us. We take care of the stress bringing you nothing but the best.
                 </p>
@@ -286,6 +287,7 @@ const europe = () => {
             </div>
             {/* End .col */}
 
+           
           </div>
           {/* End .row */}
 
@@ -566,7 +568,6 @@ const europe = () => {
       </section>
       {/* Features Cruise Deals Sections */}
 
-     
       {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
@@ -576,4 +577,4 @@ const europe = () => {
   );
 };
 
-export default europe;
+export default spain;

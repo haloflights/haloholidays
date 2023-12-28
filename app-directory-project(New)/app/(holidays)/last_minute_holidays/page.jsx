@@ -1,16 +1,15 @@
 import dynamic from "next/dynamic";
 import Blog4 from "@/components/blog/Blog4";
-import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import LastMinuteHero from "@/components/hero/last-minute-hero";
 import WhyChoose from "@/components/common/WhyChoose";
 import WhyChooseMobile from "@/components/common/WhyChooseMobile";
-import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/page";
-import Grid from "@/components/trustpilot/Grid/grid";
-
+import Link from "next/link";
+import Cruise from "@/components/cruise/Cruise";
+import Hotels from "@/components/hotels/Hotels";
 export const metadata = {
   title: "all_inclusive || GoTrip - Travel & Tour React NextJS Template",
   description: "GoTrip - Travel & Tour React NextJS Template",
@@ -150,39 +149,66 @@ const last_minute_holidays = () => {
       {/* <FilterHotels3 /> */}
 
       {/* End Best Seller Hotels Sections */}
-
+{/* 
       <section className="layout-pt-lg layout-pb-lg bg-white">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">
               <TestimonialRating />
-            </div>
+            </div> */}
             {/* End .col */}
-
+{/* 
             <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
               <Grid />
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row justify-center text-center pt-60">
+          {/* <div className="row justify-center text-center pt-60">
             <div className="col-auto">
               <div className="text-15 lh-1 text-white">
                 Trusted by the world’s best
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
 
-          <div className="px-40 md:px-0">
+          {/* <div className="px-40 md:px-0">
             <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
               <Brand2 />
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* End testimonial and brand sections Section */}
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-content-center items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Experience The Love</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                 This is why we do What We do
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+            <TrustBox/>
+          </div>
+          {/* End .row */}
+
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div> */}
+          {/* End .row */}
+        </div>
+       
+        {/* End .container */}
+      </section>
+
+
 
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
@@ -207,6 +233,77 @@ const last_minute_holidays = () => {
         {/* End .container */}
       </section>
       {/* End blog Section */}
+
+
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Top All Inclusive Holidays Hotels</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                Exclusive Deals for Your All-Inclusive Escape
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="more">
+                More <div className="icon-arrow-top-right ml-15" />
+              </Link>
+            </div>
+            {/* End .col */}
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div>
+          {/* End .row */}
+        </div>
+        {/* End .container */}
+      </section>
+      {/* Features Cruise Deals Sections */}
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Last Minute Holidays</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Finding a Last Minute Holiday can be stressfull sometimes, but not with us. We take care of the stress bringing you nothing but the best.
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+           
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Hotels />
+          </div>
+          {/* End relative */}
+
+          <div className="text-center pt-40">
+              <Link
+                href="#"
+                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
+                aria-label="more"
+              >
+                Show me more
+              </Link>
+            </div>
+
+        </div>
+      </section>
 
       {/* <Subscribe /> */}
       {/* End Subscribe Section */}

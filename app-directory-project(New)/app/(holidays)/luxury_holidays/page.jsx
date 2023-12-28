@@ -12,6 +12,8 @@ import Travellers from "@/components/home/home-2/Travellers";
 import Link from "next/link";
 import Cruise from "@/components/cruise/Cruise";
 import Hotels from "@/components/hotels/Hotels";
+import TrustBox from "@/components/trustpilot/page";
+
 export const metadata = {
     title: "Halo Holidays || Here For You",
     description: "Halo Holidays - Travel & Tour ",
@@ -102,23 +104,6 @@ const luxury_holidays = () => {
       {/* End Why choose mobile Section */}
 
       <section className="layout-pt-md layout-pb-md">
-      <div className="container">
-        <div className="row y-gap-20 justify-between items-end">
-          <div className="col-auto">
-          <div className="sectionTitle -md">
-                <h3 className="sectionTitle__title">Things to do in All Inclusive Luxury Holidays</h3>
-                <p className=" sectionTitle__text mb-40 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
-                <img alt="things to do image" src="/img/backgrounds/things_to_do.jpg" className="js-lazy " width="1340" height="250"/>
-              </div>
-        
-      </div>
-      </div>
-      </div>
-      </section>
-
-      <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
@@ -204,7 +189,7 @@ const luxury_holidays = () => {
 
 
 
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
+      {/* <section className="layout-pt-lg layout-pb-lg bg-dark-3">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">
@@ -212,30 +197,56 @@ const luxury_holidays = () => {
             </div>
             {/* End .col */}
 
-            <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
+            {/* <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
               <Testimonial />
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row justify-center text-center pt-60">
+          {/* // <div className="row justify-center text-center pt-60">
+          //   <div className="col-auto">
+          //     <div className="text-15 lh-1 text-white">
+          //       Trusted by the world’s best
+          //     </div>
+          //   </div>
+          // </div> */}
+          {/* End .row */}
+
+        {/*   <div className="px-40 md:px-0">
+        //     <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
+        //       <Brand2 />
+        //     </div>
+        //   </div>
+        // </div>
+      </section> */}
+      {/* End testimonial and brand sections Section */}
+
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-content-center items-end">
             <div className="col-auto">
-              <div className="text-15 lh-1 text-white">
-                Trusted by the world’s best
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Experience The Love</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                 This is why we do What We do
+                </p>
               </div>
             </div>
+            {/* End .col */}
+            <TrustBox/>
           </div>
           {/* End .row */}
 
-          <div className="px-40 md:px-0">
-            <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
-              <Brand2 />
-            </div>
-          </div>
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div> */}
+          {/* End .row */}
         </div>
+       
+        {/* End .container */}
       </section>
-      {/* End testimonial and brand sections Section */}
 
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
@@ -267,9 +278,9 @@ const luxury_holidays = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top All Inclusive Luxury Holidays Hotels</h2>
+                <h2 className="sectionTitle__title">Top All Inclusive Holidays Hotels</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
+                Exclusive Deals for Your All-Inclusive Escape
                 </p>
               </div>
             </div>
@@ -278,11 +289,38 @@ const luxury_holidays = () => {
             <div className="col-auto">
               <Link
                 href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
-                aria-label="more"
-              > More <div className="icon-arrow-top-right ml-15"  />
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="more">
+                More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
+            {/* End .col */}
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div>
+          {/* End .row */}
+        </div>
+        {/* End .container */}
+      </section>
+      {/* Features Cruise Deals Sections */}
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Last Minute Holidays</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Finding a Last Minute Holiday can be stressfull sometimes, but not with us. We take care of the stress bringing you nothing but the best.
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+           
           </div>
           {/* End .row */}
 
@@ -290,6 +328,17 @@ const luxury_holidays = () => {
             <Hotels />
           </div>
           {/* End relative */}
+
+          <div className="text-center pt-40">
+              <Link
+                href="#"
+                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
+                aria-label="more"
+              >
+                Show me more
+              </Link>
+            </div>
+
         </div>
       </section>
 
