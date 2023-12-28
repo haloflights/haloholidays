@@ -292,7 +292,7 @@ const home_3 = () => {
                 <p className=" sectionTitle__text mb-40 sm:mt-0">
                   Interdum et malesuada fames ac ante ipsum
                 </p>
-                <img alt="things to do image" src="/img/backgrounds/things_to_do.jpg" className="js-lazy " width="1340" height="250"/>
+                <img alt="things to do image" src="/img/backgrounds/things_to_do.jpg" className="js-lazy rounded-4" width="1340" height="250"/>
               </div>
         
       </div>
