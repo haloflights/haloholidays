@@ -7,10 +7,14 @@ const FilterHotelsTabs2 = ({filterOption, setFilterOption}) => {
 
 
   const filterOptions = [
-    { label: "New York", value: "new_york" },
-    { label: "London", value: "london" },
-    { label: "Paris", value: "paris" },
-    { label: "Istanbul", value: "istanbul" },
+    { label: "All Inclusive", value: "new_york" },
+    { label: "Couple", value: "london" },
+    { label: "Cruise", value: "paris" },
+    { label: "Last-Minute", value: "istanbul" },
+    { label: "Family", value: "new_york" },
+    { label: "Luxury", value: "london" },
+    { label: "Honeymoon", value: "paris" },
+    { label: "Beach", value: "istanbul" },
     // add more options as needed
   ];
 

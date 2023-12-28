@@ -155,7 +155,7 @@ const family_holidays = () => {
 
       {/* End Best Seller Hotels Sections */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
+      <section className="layout-pt-lg layout-pb-lg bg-white">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">
@@ -179,11 +179,11 @@ const family_holidays = () => {
           </div>
           {/* End .row */}
 
-          <div className="px-40 md:px-0">
+          {/* <div className="px-40 md:px-0">
             <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
               <Brand2 />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* End testimonial and brand sections Section */}

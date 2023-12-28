@@ -4,7 +4,7 @@ const index = () => {
   return (
     <section className="masthead -type-3 z-5">
       <div className="masthead__bg">
-        <img alt="image" src="/img/masthead/3/bg.png" className="js-lazy" />
+        <img alt="image" src="/img/backgrounds/Last Minute.svg" className="js-lazy" />
       </div>
       <div className="container">
         <div className="row justify-center">
@@ -14,7 +14,7 @@ const index = () => {
                 className="text-50 lg:text-40 md:text-30 text-white"
                 data-aos="fade-up"
               >
-                Las-Minute Holidays <br />Your Gateway to Stress-Free Travel
+                Last-Minute Holidays <br />Your Gateway to Stress-Free Travel
               </h1><br />
               <p
                 className="text-white mt-6 md:mt-10"
@@ -35,13 +35,13 @@ const index = () => {
             </div>
             {/* End hero title */}
 
-            <div
+            {/* <div
               className="masthead__tabs"
               data-aos="fade-up"
               data-aos-delay="200"
             >
               <MainFilterSearchBox />
-            </div>
+            </div> */}
             {/* End tab-filter */}
           </div>
         </div>

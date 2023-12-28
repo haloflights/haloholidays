@@ -264,6 +264,7 @@ export const destinations3 = [
     title: "Spain",
     travellers: "147,681",
     delayAnimation: "0",
+    link: "/europe"
   },
   {
     id: 2,
@@ -271,6 +272,7 @@ export const destinations3 = [
     title: "Turkey",
     travellers: "147,681",
     delayAnimation: "100",
+    link: "/europe"
   },
   {
     id: 3,
@@ -278,6 +280,7 @@ export const destinations3 = [
     title: "Greece",
     travellers: "147,681",
     delayAnimation: "200",
+    link: "/europe"
   },
   {
     id: 4,
@@ -285,6 +288,7 @@ export const destinations3 = [
     title: "Portugal",
     travellers: "147,681",
     delayAnimation: "300",
+    link: "/europe"
   },
   {
     id: 5,
@@ -292,6 +296,7 @@ export const destinations3 = [
     title: "Egypt",
     travellers: "147,681",
     delayAnimation: "400",
+    link: "/europe"
   },
   {
     id: 6,
@@ -299,6 +304,7 @@ export const destinations3 = [
     title: "United Cyprus",
     travellers: "147,681",
     delayAnimation: "500",
+    link: "/europe"
   },
   {
     id: 7,
@@ -306,6 +312,7 @@ export const destinations3 = [
     title: "Maldives",
     travellers: "147,681",
     delayAnimation: "600",
+    link: "/europe"
   },
  
  

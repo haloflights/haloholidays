@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
       
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        
         <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" ></script>
         <link
           rel="preconnect"

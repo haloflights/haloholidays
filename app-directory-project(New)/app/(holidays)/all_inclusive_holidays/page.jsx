@@ -11,6 +11,8 @@ import Travellers from "@/components/home/home-2/Travellers";
 import AllInclusiveHero from "@/components/hero/all-inclusive-hero";
 import Link from "next/link";
 import Cruise from "@/components/cruise/Cruise";
+import Hotels from "@/components/hotels/Hotels2";
+import TrustBox from "@/components/trustpilot/page";
 export const metadata = {
   title: "All Inclusive Holidays || Here For You",
   description: "Halo Holidays - Travel & Tour ",
@@ -102,7 +104,7 @@ const all_inclusive_holidays = () => {
       {/* End Why choose mobile Section */}
 
 
-      <section className="layout-pt-md layout-pb-md">
+      {/* <section className="layout-pt-md layout-pb-md">
       <div className="container">
         <div className="row y-gap-20 justify-between items-end">
           <div className="col-auto">
@@ -118,7 +120,7 @@ const all_inclusive_holidays = () => {
       </div>
       </div>
 
-      </section>
+      </section> */}
 
 
       <section className="layout-pt-md layout-pb-md">
@@ -172,38 +174,65 @@ const all_inclusive_holidays = () => {
 
       {/* End Best Seller Hotels Sections */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
+      {/* <section className="layout-pt-lg layout-pb-lg bg-white">
         <div className="container">
-          <div className="row y-gap-60">
+          <div className="row y-gap-50">
             <div className="col-xl-5 col-lg-6">
               <TestimonialRating />
             </div>
             {/* End .col */}
 
-            <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
+            {/* <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
               <Testimonial />
-            </div>
+            </div> */}
             {/* End .col */}
-          </div>
+          {/* </div> */}
           {/* End .row */}
 
-          <div className="row justify-center text-center pt-60">
+          {/* <div className="row justify-center text-center pt-60">
             <div className="col-auto">
               <div className="text-15 lh-1 text-white">
                 Trusted by the world’s best
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
 
-          <div className="px-40 md:px-0">
+          {/* <div className="px-40 md:px-0">
             <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
               <Brand2 />
             </div>
+          </div> */}
+        {/* </div>
+      </section> */} 
+            {/* End testimonial and brand sections Section */}
+
+            <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-content-center items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Experience The Love</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                 This is why we do What We do
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+            <TrustBox/>
           </div>
+          {/* End .row */}
+
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div> */}
+          {/* End .row */}
         </div>
+       
+        {/* End .container */}
       </section>
-      {/* End testimonial and brand sections Section */}
+
+
 
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
@@ -262,6 +291,44 @@ const all_inclusive_holidays = () => {
         {/* End .container */}
       </section>
       {/* Features Cruise Deals Sections */}
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Last Minute Holidays</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Finding a Last Minute Holiday can be stressfull sometimes, but not with us. We take care of the stress bringing you nothing but the best.
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+           
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Hotels />
+          </div>
+          {/* End relative */}
+
+          <div className="text-center pt-40">
+              <Link
+                href="#"
+                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
+                aria-label="more"
+              >
+                Show me more
+              </Link>
+            </div>
+
+        </div>
+      </section>
+
+
+
 
       {/* <Subscribe /> */}
       {/* End Subscribe Section */}
