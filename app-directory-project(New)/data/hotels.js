@@ -230,8 +230,6 @@ export const hotelsData = [
   },
 ];
 
-
-
 export const best_allinclusive_holidays = [
 
   {
@@ -253,7 +251,12 @@ export const best_allinclusive_holidays = [
 
 export const hotelResult = [
   {
-
+    id: 1,
+    tag : "",
+    slideImg: ["/img/hotels/2.png" , "/img/hotels/1.png" , "/img/hotels/3.png"],
+    img: "/img/hotels/2.png",
+    title : "Europe Destinations 4",
+    location: "Barcelona"
 
 
 

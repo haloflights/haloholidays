@@ -1,20 +1,18 @@
 "use client";
 
 import React, { useState } from "react";
-import FilterHotelsTabs from "./filter-tabs/FilterHotelsTabs";
-import FilterHotels from "./FilterHotels";
-import Filtercontinenttab from "./filter-tabs/Filtercontinenttab";
-import Filterdestination from "./Filterdestination";
+import FilterDestinations from "./FilterDestinations";
+import FilterDestinationstabs from "./filter-tabs/FilterDestinaionsTabs";
 
-export default function Filterdestination() {
-  const [filterOption, setFilterOption] = useState("hotel");
+export default function FilterDestinations2() {
+  const [filterOption, setFilterOption] = useState("asia");
   return (
     <section className="layout-pt-md layout-pb-lg">
       <div className="container">
         <div className="row y-gap-10 justify-between items-end">
           <div className="col-auto">
             <div className="sectionTitle -md">
-              <h2 className="sectionTitle__title">Best Seller</h2>
+              <h2 className="sectionTitle__title">Destinations</h2>
               <p className=" sectionTitle__text mt-5 sm:mt-0">
                 Interdum et malesuada fames ac ante ipsum
               </p>
@@ -23,7 +21,7 @@ export default function Filterdestination() {
           {/* End .col-auto */}
 
           <div className="col-auto tabs -pills-2 ">
-            <Filtercontinenttab
+            <FilterDestinationstabs
               filterOption={filterOption}
               setFilterOption={setFilterOption}
             />
@@ -34,7 +32,7 @@ export default function Filterdestination() {
 
         <div className="relative overflow-hidden pt-40 sm:pt-20">
           <div className="row y-gap-30">
-            <Filterdestination filterOption={filterOption} />
+            <FilterDestinations filterOption={filterOption} />
           </div>
         </div>
         {/* End relative */}

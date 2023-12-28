@@ -13,6 +13,7 @@ import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import Filterdestination from "@/components/hotels/FilterHotels3";
 import AllInclusiveHero from "@/components/hero/all-inclusive-hero";
+import FilterDestinations2 from "@/components/destinations/Filterdestination/FilterDestinations2";
 
 export const metadata = {
   title: "All Inclusive Holidays || Here For You",
@@ -104,7 +105,7 @@ const all_inclusive_holidays = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
-      <Filterdestination />
+      <FilterDestinations2 />
 
       {/* End Best Seller Hotels Sections */}
 

@@ -12,6 +12,7 @@ import Testimonial from "@/components/home/home-2/Testimonial";
 import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
+import TrustBox from "@/components/trustpilot/page";
 
 export const metadata = {
   title: "all_inclusive || GoTrip - Travel & Tour React NextJS Template",
@@ -86,11 +87,11 @@ const last_minute_holidays = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
-      <FilterHotels3 />
+      {/* <FilterHotels3 /> */}
 
       {/* End Best Seller Hotels Sections */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
+      <section className="layout-pt-lg layout-pb-lg bg-black">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">
@@ -99,7 +100,7 @@ const last_minute_holidays = () => {
             {/* End .col */}
 
             <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
-              <Testimonial />
+              <TrustBox />
             </div>
             {/* End .col */}
           </div>

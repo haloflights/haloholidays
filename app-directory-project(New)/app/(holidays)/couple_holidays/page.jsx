@@ -86,27 +86,7 @@ const couple_holidays = () => {
       </section>
       {/* End Connect with Travellers Sections */}
 
-
-
-      <section className="layout-pt-md layout-pb-md">
-      <div className="container">
-        <div className="row y-gap-20 justify-between items-end">
-          <div className="col-auto">
-          <div className="sectionTitle -md">
-                <h3 className="sectionTitle__title">Things to do in All Inclusive Couple Holidays</h3>
-                <p className=" sectionTitle__text mb-40 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
-                <img alt="things to do image" src="/img/backgrounds/things_to_do.jpg" className="js-lazy " width="1340" height="250"/>
-              </div>
-        
-      </div>
-      </div>
-      </div>
-
-      </section>
-
-      <FilterHotels3 />
+      {/* <FilterHotels3 /> */}
 
       {/* End Best Seller Hotels Sections */}
 

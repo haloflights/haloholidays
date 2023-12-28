@@ -1,5 +1,6 @@
 const Brand2 = () => {
   const brandImages = ["1", "2", "3", "4", "5", "6"];
+  //this is taken from img/clients
   return (
     <>
       {brandImages.map((item, i) => (

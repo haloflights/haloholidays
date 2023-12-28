@@ -86,7 +86,7 @@ const cruise_holidays = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
-      <FilterHotels3 />
+      {/* <FilterHotels3 /> */}
 
       {/* End Best Seller Hotels Sections */}
 

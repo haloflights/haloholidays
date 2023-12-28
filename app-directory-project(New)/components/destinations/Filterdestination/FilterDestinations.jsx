@@ -3,11 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
-import { destinationsresults } from "../../data/desinations";
-import isTextMatched from "../../utils/isTextMatched";
+import { destinations } from "@/data/desinations";
+import isTextMatched from "@/utils/isTextMatched";
 import { useEffect, useState } from "react";
 
-const Filterdestination = ({ filterOption }) => {
+const FilterDestinations = ({ filterOption }) => {
   const [filteredItems, setFilteredItems] = useState([]);
   var itemSettings = {
     dots: true,
@@ -17,7 +17,7 @@ const Filterdestination = ({ filterOption }) => {
     slidesToScroll: 1,
   };
   useEffect(() => {
-    setFilteredItems(destinationsresults.filter((elm) => elm.category == filterOption));
+    setFilteredItems(destinations.filter((elm) => elm.category == filterOption));
   }, [filterOption]);
 
   // custom navigation
@@ -145,5 +145,4 @@ const Filterdestination = ({ filterOption }) => {
   );
 };
 
-export default Filterdestination;
-
+export default FilterDestinations;

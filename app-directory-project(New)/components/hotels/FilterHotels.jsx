@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
-import { hotelsData , hotelResult } from "../../data/hotels";
+import { hotelsData , hotelResult , europe_destintaions } from "../../data/hotels";
 import isTextMatched from "../../utils/isTextMatched";
 import { useEffect, useState } from "react";
 
@@ -17,7 +17,7 @@ const FilterHotels = ({ filterOption }) => {
     slidesToScroll: 1,
   };
   useEffect(() => {
-    setFilteredItems(hotelResult.filter((elm) => elm.category == filterOption));
+    setFilteredItems(hotelsData.filter((elm) => elm.category == filterOption));
   }, [filterOption]);
 
   // custom navigation

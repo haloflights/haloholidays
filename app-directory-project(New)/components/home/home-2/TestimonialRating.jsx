@@ -2,8 +2,10 @@ const TestimonialRating = () => {
   return (
     <>
       <h2 className="text-30 text-white">
-        What our customers 
-        <br /> say about us?
+      Testimonials That Speak Volumes <br />About Our Services
+
+        
+         
       </h2>
       <p className="text-white mt-20">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius

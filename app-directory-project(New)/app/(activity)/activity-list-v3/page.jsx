@@ -1,4 +1,4 @@
-import Header11 from "@/components/header/header-11";
+import Header3 from "@/components/header/header-3";
 import MainFilterSearchBox from "@/components/activity-list/activity-list-v3/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/activity-list/activity-list-v3/TopHeaderFilter";
 import TourProperties from "@/components/activity-list/activity-list-v3/ActivityProperties";
@@ -19,7 +19,7 @@ const index = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+      <Header3 />
       {/* End Header 1 */}
 
       <section className="halfMap">

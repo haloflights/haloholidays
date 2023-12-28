@@ -4,15 +4,10 @@ import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import HoneymoonHero from "@/components/hero/honeymoon-hero";
-import AppBanner from "@/components/home/home-2/AppBanner";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
-import CallToActions from "@/components/home/home-2/CallToActions";
-import Subscribe from "@/components/home/home-2/Subscribe";
 import Testimonial from "@/components/home/home-2/Testimonial";
 import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
-import FilterHotels3 from "@/components/hotels/FilterHotels3";
-
 export const metadata = {
     title: "Halo Holidays || Here For You",
     description: "Halo Holidays - Travel & Tour ",
@@ -86,7 +81,7 @@ const honeymoon_holidays = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
-      <FilterHotels3 />
+      {/* <FilterHotels3 /> */}
 
       {/* End Best Seller Hotels Sections */}
 

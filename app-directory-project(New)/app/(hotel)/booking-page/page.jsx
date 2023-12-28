@@ -1,5 +1,5 @@
 import CallToActions from "@/components/common/CallToActions";
-import Header11 from "@/components/header/header-11";
+import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import StepperBooking from "@/components/booking-page/stepper-booking";
 
@@ -16,7 +16,7 @@ const index = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+      <Header3 />
       {/* End Header 1 */}
 
       <section className="pt-40 layout-pb-md">
@@ -27,7 +27,7 @@ const index = () => {
       </section>
       {/* End stepper */}
 
-      <CallToActions />
+      {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
 
       <DefaultFooter />

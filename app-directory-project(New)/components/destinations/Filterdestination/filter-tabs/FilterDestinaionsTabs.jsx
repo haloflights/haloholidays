@@ -1,20 +1,16 @@
 
 'use client'
-
-
-
-const Filtercontinenttab = ({filterOption,setFilterOption}) => {
-
+const FilterDestinationstabs = ({filterOption,setFilterOption}) => {
 
   const filterOptions = [
-    { label: "Hotel", value: "hotel" },
-    { label: "Tour", value: "tour" },
-    { label: "Activity", value: "activity" },
-    { label: " Holiday Rentals", value: "holiday_rentals" },
-    { label: "Car", value: "car" },
-    { label: "Cruise", value: "cruise" },
-    { label: "Flights", value: "flights" },
-    // add more options as needed
+
+    { label: "Europe", value: "europe" },
+    { label: "Asia", value: "asia" },
+    { label: "Africa", value: "africa" },
+    { label: "Central America ", value: "central_america" },
+    { label: "North America", value: "north_america" },
+    { label: "Caribbean", value: "caribbean" },
+    
 
   ];
 
@@ -36,4 +32,4 @@ const Filtercontinenttab = ({filterOption,setFilterOption}) => {
   );
 };
 
-export default Filtercontinenttab;
+export default FilterDestinationstabs;

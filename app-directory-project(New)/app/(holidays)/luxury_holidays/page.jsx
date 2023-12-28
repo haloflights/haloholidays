@@ -53,7 +53,6 @@ const luxury_holidays = () => {
       </div>
       </div>
       </div>
-
       </section>
 
       <section className="layout-pt-md layout-pb-md">
@@ -103,7 +102,7 @@ const luxury_holidays = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
-      <FilterHotels3 />
+      {/* <FilterHotels3 /> */}
       {/* End Best Seller Hotels Sections */}
 
       <section className="layout-pt-md layout-pb-md">
