@@ -78,7 +78,7 @@ const WhyChooseMobile = () => {
             
           >
             
-            <div className="featureIcon -type-1 ">
+            <div className="featureIcon -type-1 -hover-shadow px-10 py-50 rounded-4 border">
             <div className="d-flex justify-center">
               <Image
                 width={50}
@@ -90,8 +90,7 @@ const WhyChooseMobile = () => {
             </div>
             <div className="text-center mt-30">
               <h4 className="text-18 fw-500">{item.title}</h4>
-              <p className="text-15 mt-10">{item.text}</p>
-
+              
             </div>
           </div>
             

@@ -2,7 +2,8 @@ import dynamic from "next/dynamic";
 import CallToActions from "@/components/common/CallToActions";
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
-import WhyChoose from "@/components/block/BlockGuide";
+import WhyChoose from "@/components/common/WhyChoose";
+import WhyChooseMobile from "@/components/common/WhyChooseMobile";
 import Address from "@/components/block/Address";
 import Social from "@/components/common/social/Social";
 import ContactForm from "@/components/common/ContactForm";
@@ -75,28 +76,77 @@ const Contact = () => {
       </section>
       {/* End Address Section */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      <section className="layout-pt-md layout-pb-md d-none d-sm-block">
         <div className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Why Choose Us</h2>
+                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
                 </p>
               </div>
             </div>
           </div>
           {/* End .row */}
 
-          <div className="row y-gap-40 justify-between pt-50">
+          <div className="row y-gap-40 justify-between pt-50 mb-30">
             <WhyChoose />
           </div>
-          {/* End .row */}
+          {/* End row */}
         </div>
         {/* End .container */}
       </section>
-      {/* End Why Choose Us section */}
+      {/* End Why choose Section */}
+
+      <section className="layout-pt-md layout-pb-md d-md-none">
+        <div className="container">
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-40 justify-between pt-50 mb-30">
+            <WhyChooseMobile />
+          </div>
+
+          <div className="col-auto ">
+              <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
+                <div className="col-auto">
+                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev"
+                  aria-label="arrow-left">
+                    <i className="icon icon-arrow-left " />
+                  </button>
+                </div>
+                {/* End prev */}
+
+                <div className="col-auto">
+                  <div className="pagination -dots text-border js-tour-type-pag" />
+                </div>
+                {/* End pagination */}
+
+                <div className="col-auto">
+                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next "
+                  aria-label="arrow-right">
+                    <i className="icon icon-arrow-right" />
+                  </button>
+                </div>
+                {/* End next */}
+              </div>
+            </div>
+          {/* End row */}
+          
+        </div>
+        {/* End .container */}
+      </section>
+      {/* End Why choose mobile Section */}
 
       {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
