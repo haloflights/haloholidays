@@ -496,8 +496,32 @@ const home_3 = () => {
         {/* End .container */}
       </section>
 
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-content-center items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Experience The Love</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                 This is why we do What We do
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+            <TrustBox/>
+          </div>
+          {/* End .row */}
 
-  {/* <TrustBox/> */}
+          {/* <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div> */}
+          {/* End .row */}
+        </div>
+       
+        {/* End .container */}
+      </section>
+      {/* Features Cruise Deals Sections */}
+
      
       {/* <CallToActions /> */}
       {/* End Call To Actions Section */}
