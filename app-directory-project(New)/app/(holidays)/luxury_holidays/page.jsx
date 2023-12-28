@@ -241,6 +241,8 @@ const luxury_holidays = () => {
       {/* <CallToActions /> */}
       {/* End CallToActions Section */}
 
+
+
       <DefaultFooter />
       {/* End Footer Section */}
     </>
