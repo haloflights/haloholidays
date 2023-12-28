@@ -17,7 +17,7 @@ if (window.Trustpilot) {
 <div
   ref={ref} // We need a reference to this element to load the TrustBox in the effect.
  className="trustpilot-widget" 
- class="trustpilot-widget" 
+//  class="trustpilot-widget" 
  data-locale="en-US" 
  data-template-id="53aa8912dec7e10d38f59f36"
  data-businessunit-id="61a4b09e7f15887ca7dbf014"
@@ -28,9 +28,9 @@ if (window.Trustpilot) {
  data-review-languages="en" 
  data-font-family="Open Sans"
  // [ long list of data attributes...]
->
-  <Link href="https://www.trustpilot.com/review/haloflights.us" target="_blank" rel="noopener"> Trustpilot
-  </Link>
+><p>
+  <Link href="https://www.trustpilot.com/review/haloflights.us" target="_blank" rel="noopener"> Trustpilot </Link>
+  </p>
 </div>
 
 </>

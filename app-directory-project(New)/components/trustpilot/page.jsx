@@ -14,6 +14,7 @@ const TrustBox = () => {
     }
   }, []);
   return (
+    <>
 <div class="trustpilot-widget" data-locale="en-US" data-template-id="5406e65db0d04a09e042d5fc" 
     data-businessunit-id="5b3cdead266600000141929b" data-style-height="28px" 
     data-style-width="100%" data-theme="light" data-font-family="Poppins"
@@ -27,6 +28,7 @@ const TrustBox = () => {
 <br/>
 <br/>
 </div>
+</>
   );
 };
 export default TrustBox;
