@@ -4,15 +4,14 @@ import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import LuxuryHero from "@/components/hero/luxury-hero";
-import AppBanner from "@/components/home/home-2/AppBanner";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
-import CallToActions from "@/components/home/home-2/CallToActions";
-import Subscribe from "@/components/home/home-2/Subscribe";
 import Testimonial from "@/components/home/home-2/Testimonial";
 import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
-
+import Link from "next/link";
+import Cruise from "@/components/cruise/Cruise";
+import Hotels from "@/components/hotels/Hotels";
 export const metadata = {
     title: "Halo Holidays || Here For You",
     description: "Halo Holidays - Travel & Tour ",
@@ -38,6 +37,24 @@ const luxury_holidays = () => {
         </div>
       </section>
       {/* End travel block sections */}
+
+      <section className="layout-pt-md layout-pb-md">
+      <div className="container">
+        <div className="row y-gap-20 justify-between items-end">
+          <div className="col-auto">
+          <div className="sectionTitle -md">
+                <h3 className="sectionTitle__title">Things to do in All Inclusive Luxury Holidays</h3>
+                <p className=" sectionTitle__text mb-40 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+                <img alt="things to do image" src="/img/backgrounds/things_to_do.jpg" className="js-lazy " width="1340" height="250"/>
+              </div>
+        
+      </div>
+      </div>
+      </div>
+
+      </section>
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -87,8 +104,43 @@ const luxury_holidays = () => {
       </section>
       {/* End Connect with Travellers Sections */}
       <FilterHotels3 />
-
       {/* End Best Seller Hotels Sections */}
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Exclusive Deals for Your All-Inclusive Luxury Escape</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                Deals & Offers
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
+                aria-label="more">
+                More <div className="icon-arrow-top-right ml-15" />
+              </Link>
+            </div>
+            {/* End .col */}
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Cruise />
+          </div>
+          {/* End .row */}
+        </div>
+        {/* End .container */}
+      </section>
+      {/* Features Cruise Deals Sections */}
+
+
 
       <section className="layout-pt-lg layout-pb-lg bg-dark-3">
         <div className="container">
@@ -129,7 +181,7 @@ const luxury_holidays = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Get inspiration for your next trip
+                Stay Updated with All-Inclusive Luxury Holiday Insights
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames
@@ -146,6 +198,39 @@ const luxury_holidays = () => {
         {/* End .container */}
       </section>
       {/* End blog Section */}
+
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Top All Inclusive Luxury Holidays Hotels</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
+                aria-label="more"
+              > More <div className="icon-arrow-top-right ml-15"  />
+              </Link>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Hotels />
+          </div>
+          {/* End relative */}
+        </div>
+      </section>
+
 
       {/* <Subscribe /> */}
       {/* End Subscribe Section */}

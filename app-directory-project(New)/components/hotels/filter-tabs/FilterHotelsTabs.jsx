@@ -7,7 +7,7 @@ const FilterTabsHotels3 = ({filterOption,setFilterOption}) => {
 
 
   const filterOptions = [
-    { label: "Hotel", value: "hotel" },
+    { label: "Europe", value: "europe" },
     { label: "Tour", value: "tour" },
     { label: "Activity", value: "activity" },
     { label: " Holiday Rentals", value: "holiday_rentals" },

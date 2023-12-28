@@ -4,14 +4,15 @@ import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import FamilyHero from "@/components/hero/family-hero";
-import AppBanner from "@/components/home/home-2/AppBanner";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
-import CallToActions from "@/components/home/home-2/CallToActions";
-import Subscribe from "@/components/home/home-2/Subscribe";
 import Testimonial from "@/components/home/home-2/Testimonial";
 import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
+import Link from "next/link";
+import Hotels from "@/components/hotels/Hotels2";
+import WhyChoose from "@/components/home/home-3/WhyChoose";
+import WhyChooseMobile from "@/components/home/home-3/WhyChooseMobile";
 
 export const metadata = {
     title: "Halo Holidays || Here For You",
@@ -32,12 +33,25 @@ const family_holidays = () => {
 
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
-          <div className="row y-gap-40 sm:y-gap-10 justify-between">
-            <BlockGuide />
+        <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Why Choose Halo Holidays for Your All Inclusive Family Holidays?</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
+                </p>
+              </div>
+            </div>
+          </div>
+        <div className="row y-gap-40 justify-between pt-50">
+            <WhyChoose />
           </div>
         </div>
       </section>
       {/* End travel block sections */}
+
+
+      
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -86,6 +100,27 @@ const family_holidays = () => {
         {/* End .container */}
       </section>
       {/* End Connect with Travellers Sections */}
+
+      <section className="layout-pt-md layout-pb-md">
+      <div className="container">
+        <div className="row y-gap-20 justify-between items-end">
+          <div className="col-auto">
+          <div className="sectionTitle -md">
+                <h3 className="sectionTitle__title">Things to do in All Inclusive  Family Holidays</h3>
+                <p className=" sectionTitle__text mb-40 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+                <img alt="things to do image" src="/img/backgrounds/things_to_do.jpg" className="js-lazy " width="1340" height="250"/>
+              </div>
+        
+      </div>
+      </div>
+      </div>
+
+      </section>
+
+
+
       <FilterHotels3 />
 
       {/* End Best Seller Hotels Sections */}
@@ -129,7 +164,7 @@ const family_holidays = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Get inspiration for your next trip
+                Stay Updated with All-Inclusive Couple Holiday Insights
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                Blogs Will go here
@@ -146,6 +181,39 @@ const family_holidays = () => {
         {/* End .container */}
       </section>
       {/* End blog Section */}
+
+      <section className="layout-pt-md layout-pb-md">
+        <div className="container">
+          <div className="row y-gap-20 justify-between items-end">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title">Top All Inclusive Family Holidays Hotels</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                  Interdum et malesuada fames ac ante ipsum
+                </p>
+              </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-auto">
+              <Link
+                href="#"
+                className="button -md -blue-1 bg-blue-1-05 text-blue-1 h-30"
+                aria-label="more"
+              >
+                More <div className="icon-arrow-top-right ml-15"  />
+              </Link>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
+            <Hotels />
+          </div>
+          {/* End relative */}
+        </div>
+      </section>
+
 
       {/* <Subscribe /> */}
       {/* End Subscribe Section */}
