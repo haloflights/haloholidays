@@ -4,15 +4,13 @@ import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import FamilyHero from "@/components/hero/family-hero";
-import BlockGuide from "@/components/home/home-2/BlockGuide";
 import Testimonial from "@/components/home/home-2/Testimonial";
 import TestimonialRating from "@/components/home/home-2/TestimonialRating";
 import Travellers from "@/components/home/home-2/Travellers";
-import FilterHotels3 from "@/components/hotels/FilterHotels3";
 import Link from "next/link";
 import Hotels from "@/components/hotels/Hotels2";
-import WhyChoose from "@/components/home/home-3/WhyChoose";
-import WhyChooseMobile from "@/components/home/home-3/WhyChooseMobile";
+import WhyChoose from "@/components/common/WhyChoose";
+import WhyChooseMobile from "@/components/common/WhyChooseMobile";
 
 export const metadata = {
     title: "Halo Holidays || Here For You",
@@ -31,25 +29,77 @@ const family_holidays = () => {
       <FamilyHero />
       {/* End Hero 2 */}
 
-      <section className="layout-pt-lg layout-pb-md">
+      <section className="layout-pt-md layout-pb-md d-none d-sm-block">
         <div className="container">
-        <div className="row justify-center text-center">
+          <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Why Choose Halo Holidays for Your All Inclusive Family Holidays?</h2>
+                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                 Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
                 </p>
               </div>
             </div>
           </div>
-        <div className="row y-gap-40 justify-between pt-50">
+          {/* End .row */}
+
+          <div className="row y-gap-40 justify-between pt-50 mb-30">
             <WhyChoose />
           </div>
+          {/* End row */}
         </div>
+        {/* End .container */}
       </section>
-      {/* End travel block sections */}
+      {/* End Why choose Section */}
 
+      <section className="layout-pt-md layout-pb-md d-md-none">
+        <div className="container">
+          <div className="row justify-center text-center">
+            <div className="col-auto">
+              <div className="sectionTitle -md">
+                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row y-gap-40 justify-between pt-50 mb-30">
+            <WhyChooseMobile />
+          </div>
+
+          <div className="col-auto ">
+              <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
+                <div className="col-auto">
+                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev"
+                  aria-label="arrow-left">
+                    <i className="icon icon-arrow-left " />
+                  </button>
+                </div>
+                {/* End prev */}
+
+                <div className="col-auto">
+                  <div className="pagination -dots text-border js-tour-type-pag" />
+                </div>
+                {/* End pagination */}
+
+                <div className="col-auto">
+                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next "
+                  aria-label="arrow-right">
+                    <i className="icon icon-arrow-right" />
+                  </button>
+                </div>
+                {/* End next */}
+              </div>
+            </div>
+          {/* End row */}
+          
+        </div>
+        {/* End .container */}
+      </section>
+      {/* End Why choose mobile Section */}
 
       
 
