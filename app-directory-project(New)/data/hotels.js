@@ -746,5 +746,4 @@ export const low_deposit_holidays = [
     delayAnimation: "800",
   },
 
-]
->>>>>>> 80ef6d0201d8591cff1af3c0b43c6e2530dd7524
+];

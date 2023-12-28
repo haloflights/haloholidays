@@ -7,15 +7,15 @@ const FilterTabsHotels3 = ({filterOption,setFilterOption}) => {
 
 
   const filterOptions = [
-<<<<<<< HEAD
-    { label: "Europe", value: "europe" },
-    { label: "Tour", value: "tour" },
-    { label: "Activity", value: "activity" },
-    { label: " Holiday Rentals", value: "holiday_rentals" },
-    { label: "Car", value: "car" },
-    { label: "Cruise", value: "cruise" },
-    { label: "Flights", value: "flights" },
-=======
+
+    // { label: "Europe", value: "europe" },
+    // { label: "Tour", value: "tour" },
+    // { label: "Activity", value: "activity" },
+    // { label: " Holiday Rentals", value: "holiday_rentals" },
+    // { label: "Car", value: "car" },
+    // { label: "Cruise", value: "cruise" },
+    // { label: "Flights", value: "flights" },
+
     { label: "Europe", value: "Europe" },
     { label: "Asia", value: "Asia" },
     { label: "Africa", value: "Africa" },
@@ -23,7 +23,6 @@ const FilterTabsHotels3 = ({filterOption,setFilterOption}) => {
     { label: "North America", value: "north_america" },
     { label: "Caribbean", value: "caribbean" },
     { label: "Australia", value: "australia" },
->>>>>>> 80ef6d0201d8591cff1af3c0b43c6e2530dd7524
     // add more options as needed
 
   ];
