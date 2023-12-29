@@ -27,7 +27,7 @@ const santorini = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel</h1>
+                <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel In Santorini</h1>
               </div>
               {/* End text-center */}
               {/* <MainFilterSearchBox /> */}

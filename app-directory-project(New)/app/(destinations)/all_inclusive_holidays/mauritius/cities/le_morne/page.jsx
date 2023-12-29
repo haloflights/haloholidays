@@ -1,6 +1,5 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
-import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
 import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperties";
 import Pagination from "@/components/hotel-list/common/Pagination";
@@ -27,7 +26,7 @@ const le_morne = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel</h1>
+                <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel in le Morne</h1>
               </div>
               {/* End text-center */}
               {/* <MainFilterSearchBox /> */}

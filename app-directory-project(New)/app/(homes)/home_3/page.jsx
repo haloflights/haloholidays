@@ -268,7 +268,7 @@ const home_3 = () => {
 
           <div className="text-center pt-40">
               <Link
-                href="#"
+                href="/destinations"
                 className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
                 aria-label="more"
               >

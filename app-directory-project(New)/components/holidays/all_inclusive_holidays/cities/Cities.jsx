@@ -3,10 +3,11 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
-import { all_inclusive_destinations } from "../../../data/destinationTypes";
+// import { All_inclusive_spain_destinations } from ".";
+import { All_inclusive_spain_destinations } from "@/data/cities";
 import Link from "next/link";
 
-const Travellers = () => {
+const Cities = () => {
   return (
     <div className="pt-40 overflow-hidden js-section-slider">
       <Swiper
@@ -37,7 +38,7 @@ const Travellers = () => {
           },
         }}
       >
-        {all_inclusive_destinations.map((item) => (
+        {All_inclusive_spain_destinations.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
               // href="/tour-list-v3"
@@ -69,4 +70,4 @@ const Travellers = () => {
   );
 };
 
-export default Travellers;
+export default Cities;

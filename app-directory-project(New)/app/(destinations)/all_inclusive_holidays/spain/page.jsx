@@ -7,11 +7,9 @@ import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/common/WhyChoose";
 import WhyChooseMobile from "@/components/common/WhyChooseMobile";
 import Blog4 from "@/components/blog/Blog4";
-import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import SpainHero from "@/components/hero/all-inclusive-hero/spain-hero";
-import FilterHotels4 from "@/components/hotels/FilterHotels4";
-
+import Cities from "@/components/holidays/all_inclusive_holidays/cities/Cities";
 export const metadata = {
   title: "Halo Holidays || Here For You",
   description: "Halo Holidays - Travel & Tour ",
@@ -257,7 +255,7 @@ const spain = () => {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-20 sm:pt-20 item_gap-x30">
-          <Travellers/>
+          <Cities/>
         
           </div>
           {/* End relative */}
