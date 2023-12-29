@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const AppButton = () => {
   // const appContent = [
   //   {
@@ -24,11 +26,13 @@ const AppButton = () => {
 
   return (
     <>
-    <div className={`d-flex justify-content-space-between `}>
-      <img className="col-sm-5 p-1"
-           width="50"
-           height="50" 
-           src="/img/icons/travel_aware.svg"/>
+    <div className={`d-flex justify-content-space-between`}>
+      <Link
+      href= "https://travelaware.campaign.gov.uk/">
+      <img className="col-md-10 p-1"
+           width="90"
+           height="60"
+           src="/img/icons/travel_aware.svg"/></Link>
 
       <img className="col-sm-5 p-2" 
            src="/img/icons/Atol.svg"

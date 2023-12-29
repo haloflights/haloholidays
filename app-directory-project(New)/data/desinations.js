@@ -261,15 +261,15 @@ export const destinations3 = [
   {
     id: 1,
     img: "/img/destinations/1/spain.jpg",
-    title: "Spain",
+    title: "Balearic Islands",
     travellers: "147,681",
     delayAnimation: "0",
-    link: "/spain"
+    link: "/gradnbaie"
   },
   {
     id: 2,
     img: "/img/destinations/1/turkey.jpg",
-    title: "Turkey",
+    title: "Canary Islands",
     travellers: "147,681",
     delayAnimation: "100",
     link: "/turkey"
@@ -277,7 +277,7 @@ export const destinations3 = [
   {
     id: 3,
     img: "/img/destinations/1/greece.jpg",
-    title: "Greece",
+    title: "Barcelona",
     travellers: "147,681",
     delayAnimation: "200",
     link: "/greece"
@@ -285,7 +285,7 @@ export const destinations3 = [
   {
     id: 4,
     img: "/img/destinations/1/portugal.jpg",
-    title: "Portugal",
+    title: "Madrid",
     travellers: "147,681",
     delayAnimation: "300",
     link: "/portugal"
@@ -293,76 +293,11 @@ export const destinations3 = [
   {
     id: 5,
     img: "/img/destinations/1/egypt.jpg",
-    title: "Egypt",
+    title: "Andalucia",
     travellers: "147,681",
     delayAnimation: "400",
     link: "/egypt"
-  },
-  {
-    id: 6,
-    img: "/img/destinations/1/2.png",
-    title: "Jamaica",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/jamaica"
-  },
-  {
-    id: 7,
-    img: "/img/destinations/1/2.png",
-    title: "Maldives",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/maldives"
-  },
-
-  {
-    id: 8,
-    img: "/img/destinations/1/2.png",
-    title: "Thailand",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/thailand"
-  },
-  {
-    id: 9,
-    img: "/img/destinations/1/2.png",
-    title: "Dubai",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/dubai"
-  },
-  {
-    id: 10,
-    img: "/img/destinations/1/2.png",
-    title: "Indonesia",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/indonesia"
-  },
-  {
-    id: 11,
-    img: "/img/destinations/1/2.png",
-    title: "Mauritius",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/mauritius"
-  },
-  {
-    id: 12,
-    img: "/img/destinations/1/2.png",
-    title: "Egypt",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/egypt"
-  },
-  {
-    id: 13,
-    img: "/img/destinations/1/2.png",
-    title: "Mexico",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/mexico"
-  }, 
+  }
 ];
 
 export const destinations4 = [
