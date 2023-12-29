@@ -59,7 +59,7 @@ const home_3 = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
+                <h2 className="sectionTitle__title pt-30">Why Halo Holidays for All Inclusive Holidays?</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                 Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
                 </p>

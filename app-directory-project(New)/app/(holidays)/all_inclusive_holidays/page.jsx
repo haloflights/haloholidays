@@ -1,16 +1,18 @@
 import dynamic from "next/dynamic";
 import WhyChoose from "@/components/common/WhyChoose";
 import WhyChooseMobile from "@/components/common/WhyChooseMobile";
-import Blog from "@/components/holidays/all_inclusive_holidays/Blog4";
+import Blog4 from "@/components/blog/Blog4";
+import Brand2 from "@/components/brand/Brand2";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
-import Travellers from "@/components/holidays/all_inclusive_holidays/Travellers";
+import Testimonial from "@/components/home/home-2/Testimonial";
+import TestimonialRating from "@/components/home/home-2/TestimonialRating";
+import Travellers from "@/components/home/home-2/Travellers";
 import AllInclusiveHero from "@/components/hero/all-inclusive-hero";
 import Link from "next/link";
 import Cruise from "@/components/cruise/Cruise";
 import Hotels from "@/components/hotels/Hotels2";
 import TrustBox from "@/components/trustpilot/page";
-
 export const metadata = {
   title: "All Inclusive Holidays || Here For You",
   description: "Halo Holidays - Travel & Tour ",
@@ -34,16 +36,16 @@ const all_inclusive_holidays = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                {/* <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2> */}
+                {/* <p className=" sectionTitle__text mt-5 sm:mt-0">
                 Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
           {/* End .row */}
 
-          <div className="row y-gap-40 justify-between pt-50 mb-30">
+          <div className="row y-gap-40 justify-between pt-0 mb-0">
             <WhyChoose />
           </div>
           {/* End row */}
@@ -57,10 +59,10 @@ const all_inclusive_holidays = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                {/* <h2 className="sectionTitle__title pt-30">Why Choose Halo Holidays for Your All Inclusive Holidays?</h2> */}
+                {/* <p className=" sectionTitle__text mt-5 sm:mt-0">
                 Your holiday should be as unique as you are. With unbeatable prices, flexible bookings, and round-the-clock support, we ensure your holiday experience is seamless and tailored to your preferences.
-                </p>
+                </p> */}  
               </div>
             </div>
           </div>
@@ -127,10 +129,10 @@ const all_inclusive_holidays = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                Exclusive Deals for Your All-Inclusive Escape
+                Top All Inclusive Destinations
                 </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                <p className=" sectionTitle__text mt-5 sm:mt-0"> 
+                  Having trouble deciding which Destination is best for an All Inclusive Holiday?
                 </p>
               </div>
             </div>
@@ -248,7 +250,7 @@ const all_inclusive_holidays = () => {
           </div>
           {/* End .row  */}
           <div className="row y-gap-30 pt-40">
-            <Blog />
+            <Blog4 />
           </div>
           {/* End .row */}
         </div>

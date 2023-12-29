@@ -46,7 +46,7 @@ const WhyChoose = () => {
           data-aos="fade"
           data-aos-delay={item.delayAnimation}
         >
-          <div className="featureIcon -type-1 -hover-shadow px-10 py-50 rounded-4 border">
+          <div className="featureIcon -type-1 -hover-shadow px-10 py-20 rounded-4 border">
             <div className="d-flex justify-center">
               <Image
                 width={50}
@@ -56,7 +56,7 @@ const WhyChoose = () => {
                 className="js-lazy"
               />
             </div>
-            <div className="text-center mt-30">
+            <div className="text-center mt-20">
               <h4 className="text-18 fw-500">{item.title}</h4>
               
             </div>
