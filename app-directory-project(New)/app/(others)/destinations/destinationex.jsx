@@ -21,6 +21,7 @@ import Activity from "@/components/activity/Activity";
 import Rentals from "@/components/rentals/Rentals";
 import Hotels from "@/components/hotels/Hotels2";
 
+
 export const metadata = {
   title: "Destinations || Halo Holidays - Here For You",
   description: "Destinations || Halo Holidays",

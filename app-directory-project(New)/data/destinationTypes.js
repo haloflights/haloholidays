@@ -2,7 +2,7 @@ export const all_inclusive_destinations = [
     {
       id: 1,
       img: "/img/destinations/1/spain.jpg",
-      title: "Spain",
+      title: "Spain ",
       travellers: "147,681",
       delayAnimation: "0",
       link: "/all_inclusive_holidays/spain"

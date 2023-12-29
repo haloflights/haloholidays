@@ -10,7 +10,6 @@ import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import SpainHero from "@/components/hero/couple-hero/spain-hero";
-import FilterHotels4 from "@/components/hotels/FilterHotels4";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",

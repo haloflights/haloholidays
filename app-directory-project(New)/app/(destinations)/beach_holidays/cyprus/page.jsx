@@ -10,7 +10,6 @@ import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import CyprusHero from "@/components/hero/beach-hero/cyprus-hero";
-import FilterHotels4 from "@/components/hotels/FilterHotels4";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -244,7 +243,7 @@ const cyprus = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top Destinations for All Inclusive Holidays</h2>
+                <h2 className="sectionTitle__title">Cities will go here</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Confused where you should go? Explore our top destinations for all inclusive Holidays
                 </p>
