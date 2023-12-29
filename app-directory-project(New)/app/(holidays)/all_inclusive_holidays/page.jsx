@@ -12,7 +12,7 @@ import Hotels from "@/components/hotels/Hotels2";
 import TrustBox from "@/components/trustpilot/page";
 export const metadata = {
   title: "All Inclusive Holidays || Here For You",
-  description: "Halo Holidays - Travel & Tour ",
+  description: "Halo Holidays - Here for you",
 };
 
 const all_inclusive_holidays = () => {

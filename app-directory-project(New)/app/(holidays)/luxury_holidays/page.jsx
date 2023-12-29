@@ -12,8 +12,8 @@ import Hotels from "@/components/hotels/Hotels";
 import TrustBox from "@/components/trustpilot/page";
 
 export const metadata = {
-    title: "Halo Holidays || Here For You",
-    description: "Halo Holidays - Travel & Tour ",
+    title: "Luxury Holidays|| Here For You",
+    description: "Halo Holidays - Here for you",
   };
 
 const luxury_holidays = () => {

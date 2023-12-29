@@ -12,8 +12,8 @@ import Cruise from "@/components/cruise/Cruise";
 import Hotels from "@/components/hotels/Hotels";
 
 export const metadata = {
-    title: "Halo Holidays || Here For You",
-    description: "Halo Holidays - Travel & Tour ",
+    title: "Cruise Holidays || Halo Holidays",
+    description: "Halo Holidays - Here for you",
   };
 
 const cruise_holidays = () => {
