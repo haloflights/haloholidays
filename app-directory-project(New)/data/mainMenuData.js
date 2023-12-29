@@ -54,74 +54,6 @@ export const blogItems = [
   //   routePath: "/blog-details/1",
   // },
 ];
-export const pageItems = [
-  // {
-  //   name: "404",
-  //   routePath: "/404",
-  // },
-  {
-    name: "About",
-    routePath: "/about",
-  },
-  {
-    name: "Contact",
-    routePath: "/contact",
-  },
-  // {
-  //   name: "Become Expert",
-  //   routePath: "/become-expert",
-  // },
-  {
-    name: "Help Center",
-    routePath: "/help-center",
-  },
-  // {
-  //   name: "Register",
-  //   routePath: "/signup",
-  // },
-  // {
-  //   name: "Terms",
-  //   routePath: "/terms",
-  // },
-  // {
-  //   name: "Invoice",
-  //   routePath: "/invoice",
-  // },
-];
-export const holidayItems = [
-  {
-    name: "All Inclusive Holidays",
-    routePath: "/all_inclusive_holidays",
-  },
-  {
-    name: "Family Holidays",
-    routePath: "/family_holidays",
-  },
-  {
-    name: "Couple Holidays",
-    routePath: "/couple_holidays",
-  },
-  {
-    name: "Luxury Holidays",
-    routePath: "/luxury_holidays",
-  },
-  {
-    name: "Honeymoon Holidays",
-    routePath: "/honeymoon_holidays",
-  },
-  {
-    name: "Beach Holidays",
-    routePath: "/beach_holidays",
-  },
-  {
-    name: "Cruise Holidays",
-    routePath: "/cruise_holidays",
-  },
-  {
-    name: "Last Minute Holidays",
-    routePath: "/last_minute_holidays",
-  },
-];
 export const destinationItems = [
   {
     name: "Europe",
@@ -490,6 +422,75 @@ export const categorieMegaMenuItems = [
         ],
       },
     ],
+  },
+];
+
+export const pageItems = [
+  // {
+  //   name: "404",
+  //   routePath: "/404",
+  // },
+  {
+    name: "About",
+    routePath: "/about",
+  },
+  {
+    name: "Contact",
+    routePath: "/contact",
+  },
+  // {
+  //   name: "Become Expert",
+  //   routePath: "/become-expert",
+  // },
+  {
+    name: "Help Center",
+    routePath: "/help-center",
+  },
+  // {
+  //   name: "Register",
+  //   routePath: "/signup",
+  // },
+  // {
+  //   name: "Terms",
+  //   routePath: "/terms",
+  // },
+  // {
+  //   name: "Invoice",
+  //   routePath: "/invoice",
+  // },
+];
+export const holidayItems = [
+  {
+    name: "All Inclusive Holidays",
+    routePath: "/all_inclusive_holidays",
+  },
+  {
+    name: "Family Holidays",
+    routePath: "/family_holidays",
+  },
+  {
+    name: "Couple Holidays",
+    routePath: "/couple_holidays",
+  },
+  {
+    name: "Luxury Holidays",
+    routePath: "/luxury_holidays",
+  },
+  {
+    name: "Honeymoon Holidays",
+    routePath: "/honeymoon_holidays",
+  },
+  {
+    name: "Beach Holidays",
+    routePath: "/beach_holidays",
+  },
+  {
+    name: "Cruise Holidays",
+    routePath: "/cruise_holidays",
+  },
+  {
+    name: "Last Minute Holidays",
+    routePath: "/last_minute_holidays",
   },
 ];
 

@@ -88,85 +88,85 @@
     }
   }
 
-  &.-type-2 {
-    margin-top: 20px;
-    transition:
-      background-color 0.4s $easeOutQuart,
-      margin 0.1s $easeOutQuart;
+  // &.-type-2 {
+  //   margin-top: 20px;
+  //   transition:
+  //     background-color 0.4s $easeOutQuart,
+  //     margin 0.1s $easeOutQuart;
 
-    @include media-below(xl) {
-      margin-top: 0;
-    }
+  //   @include media-below(xl) {
+  //     margin-top: 0;
+  //   }
 
-    &.is-sticky {
-      margin: 0;
-    }
+  //   &.is-sticky {
+  //     margin: 0;
+  //   }
 
-    .col-auto-menu {
-      @include media-below(xl) {
-        position: absolute;
-      }
-    }
-  }
+  //   .col-auto-menu {
+  //     @include media-below(xl) {
+  //       position: absolute;
+  //     }
+  //   }
+  // }
 
-  &.-type-5 {
-    @include media-below(md) {
-      .header__buttons {
-        > *:nth-child(1) {
-          color: white !important;
-          background-color: var(--color-dark-1) !important;
-          border-color: var(--color-dark-1) !important;
+  // &.-type-5 {
+  //   @include media-below(md) {
+  //     .header__buttons {
+  //       > *:nth-child(1) {
+  //         color: white !important;
+  //         background-color: var(--color-dark-1) !important;
+  //         border-color: var(--color-dark-1) !important;
 
-          &:hover {
-            background-color: #dc0069 !important;
-            color: white !important;
-            border-color: #dc0069 !important;
-          }
-        }
+  //         &:hover {
+  //           background-color: #dc0069 !important;
+  //           color: white !important;
+  //           border-color: #dc0069 !important;
+  //         }
+  //       }
 
-        > *:nth-child(2) {
-          color: var(--color-dark-1) !important;
-          border-color: var(--color-dark-1) !important;
+  //       > *:nth-child(2) {
+  //         color: var(--color-dark-1) !important;
+  //         border-color: var(--color-dark-1) !important;
 
-          &:hover {
-            background-color: #dc0069 !important;
-            color: white !important;
-            border-color: #dc0069 !important;
-          }
-        }
-      }
-    }
+  //         &:hover {
+  //           background-color: #dc0069 !important;
+  //           color: white !important;
+  //           border-color: #dc0069 !important;
+  //         }
+  //       }
+  //     }
+  //   }
 
-    &.-header-5-sticky {
-      background-color: white !important;
-      box-shadow: 0px 10px 30px 0px #05103608;
+  //   &.-header-5-sticky {
+  //     background-color: white !important;
+  //     box-shadow: 0px 10px 30px 0px #05103608;
 
-      .header__buttons {
-        > *:nth-child(1) {
-          color: white !important;
-          background-color: #dc0069 !important;
-          border-color: #dc0069 !important;
+  //     .header__buttons {
+  //       > *:nth-child(1) {
+  //         color: white !important;
+  //         background-color: #dc0069 !important;
+  //         border-color: #dc0069 !important;
 
-          &:hover {
-            background-color: #dc0069 !important;
-            color: white !important;
-            border-color: #dc0069 !important;
-          }
-        }
+  //         &:hover {
+  //           background-color: #dc0069 !important;
+  //           color: white !important;
+  //           border-color: #dc0069 !important;
+  //         }
+  //       }
 
-        > *:nth-child(2) {
-          color: var(--color-dark-1) !important;
-          border-color: var(--color-dark-1) !important;
+  //       > *:nth-child(2) {
+  //         color: var(--color-dark-1) !important;
+  //         border-color: var(--color-dark-1) !important;
 
-          &:hover {
-            background-color: #dc0069 !important;
-            color: white !important;
-            border-color: #dc0069 !important;
-          }
-        }
-      }
-    } 
-  }
+  //         &:hover {
+  //           background-color: #dc0069 !important;
+  //           color: white !important;
+  //           border-color: #dc0069 !important;
+  //         }
+  //       }
+  //     }
+  //   } 
+  // }
 
   &.-dashboard {
     .header__container {
@@ -232,7 +232,9 @@
         font-size: 15px;
         font-weight: 500;
         transition: all 0.2s $easeOutQuart;
+        
       }
+      
 
       &__nav {
         display: flex;
@@ -261,6 +263,8 @@
           padding: 0 10px;
           // background-color: #dc0069;
         }
+
+        
       }
 
       .subnav {
@@ -320,9 +324,9 @@
         gap: 40px;
       }
       
-      .menu-item:hover .subnav-right {
-        display: flex; /* Show the subnav on hover and use flexbox */
-      }
+      // .menu-item:hover .subnav-right {
+      //   display: flex; /* Show the subnav on hover and use flexbox */
+      // }
       
       .subnav-right li {
         width: 20%; /* Set the width for each column (5 columns) */
