@@ -50,16 +50,16 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(holidayItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <a href="#">
+          <Link href="#">
             <span className="mr-10">Holidays</span>
             <i className="icon icon-chevron-sm-down" />
-          </a>
+          </Link>
           <ul className="subnav">
             {holidayItems.map((menu, i) => (
               <li
                 key={i}
                 className={
-                  isActiveLink(menu.routePath, pathname) ? "" : ""
+                  isActiveLink(menu.routePath, pathname) ? "current" : ""
                 }
               >
                 <Link href={menu.routePath}>{menu.name}</Link>
@@ -70,12 +70,12 @@ const MainMenu = ({ style = "" }) => {
         {/* End pages items */}
 
         <li
-  className={`${
-    isActiveParentChaild(destinationItems, pathname) ? "current" : ""
+        className={`menu-item ${
+       isActiveParentChaild(destinationItems, pathname) ? "current" : ""
   } menu-item-has-children`}
 >
   <Link href="/destinations">
-    <span className="mr-10">Destinations</span>
+    <span className="mr-11">Destinations</span>
     <i className="icon icon-chevron-sm-down" />
   </Link>
   <ul className="subnav">
@@ -83,8 +83,8 @@ const MainMenu = ({ style = "" }) => {
         <li
           key={l}
           className={`${
-            isActiveLink(dest.routePath, pathname) ? "" : ""
-          }`}
+            isActiveLink(dest.routePath, pathname) ? "current" : ""
+          } menu-item-has-children`}
           onMouseEnter={() => handleMouseEnter(dest.name)}
           onMouseLeave={handleMouseLeave}
         >
