@@ -12,8 +12,8 @@ import Cruise from "@/components/cruise/Cruise";
 import TrustBox from "@/components/trustpilot/page";
 
 export const metadata = {
-  title: "all_inclusive || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Couple Holidays || Halo Holidays",
+  description: "Halo Holidays - Here for you",
 };
 
 const couple_holidays = () => {

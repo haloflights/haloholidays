@@ -11,8 +11,8 @@ import Link from "next/link";
 import Cruise from "@/components/cruise/Cruise";
 import Hotels from "@/components/hotels/Hotels";
 export const metadata = {
-  title: "all_inclusive || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Last Minute Holidays || Halo Holidays",
+  description: "Halo Holidays - Here for you",
 };
 
 const last_minute_holidays = () => {

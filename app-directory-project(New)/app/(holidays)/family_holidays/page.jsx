@@ -10,8 +10,8 @@ import WhyChoose from "@/components/common/WhyChoose";
 import WhyChooseMobile from "@/components/common/WhyChooseMobile";
 import TrustBox from "@/components/trustpilot/page";
 export const metadata = {
-    title: "Halo Holidays || Here For You",
-    description: "Halo Holidays - Travel & Tour ",
+    title: "Family Holidays || Halo Holidays",
+    description: "Halo Holidays - Here for you",
   };
 
 const family_holidays = () => {
