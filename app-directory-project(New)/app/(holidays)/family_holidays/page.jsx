@@ -1,14 +1,13 @@
 import dynamic from "next/dynamic";
-import Blog4 from "@/components/blog/Blog4";
+import Blog from "@/components/holidays/family_holidays/Blog4";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import FamilyHero from "@/components/hero/family-hero";
-import Travellers from "@/components/home/home-2/Travellers";
+import Travellers from "@/components/holidays/family_holidays/Travellers";
 import Link from "next/link";
 import Hotels from "@/components/hotels/Hotels2";
 import WhyChoose from "@/components/common/WhyChoose";
 import WhyChooseMobile from "@/components/common/WhyChooseMobile";
-import Cruise from "@/components/cruise/Cruise";
 import TrustBox from "@/components/trustpilot/page";
 export const metadata = {
     title: "Halo Holidays || Here For You",
@@ -229,7 +228,7 @@ const family_holidays = () => {
           </div>
           {/* End .row  */}
           <div className="row y-gap-30 pt-40">
-            <Blog4 />
+            <Blog />
           </div>
           {/* End .row */}
         </div>

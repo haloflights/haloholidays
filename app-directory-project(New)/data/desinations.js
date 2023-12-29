@@ -300,11 +300,11 @@ export const destinations3 = [
   },
   {
     id: 6,
-    img: "/img/destinations/1/1.png",
-    title: "United Cyprus",
+    img: "/img/destinations/1/2.png",
+    title: "Jamaica",
     travellers: "147,681",
-    delayAnimation: "500",
-    link: "/cyprus"
+    delayAnimation: "600",
+    link: "/jamaica"
   },
   {
     id: 7,
@@ -362,17 +362,7 @@ export const destinations3 = [
     travellers: "147,681",
     delayAnimation: "600",
     link: "/mexico"
-  },
-  {
-    id: 14,
-    img: "/img/destinations/1/2.png",
-    title: "Jamaica",
-    travellers: "147,681",
-    delayAnimation: "600",
-    link: "/jamaica"
-  }
- 
- 
+  }, 
 ];
 
 export const destinations4 = [

@@ -32,13 +32,13 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         {/* <!-- Google tag (gtag.js) --> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LCR3C201Y"></script>
-        <script>
+        {/* <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
 
           gtag('config', 'G-1LCR3C201Y');
-        </script>
+        </script> */}
         <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" ></script>
         <link
           rel="preconnect"

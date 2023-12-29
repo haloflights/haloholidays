@@ -1,11 +1,11 @@
 import dynamic from "next/dynamic";
-import Blog4 from "@/components/blog/Blog4";
+import Blog from "@/components/holidays/last_minute_holidays/Blog4";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import LastMinuteHero from "@/components/hero/last-minute-hero";
 import WhyChoose from "@/components/common/WhyChoose";
 import WhyChooseMobile from "@/components/common/WhyChooseMobile";
-import Travellers from "@/components/home/home-2/Travellers";
+import Travellers from "@/components/holidays/last_minute_holidays/Travellers";
 import TrustBox from "@/components/trustpilot/page";
 import Link from "next/link";
 import Cruise from "@/components/cruise/Cruise";
@@ -226,7 +226,7 @@ const last_minute_holidays = () => {
           </div>
           {/* End .row  */}
           <div className="row y-gap-30 pt-40">
-            <Blog4 />
+            <Blog />
           </div>
           {/* End .row */}
         </div>

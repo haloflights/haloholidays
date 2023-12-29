@@ -1,14 +1,11 @@
 import dynamic from "next/dynamic";
-import Blog4 from "@/components/blog/Blog4";
-import Brand2 from "@/components/brand/Brand2";
+import Blog from "@/components/holidays/couple_holidays/Blog4";
 import DefaultFooter from "@/components/footer/default";
 import Header3 from "@/components/header/header-3";
 import CoupleHero from "@/components/hero/couple-hero/";
 import WhyChoose from "@/components/common/WhyChoose";
 import WhyChooseMobile from "@/components/common/WhyChooseMobile";
-import Testimonial from "@/components/home/home-2/Testimonial";
-import TestimonialRating from "@/components/home/home-2/TestimonialRating";
-import Travellers from "@/components/home/home-2/Travellers";
+import Travellers from "@/components/holidays/couple_holidays/Travellers";
 import Link from "next/link";
 import Hotels from "@/components/hotels/Hotels";
 import Cruise from "@/components/cruise/Cruise";
@@ -265,7 +262,7 @@ const couple_holidays = () => {
           </div>
           {/* End .row  */}
           <div className="row y-gap-30 pt-40">
-            <Blog4 />
+            <Blog />
           </div>
           {/* End .row */}
         </div>
