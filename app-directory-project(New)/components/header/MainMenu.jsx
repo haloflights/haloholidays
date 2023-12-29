@@ -8,7 +8,6 @@ import {
   holidayItems,
   destinationItems,
 } from "../../data/mainMenuData";
-import CategoriesMegaMenu from "./CategoriesMegaMenu";
 import {
   isActiveParent,
   isActiveLink,
@@ -60,7 +59,7 @@ const MainMenu = ({ style = "" }) => {
               <li
                 key={i}
                 className={
-                  isActiveLink(menu.routePath, pathname) ? "" : ""
+                  isActiveLink(menu.routePath, pathname) ? "current" : ""
                 }
               >
                 <Link href={menu.routePath}>{menu.name}</Link>
@@ -71,14 +70,14 @@ const MainMenu = ({ style = "" }) => {
         {/* End pages items */}
 
         <li
-  className={`${
+  className={`menu-item ${
     isActiveParentChaild(destinationItems, pathname) ? "current" : ""
   } menu-item-has-children`}
 >
-  <a href="/destinations">
+  <Link href="/destinations">
     <span className="mr-10">Destinations</span>
     <i className="icon icon-chevron-sm-down" />
-  </a>
+  </Link>
   <ul className="subnav">
   {destinationItems.map((menu, i) => (
         <li
