@@ -25,17 +25,16 @@ const AppButton = () => {
   return (
     <>
     <div className={`d-flex justify-content-space-between `}>
-      <img className="col-sm-5 p-1" 
-           src="/img/icons/travel_aware.svg"
-          />
+      <img className="col-sm-5 p-1"
+           width="50"
+           height="50" 
+           src="/img/icons/travel_aware.svg"/>
 
       <img className="col-sm-5 p-2" 
            src="/img/icons/Atol.svg"
            width="50"
-           height="50"
-    /> </div>
-
-
+           height="50"/>
+    </div>
       {/* {appContent.map((item) => (
         <div
           className={`d-flex justify-content-center items-center px-10 py-10 rounded-5   ${item.colClass}`}
