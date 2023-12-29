@@ -60,44 +60,24 @@ export const destinationItems = [
     routePath: "/all_inclusive_holidays",
     subItems: [
       {
-        name: "Option 1",
-        routePath: "/all_inclusive_holidays/option1",
+        name: "Spain",
+        routePath: "/all_inclusive_holidays/spain",
       },
       {
-        name: "Option 2",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Turkey",
+        routePath: "/all_inclusive_holidays/turkey",
       },
       {
-        name: "Option 3",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Greece",
+        routePath: "/all_inclusive_holidays/greece",
       },
       {
-        name: "Option 4",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Portugal",
+        routePath: "/all_inclusive_holidays/portugal",
       },
       {
-        name: "Option 5",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 6",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 7",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 8",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 9",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 10",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Cyprus",
+        routePath: "/all_inclusive_holidays/cyprus",
       },
       // Add more sub-items as needed
     ],
@@ -107,44 +87,20 @@ export const destinationItems = [
     routePath: "/family_holidays",
     subItems: [
       {
-        name: "Option 1",
-        routePath: "/all_inclusive_holidays/option1",
+        name: "Maldives",
+        routePath: "/all_inclusive_holidays/maldives",
       },
       {
-        name: "Option 2",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Thailand",
+        routePath: "/all_inclusive_holidays/thailand",
       },
       {
-        name: "Option 3",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Dubai",
+        routePath: "/all_inclusive_holidays/dubai",
       },
       {
-        name: "Option 4",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 5",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 6",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 7",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 8",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 9",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 10",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Indonesia",
+        routePath: "/all_inclusive_holidays/indonesia",
       },
       // Add more sub-items as needed
     ],
@@ -154,44 +110,12 @@ export const destinationItems = [
     routePath: "/couple_holidays",
     subItems: [
       {
-        name: "Option 1",
-        routePath: "/all_inclusive_holidays/option1",
+        name: "Mauritius",
+        routePath: "/all_inclusive_holidays/mauritius",
       },
       {
-        name: "Option 2",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 3",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 4",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 5",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 6",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 7",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 8",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 9",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 10",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Egypt",
+        routePath: "/all_inclusive_holidays/egypt",
       },
       // Add more sub-items as needed
     ],
@@ -201,138 +125,66 @@ export const destinationItems = [
     routePath: "/luxury_holidays",
     subItems: [
       {
-        name: "Option 1",
-        routePath: "/all_inclusive_holidays/option1",
-      },
-      {
-        name: "Option 2",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 3",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 4",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 5",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 6",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 7",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 8",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 9",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 10",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Mexico",
+        routePath: "/all_inclusive_holidays/mexico",
       },
       // Add more sub-items as needed
     ],
   },
-  {
-    name: "North America",
-    routePath: "/honeymoon_holidays",
-    subItems: [
-      {
-        name: "Option 1",
-        routePath: "/all_inclusive_holidays/option1",
-      },
-      {
-        name: "Option 2",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 3",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 4",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 5",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 6",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 7",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 8",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 9",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 10",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      // Add more sub-items as needed
-    ],
-  },
+  // {
+  //   name: "North America",
+  //   routePath: "/honeymoon_holidays",
+  //   subItems: [
+  //     {
+  //       name: "Option 1",
+  //       routePath: "/all_inclusive_holidays/option1",
+  //     },
+  //     {
+  //       name: "Option 2",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 3",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 4",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 5",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 6",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 7",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 8",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 9",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     {
+  //       name: "Option 10",
+  //       routePath: "/all_inclusive_holidays/option2",
+  //     },
+  //     // Add more sub-items as needed
+  //   ],
+  // },
   {
     name: "Caribbean",
     routePath: "/beach_holidays",
     subItems: [
       {
-        name: "Option 1",
-        routePath: "/all_inclusive_holidays/option1",
-      },
-      {
-        name: "Option 2",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 3",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 4",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 5",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 6",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 7",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 8",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 9",
-        routePath: "/all_inclusive_holidays/option2",
-      },
-      {
-        name: "Option 10",
-        routePath: "/all_inclusive_holidays/option2",
+        name: "Jamaica",
+        routePath: "/all_inclusive_holidays/jamaica",
       },
       // Add more sub-items as needed
     ],
