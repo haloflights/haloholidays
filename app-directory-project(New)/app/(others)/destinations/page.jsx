@@ -157,7 +157,7 @@ const all_inclusive_holidays = () => {
 
       {/* End Best Seller Hotels Sections */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
+      {/* <section className="layout-pt-lg layout-pb-lg bg-dark-3">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">
@@ -165,29 +165,29 @@ const all_inclusive_holidays = () => {
             </div>
             {/* End .col */}
 
-            <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
+            {/* <div className="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-10">
               <Testimonial />
             </div>
             {/* End .col */}
-          </div>
+          {/* </div> */} 
           {/* End .row */}
 
-          <div className="row justify-center text-center pt-60">
+          {/* <div className="row justify-center text-center pt-60">
             <div className="col-auto">
               <div className="text-15 lh-1 text-white">
                 Trusted by the world’s best
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
 
-          <div className="px-40 md:px-0">
+          {/* <div className="px-40 md:px-0">
             <div className="row y-gap-30 justify-between items-center pt-60 lg:pt-40">
               <Brand2 />
             </div>
           </div>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */} 
       {/* End testimonial and brand sections Section */}
 
       <section className="layout-pt-lg layout-pb-md">

@@ -264,7 +264,7 @@ export const destinations3 = [
     title: "Spain",
     travellers: "147,681",
     delayAnimation: "0",
-    link: "/europe"
+    link: "/spain"
   },
   {
     id: 2,
