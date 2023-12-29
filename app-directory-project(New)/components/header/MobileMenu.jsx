@@ -139,7 +139,7 @@ const MobileMenu = () => {
             </SubMenu>
             {/* End  All Pages Menu */}
 
-            <SubMenu label="Destinations" className={isActiveParent ? 'menu-active-link':'' }>
+            <SubMenu label="Destinations" onClick={()=>router.push("/destinations")} className={isActiveParent ? '':'' }>
               {categorieMobileItems.map((item) => (
                 // <SubMenu label={item.title} key={item.id} className={isActiveNestedParent == item.id ? 'menu-active-link':'inactive-menu'}>
                   // {item.menuList.map((single) => (
