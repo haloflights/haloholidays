@@ -69,21 +69,19 @@ const MobileMenu = () => {
 
   return (
     <>
-      <div className="pro-header d-flex align-items-center justify-between border-bottom-light" style={{ marginTop: '-40px'}}>
+      <div className="pro-header d-flex align-items-center justify-between border-bottom-light">
   <Link href="/">
     <img
       src="/img/general/Halo Holidaysuk.svg"
       alt="logo icon"
       width="200"
       height="200"
-      style={{ marginTop: '-35px', marginBottom: '-40px' }} // Adjust the negative margin value as needed
     />
   </Link>
   {/* End logo */}
 
         <div
           className="fix-icon"
-          style={{ marginTop: '40px', marginBottom: '-10px'}}
           data-bs-dismiss="offcanvas"
           aria-label="Close"
         >
