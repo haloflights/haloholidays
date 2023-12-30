@@ -42,46 +42,21 @@ export const all_inclusive_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/all_inclusive_holidays/jamaica"
-    },
+      link: "/all_inclusive_holidays/phuket"
+    },  
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/all_inclusive_holidays/maldives"
+      link: "/all_inclusive_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/all_inclusive_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/all_inclusive_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/all_inclusive_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -89,20 +64,20 @@ export const all_inclusive_destinations = [
       link: "/all_inclusive_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/all_inclusive_holidays/egypt"
+      link: "/all_inclusive_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/all_inclusive_holidays/mexico"
+      link: "/all_inclusive_holidays/punta_cana"
     }, 
 ];
 
@@ -150,46 +125,21 @@ export const beach_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/beach_holidays/jamaica"
+      link: "/beach_holidays/phuket"
     },
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/beach_holidays/maldives"
+      link: "/beach_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/beach_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/beach_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/beach_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -197,20 +147,20 @@ export const beach_destinations = [
       link: "/beach_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/beach_holidays/egypt"
+      link: "/beach_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/beach_holidays/mexico"
+      link: "/beach_holidays/punta_cana"
     }, 
 ];
 
@@ -258,46 +208,21 @@ export const couple_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/couple_holidays/jamaica"
+      link: "/couple_holidays/phuket"
     },
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/couple_holidays/maldives"
+      link: "/couple_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/couple_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/couple_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/couple_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -305,20 +230,20 @@ export const couple_destinations = [
       link: "/couple_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/couple_holidays/egypt"
+      link: "/couple_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/couple_holidays/mexico"
+      link: "/couple_holidays/punta_cana"
     }, 
 ];
 
@@ -366,46 +291,21 @@ export const cruise_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/cruise_holidays/jamaica"
+      link: "/cruise_holidays/phuket"
     },
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/cruise_holidays/maldives"
+      link: "/cruise_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/cruise_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/cruise_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/cruise_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -413,20 +313,20 @@ export const cruise_destinations = [
       link: "/cruise_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/cruise_holidays/egypt"
+      link: "/cruise_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/cruise_holidays/mexico"
+      link: "/cruise_holidays/punta_cana"
     }, 
 ];
 
@@ -474,46 +374,21 @@ export const family_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/family_holidays/jamaica"
+      link: "/family_holidays/phuket"
     },
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/family_holidays/maldives"
+      link: "/family_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/family_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/family_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/family_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -521,20 +396,20 @@ export const family_destinations = [
       link: "/family_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/family_holidays/egypt"
+      link: "/family_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/family_holidays/mexico"
+      link: "/family_holidays/punta_cana"
     }, 
 ];
 
@@ -582,46 +457,21 @@ export const honeymoon_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/honeymoon_holidays/jamaica"
+      link: "/honeymoon_holidays/phuket"
     },
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/honeymoon_holidays/maldives"
+      link: "/honeymoon_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/honeymoon_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/honeymoon_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/honeymoon_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -629,20 +479,20 @@ export const honeymoon_destinations = [
       link: "/honeymoon_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/honeymoon_holidays/egypt"
+      link: "/honeymoon_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/honeymoon_holidays/mexico"
+      link: "/honeymoon_holidays/punta_cana"
     }, 
 ];
 
@@ -690,46 +540,21 @@ export const last_minute_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/last_minute_holidays/jamaica"
+      link: "/last_minute_holidays/phuket"
     },
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/last_minute_holidays/maldives"
+      link: "/last_minute_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/last_minute_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/last_minute_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/last_minute_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -737,20 +562,20 @@ export const last_minute_destinations = [
       link: "/last_minute_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/last_minute_holidays/egypt"
+      link: "/last_minute_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/last_minute_holidays/mexico"
+      link: "/last_minute_holidays/punta_cana"
     }, 
 ];
 
@@ -798,46 +623,21 @@ export const luxury_destinations = [
     {
       id: 6,
       img: "/img/destinations/1/2.png",
-      title: "Jamaica",
+      title: "Phuket",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/luxury_holidays/jamaica"
+      link: "/luxury_holidays/phuket"
     },
     {
       id: 7,
       img: "/img/destinations/1/2.png",
-      title: "Maldives",
+      title: "Bali",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/luxury_holidays/maldives"
+      link: "/luxury_holidays/bali"
     },
-  
     {
       id: 8,
-      img: "/img/destinations/1/2.png",
-      title: "Thailand",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/luxury_holidays/thailand"
-    },
-    {
-      id: 9,
-      img: "/img/destinations/1/2.png",
-      title: "Dubai",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/luxury_holidays/dubai"
-    },
-    {
-      id: 10,
-      img: "/img/destinations/1/2.png",
-      title: "Indonesia",
-      travellers: "147,681",
-      delayAnimation: "600",
-      link: "/luxury_holidays/indonesia"
-    },
-    {
-      id: 11,
       img: "/img/destinations/1/2.png",
       title: "Mauritius",
       travellers: "147,681",
@@ -845,20 +645,20 @@ export const luxury_destinations = [
       link: "/luxury_holidays/mauritius"
     },
     {
-      id: 12,
+      id: 9,
       img: "/img/destinations/1/2.png",
-      title: "Egypt",
+      title: "Cyprus",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/luxury_holidays/egypt"
+      link: "/luxury_holidays/cyprus"
     },
     {
-      id: 13,
+      id: 10,
       img: "/img/destinations/1/2.png",
-      title: "Mexico",
+      title: "Punta Cana",
       travellers: "147,681",
       delayAnimation: "600",
-      link: "/luxury_holidays/mexico"
+      link: "/luxury_holidays/punta_cana"
     }, 
 ];
 
