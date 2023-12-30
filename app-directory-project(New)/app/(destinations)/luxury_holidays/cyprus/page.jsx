@@ -11,6 +11,7 @@ import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import CyprusHero from "@/components/hero/luxury-hero/cyprus-hero";
 import FilterHotels4 from "@/components/hotels/FilterHotels4";
+import Cyprus_cities from "@/components/holidays/luxury_holidays/cities/Cyprus_cities";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -257,7 +258,7 @@ const cyprus = () => {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-20 sm:pt-20 item_gap-x30">
-          <Travellers/>
+          <Cyprus_cities/>
         
           </div>
           {/* End relative */}

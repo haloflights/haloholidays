@@ -10,6 +10,7 @@ import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import BaliHero from "@/components/hero/all-inclusive-hero/bali-hero";
+import Bali_cities from "@/components/holidays/all_inclusive_holidays/cities/bali_cities";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -256,7 +257,7 @@ const indonesia = () => {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-20 sm:pt-20 item_gap-x30">
-          <Travellers/>
+          <Bali_cities/>
         
           </div>
           {/* End relative */}
@@ -272,41 +273,6 @@ const indonesia = () => {
             </div>
         </div>
       </section>
-
-      <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row y-gap-20 justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Cities Will Go here</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Finding a Last Minute Holiday can be stressfull sometimes, but not with us. We take care of the stress bringing you nothing but the best.
-                </p>
-              </div>
-            </div>
-            {/* End .col */}
-
-          </div>
-          {/* End .row */}
-
-          <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
-            <Hotels />
-          </div>
-          {/* End relative */}
-
-          <div className="text-center pt-40">
-              <Link
-                href="#"
-                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
-                aria-label="more"
-              >
-                Show me more
-              </Link>
-            </div>
-
-        </div>
-      </section>
-
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">

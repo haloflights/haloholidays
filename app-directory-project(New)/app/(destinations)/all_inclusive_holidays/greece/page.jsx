@@ -10,6 +10,7 @@ import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import GreeceHero from "@/components/hero/all-inclusive-hero/greece-hero";
+import Greece_cities from "@/components/holidays/all_inclusive_holidays/cities/Greece_cities";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -256,7 +257,7 @@ const greece = () => {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-20 sm:pt-20 item_gap-x30">
-          <Travellers/>
+          <Greece_cities/>
         
           </div>
           {/* End relative */}

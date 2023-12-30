@@ -10,6 +10,7 @@ import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import MauritiusHero from "@/components/hero/couple-hero/mauritius-hero";
+import Mauritius_cities from "@/components/holidays/couple_holidays/cities/Mauritius_cities";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -256,7 +257,7 @@ const mauritius = () => {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-20 sm:pt-20 item_gap-x30">
-          <Travellers/>
+          <Mauritius_cities/>
         
           </div>
           {/* End relative */}

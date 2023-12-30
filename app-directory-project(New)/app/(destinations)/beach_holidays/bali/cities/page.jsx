@@ -9,8 +9,8 @@ import WhyChooseMobile from "@/components/common/WhyChooseMobile";
 import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
-import IndonesiaHero from "@/components/hero/beach-hero/indonesia-hero";
-
+// import IndonesiaHero from "@/components/hero/beach-hero/indonesia-hero";
+import BaliHero from "@/components/hero/beach-hero/bali-hero"
 export const metadata = {
   title: "Halo Holidays || Here For You",
   description: "Halo Holidays - Travel & Tour ",
@@ -24,7 +24,7 @@ const indonesia = () => {
       <Header3 />
       {/* End Header 3 */}
 
-      <IndonesiaHero />
+      <BaliHero/>
       {/* End Hero 3 */}
 
       {/* <section className="layout-pt-lg layout-pb-md">

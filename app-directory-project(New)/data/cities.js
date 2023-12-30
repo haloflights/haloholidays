@@ -472,7 +472,7 @@ export const luxury_egypt_destinations = [
     title: "Cairo",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "luxury_holidays/egypt/cities/cairo"
+    link: "/luxury_holidays/egypt/cities/cairo"
   },
   {
     id: 5,
@@ -1538,7 +1538,7 @@ export const all_inclusive_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/all_inclusive_holidays/portugal/cities/porto_santo_island"
+    link: "/all_inclusive_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,
@@ -1580,7 +1580,7 @@ export const beach_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/beach_holidays/portugal/cities/porto_santo_island"
+    link: "/beach_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,
@@ -1622,7 +1622,7 @@ export const couple_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/couple_holidays/portugal/cities/porto_santo_island"
+    link: "/couple_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,
@@ -1664,7 +1664,7 @@ export const cruise_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/cruise_holidays/portugal/cities/porto_santo_island"
+    link: "/cruise_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,
@@ -1706,7 +1706,7 @@ export const family_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/family_holidays/portugal/cities/porto_santo_island"
+    link: "/family_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,
@@ -1748,7 +1748,7 @@ export const honeymoon_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/honeymoon_holidays/portugal/cities/porto_santo_island"
+    link: "/honeymoon_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,
@@ -1790,7 +1790,7 @@ export const last_minute_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/last_minute_holidays/portugal/cities/porto_santo_island"
+    link: "/last_minute_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,
@@ -1832,7 +1832,7 @@ export const luxury_portugal_destinations = [
     title: "Porto Santo Island",
     travellers: "147,681",
     delayAnimation: "300",
-    link: "/luxury_holidays/portugal/cities/porto_santo_island"
+    link: "/luxury_holidays/portugal/cities/porto_santo_Island"
   },
   {
     id: 5,

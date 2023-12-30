@@ -10,6 +10,7 @@ import Blog4 from "@/components/blog/Blog4";
 import Travellers from "@/components/home/home-2/Travellers";
 import TrustBox from "@/components/trustpilot/trustbox";
 import PhuketHero from "@/components/hero/all-inclusive-hero/phuket-hero";
+import Phuket_cities from "@/components/holidays/all_inclusive_holidays/cities/Phuket_cities";
 
 export const metadata = {
   title: "Halo Holidays || Here For You",
@@ -238,40 +239,7 @@ const phuket = () => {
       
             {/* End Top Destinations Section */}
 
-      <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row y-gap-20 justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top Destinations for All Inclusive Holidays</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Confused where you should go? Explore our top destinations for all inclusive Holidays
-                </p>
-              </div>
-            </div>
-            {/* End .col */}
-
-        
-          </div>
-          {/* End .row */}
-
-          <div className="row y-gap-30 pt-20 sm:pt-20 item_gap-x30">
-          <Travellers/>
-        
-          </div>
-          {/* End relative */}
-
-          <div className="text-center pt-40">
-              <Link
-                href="#"
-                className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
-                aria-label="more"
-              >
-                Explore more destinations 
-              </Link>
-            </div>
-        </div>
-      </section>
+      
 
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
@@ -290,7 +258,7 @@ const phuket = () => {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-40 sm:pt-20 item_gap-x30">
-            <Hotels />
+            <Phuket_cities />
           </div>
           {/* End relative */}
 

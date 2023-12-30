@@ -1,6 +1,5 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
-import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
 import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperties";
 import Pagination from "@/components/hotel-list/common/Pagination";
@@ -11,7 +10,7 @@ export const metadata = {
   description: "GoTrip - Travel & Tour React NextJS Template",
 };
 
-const PortoSantoIsland = () => {
+const Porto_santo_island = () => {
   return (
     <>
       {/* End Page Title */}
@@ -102,4 +101,4 @@ const PortoSantoIsland = () => {
   );
 };
 
-export default PortoSantoIsland;
+export default Porto_santo_island;
