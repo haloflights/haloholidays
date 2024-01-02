@@ -1,5 +1,5 @@
-import FilterBox from "../../porto_santo_island/hotel_pestana_porto_santo/filter-box/index";
-import WhatsIncluded from "../../porto_santo_island/hotel_pestana_porto_santo/whatsIncluded";
+import FilterBox from "../../porto_santo_Island/hotel_pestana_porto_santo/filter-box/index";
+import WhatsIncluded from "../../porto_santo_Island/hotel_pestana_porto_santo/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (
     <div className="ml-50 lg:ml-0">

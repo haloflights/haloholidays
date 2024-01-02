@@ -19,8 +19,8 @@ export const metadata = {
 };
 
 const hm_alma_de_bayahibe = () => {
-  const title = "HM Alma de Bayahibe";
-  const holiday = cityHotelsData.find((item) => item.title == title);
+  const id = 168;
+  const holiday = cityHotelsData.find((item) => item.id == id);
   
 
   return (
