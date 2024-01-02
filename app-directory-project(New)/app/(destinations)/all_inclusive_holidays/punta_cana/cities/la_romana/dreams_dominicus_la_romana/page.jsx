@@ -19,8 +19,8 @@ export const metadata = {
 };
 
 const dreams_dominicus_la_romana = () => {
-  const title = "Dreams Dominicus La Romana";
-  const holiday = cityHotelsData.find((item) => item.title == title);
+  const id = 169;
+  const holiday = cityHotelsData.find((item) => item.id == id);
   
 
   return (

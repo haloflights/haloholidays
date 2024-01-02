@@ -1,5 +1,5 @@
-import FilterBox from "../../porto_santo_island/pestana_colombos_all_inclusive/filter-box/index";
-import WhatsIncluded from "../../porto_santo_island/pestana_colombos_all_inclusive/whatsIncluded";
+import FilterBox from "../pestana_colombos_all_inclusive/filter-box/index";
+import WhatsIncluded from "../pestana_colombos_all_inclusive/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (
     <div className="ml-50 lg:ml-0">

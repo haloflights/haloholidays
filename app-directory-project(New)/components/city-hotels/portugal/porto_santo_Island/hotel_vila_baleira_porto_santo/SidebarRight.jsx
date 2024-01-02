@@ -1,5 +1,5 @@
-import FilterBox from "../../porto_santo_island/hotel_vila_baleira_porto_santo/filter-box/index";
-import WhatsIncluded from "../../porto_santo_island/hotel_vila_baleira_porto_santo/whatsIncluded";
+import FilterBox from "../hotel_vila_baleira_porto_santo/filter-box/index";
+import WhatsIncluded from "../hotel_vila_baleira_porto_santo/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (
     <div className="ml-50 lg:ml-0">

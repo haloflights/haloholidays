@@ -1,5 +1,5 @@
-import FilterBox from "../../porto_santo_island/pestana_ilha_dourada/filter-box/index";
-import WhatsIncluded from "../../porto_santo_island/pestana_ilha_dourada/whatsIncluded";
+import FilterBox from "../pestana_ilha_dourada/filter-box/index";
+import WhatsIncluded from "../pestana_ilha_dourada/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (
     <div className="ml-50 lg:ml-0">
