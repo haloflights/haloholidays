@@ -1,5 +1,5 @@
-import FilterBox from "../../uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/filter-box/index";
-import WhatsIncluded from "../../uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/whatsIncluded";
+import FilterBox from "../../uvero_alto/royalton_chic_punta_cana/filter-box/index";
+import WhatsIncluded from "../royalton_chic_punta_cana/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (
     <div className="ml-50 lg:ml-0">

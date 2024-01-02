@@ -2,14 +2,14 @@ import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
 import cityHotelsData from "@/data/cityHotels";
 import Header3 from "@/components/header/header-3";
-import Overview from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/Overview";
-import TopBreadCrumb from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/TopBreadCrumb";
-import SidebarRight from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/SidebarRight";
-import ReviewProgress from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/guest-reviews/ReviewProgress";
-import Facilities from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/Facilities";
+import Overview from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana/Overview";
+import TopBreadCrumb from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana/TopBreadCrumb";
+import SidebarRight from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana/SidebarRight";
+import ReviewProgress from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana/guest-reviews/ReviewProgress";
+import Facilities from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana/Facilities";
 import DefaultFooter from "@/components/footer/default";
-import MapPropertyFinder from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/MapPropertyFinder";
-import GalleryCruiseSlider from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only/GalleryCruiseSlider";
+import MapPropertyFinder from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana/MapPropertyFinder";
+import GalleryCruiseSlider from "@/components/city-hotels/punta_cana/uvero_alto/royalton_chic_punta_cana/GalleryCruiseSlider";
 import TopDestinations2 from "@/components/destinations/TopDestinations2";
 import TrustBox from "@/components/trustpilot/trustbox";
 
@@ -18,7 +18,7 @@ export const metadata = {
   description: "Malaysia || Halo Holidays",
 };
 
-const royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only = () => {
+const royalton_chic_punta_cana = () => {
   const title = "Royalton CHIC Punta Cana, An Autograph Collection All-Inclusive Resort & Casino – Adults Only";
   const holiday = cityHotelsData.find((item) => item.title == title);
   
@@ -209,6 +209,6 @@ const royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_
   );
 };
 
-export default dynamic(() => Promise.resolve(royalton_chic_punta_cana_an_autograph_collection_all_inclusive_resort_and_casino_adults_only), {
+export default dynamic(() => Promise.resolve(royalton_chic_punta_cana), {
   ssr: false,
 });
