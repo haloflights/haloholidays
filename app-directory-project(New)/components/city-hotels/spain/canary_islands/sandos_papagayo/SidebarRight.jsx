@@ -1,5 +1,5 @@
-import FilterBox from "../../canary_island/sandos_papagayo/filter-box/index";
-import WhatsIncluded from "../../canary_island/sandos_papagayo/whatsIncluded";
+import FilterBox from "../../canary_islands/sandos_papagayo/filter-box/index";
+import WhatsIncluded from "../../canary_islands/sandos_papagayo/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (
     <div className="ml-50 lg:ml-0">
