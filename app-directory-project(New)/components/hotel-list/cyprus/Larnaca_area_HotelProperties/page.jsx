@@ -1,10 +1,11 @@
 
 'use client'
-import { cyprus_city_hotels } from "@/data/cityHotels";
+// import { cyprus_city_hotels } from "@/data/cityHotels";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 import Link from "next/link";
+import { cyprus_city_hotels } from "@/data/city_hotels";
 
 const Larnaca_area_HotelProperties = () => {
   return (

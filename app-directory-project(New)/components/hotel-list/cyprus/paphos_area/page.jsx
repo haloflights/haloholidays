@@ -1,7 +1,7 @@
 
 'use client'
 
-import { cyprus_city_hotels } from "@/data/cityHotels";
+import { cyprus_city_hotels } from "@/data/city_hotels";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";

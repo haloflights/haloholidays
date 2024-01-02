@@ -6,7 +6,6 @@ import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperti
 import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 import Zante_HotelProperties from "@/components/hotel-list/greece/zante/page";
-
 export const metadata = {
   title: "Hotel List v1 || GoTrip - Travel & Tour React NextJS Template",
   description: "GoTrip - Travel & Tour React NextJS Template",

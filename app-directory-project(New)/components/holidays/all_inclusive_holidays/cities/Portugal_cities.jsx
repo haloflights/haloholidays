@@ -4,7 +4,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 // import { All_inclusive_spain_destinations } from ".";
-import { all_inclusive_turkey_destinations } from "@/data/cities";
+import { all_inclusive_portugal_destinations } from "@/data/cities";
 import Link from "next/link";
 
 const Portugal_cities = () => {
@@ -38,7 +38,7 @@ const Portugal_cities = () => {
           },
         }}
       >
-        {all_inclusive_turkey_destinations.map((item) => (
+        {all_inclusive_portugal_destinations.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
               // href="/tour-list-v3"
