@@ -120,123 +120,6 @@ const spain = () => {
       </section>
       {/* End Why choose mobile Section */}
 
-      {/* <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Holiday Types</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  We have a lot to offer
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          {/* <div className="row y-gap-30 pt-60 lg:pt-40">
-            <Holidays />
-          </div>
-          </div> */}
-          {/* </section> */} 
-
-         
-
-          {/* <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row y-gap-20 justify-between items-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Choose your All Inclusive Holiday Type</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                Discover your ideal getaway with Halo Holidays. Choose from serene beaches, romantic escapes, or family adventures, all with all-inclusive ease. Our handpicked holidays—from last-minute deals to luxury cruises—are designed for memorable experiences and great value. Dive into our selection and find your perfect vacation today.
-                </p>
-              </div>
-            </div>
-            {/* End .col */}
-
-            
-
-          
-            {/* End .col */}
-          {/* </div> */}
-          {/* End .row */}
-
-          {/* // <div className="relative overflow-hidden pt-40 sm:pt-20"> */}
-            {/* <TopDestinations/> */}
-            {/* <FilterHotels4 /> */}
-            
-          {/* </div>
-          <div className="col-auto ">
-              <div className="d-flex x-gap-20  items-center mt-10 y-gap-30 justify-content-center">
-                <div className="col-auto">
-                  <button className="d-flex items-center text-26  arrow-right-hover js-tour-type-prev"
-                  aria-label="arrow-left">
-                    <i className="icon icon-arrow-left " />
-                  </button>
-                </div> */}
-                {/* End prev */}
-
-                {/* <div className="col-auto">
-                  <div className="pagination -dots text-border js-tour-type-pag" />
-                </div> */}
-                {/* End pagination */}
-
-                {/* <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next "
-                  aria-label="arrow-right">
-                    <i className="icon icon-arrow-right" />
-                  </button>
-                </div> */}
-                {/* End next */}
-              {/* </div>
-            </div>
-        </div> */}
-        
-      {/* </section> */} 
-
-
-      {/* <section className="layout-pt-md layout-pb-md">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Explore Hot Deals</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-
-          {/* Holiday   */ }
-
-          {/* <div className="row y-gap-40 justify-between pt-40 sm:pt-20">
-           
-          </div>
-          <div className="row y-gap-30 pt-40">
-            <div className="col-xl-5">
-              <DiscountsBanner /> */}
-            {/* </div> */}
-            {/* End col-xl-5 */}
-
-            {/* <div className="col-xl-7"> */}
-              {/* <Tours3 /> */}
-            {/* </div> */}
-            {/* End col-xl-7 */}
-          {/* </div> */}
-
-
-          {/* End .row */}
-        {/* </div> */}
-        {/* End .container */}
-      {/* // </section> */} 
-
-      
-            {/* End Top Destinations Section */}
-
       <section className="layout-pt-md layout-pb-md">
         <div className="container">
           <div className="row y-gap-20 justify-between items-end">
@@ -262,7 +145,7 @@ const spain = () => {
 
           <div className="text-center pt-40">
               <Link
-                href="#"
+                href="/destinations"
                 className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
                 aria-label="more"
               >

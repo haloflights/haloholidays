@@ -1,9 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
-import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
+import Corfu_HotelProperties from "@/components/hotel-list/greece/corfu/page";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperties";
-import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {
@@ -50,8 +48,7 @@ const corfu = () => {
               <div
                 className="offcanvas offcanvas-start"
                 tabIndex="-1"
-                id="listingSidebar"
-              >
+                id="listingSidebar">
                 <div className="offcanvas-header">
                   <h5 className="offcanvas-title" id="offcanvasLabel">
                     Filter Hotels
@@ -81,10 +78,10 @@ const corfu = () => {
               <div className="mt-30"></div>
               {/* End mt--30 */}
               <div className="row y-gap-30">
-                <HotelProperties />
+                <Corfu_HotelProperties />
               </div>
               {/* End .row */}
-              <Pagination />
+              {/* <Pagination /> */}
             </div>
             {/* End .col for right content */}
           </div>

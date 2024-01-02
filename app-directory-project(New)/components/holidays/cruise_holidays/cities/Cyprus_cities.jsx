@@ -3,7 +3,6 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
-// import { All_inclusive_spain_destinations } from ".";
 import { cruise_cyprus_destinations } from "@/data/cities";
 import Link from "next/link";
 

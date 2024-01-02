@@ -2,7 +2,7 @@ import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperties";
+import Paphos_area_HotelProperties from "@/components/hotel-list/cyprus/paphos_area/page";
 import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
@@ -81,10 +81,10 @@ const paphos_area = () => {
               <div className="mt-30"></div>
               {/* End mt--30 */}
               <div className="row y-gap-30">
-                <HotelProperties />
+                <Paphos_area_HotelProperties />
               </div>
               {/* End .row */}
-              <Pagination />
+              {/* <Pagination /> */}
             </div>
             {/* End .col for right content */}
           </div>

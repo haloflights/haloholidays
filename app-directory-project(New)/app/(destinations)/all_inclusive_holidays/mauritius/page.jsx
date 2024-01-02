@@ -28,28 +28,6 @@ const mauritius = () => {
       <MauritiusHero />
       {/* End Hero 3 */}
 
-      {/* <section className="layout-pt-lg layout-pb-md">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Special Offers</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
-                </p>
-              </div>
-            </div>
-          </div> */}
-          {/* End .row */}
-          {/* <div className="row y-gap-20 pt-40">
-            <AddBanner />
-          </div> */}
-          {/* End .row */}
-        {/* </div> */}
-        {/* End container */}
-      {/* </section> */}
-      {/* End AddBanner Section */}
-
       <section className="layout-pt-md layout-pb-md d-none d-sm-block">
         <div className="container">
           <div className="row justify-center text-center">

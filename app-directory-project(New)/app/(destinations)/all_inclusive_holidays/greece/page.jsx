@@ -251,8 +251,6 @@ const greece = () => {
               </div>
             </div>
             {/* End .col */}
-
-        
           </div>
           {/* End .row */}
 
@@ -266,8 +264,8 @@ const greece = () => {
               <Link
                 href="#"
                 className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
-                aria-label="more"
-              >
+                aria-label="more">
+
                 Explore more destinations 
               </Link>
             </div>
@@ -299,8 +297,7 @@ const greece = () => {
               <Link
                 href="#"
                 className="text-20 text-decoration-underline blue-1 text-blue-1 h-30"
-                aria-label="more"
-              >
+                aria-label="more">
                 Show me more
               </Link>
             </div>

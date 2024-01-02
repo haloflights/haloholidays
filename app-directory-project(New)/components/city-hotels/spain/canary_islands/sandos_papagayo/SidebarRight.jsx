@@ -1,4 +1,4 @@
-import FilterBox from "../../canary_island/sandos_papagayo/filter-box/index";
+import FilterBox from "../../canary_island/sandos_papagayo/filter-box";
 import WhatsIncluded from "../../canary_island/sandos_papagayo/whatsIncluded";
 const SidebarRight = ({ holiday }) => {
   return (
