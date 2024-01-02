@@ -154,7 +154,7 @@ const Izmir_area_HotelProperties = () => {
                   </div>
 
                   <Link
-                    href={`/hotel-single-v1/${item.id}`}
+                    href={item?.link}
                     className="button -md -dark-1 bg-blue-1 text-white mt-24"
                   >
                     See Availability{" "}

@@ -369,7 +369,7 @@ export const cyprus_city_hotels = [
             delayAnimation: "100",
             city: "zante",
             category: "hotel",
-            link:"https://haloflights.lk",
+            link:"/all_inclusive_holidays/greece/cities/zante/diana_palace_hotel",
             },
             {
               id: 27,
@@ -2196,7 +2196,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "antalya",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/antalya/titanic_deluxe_lara",
     },
     {
       id: 134,
@@ -2210,7 +2210,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "antalya",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/antalya/liberty_hotels_lara",
     },
     {
       id: 135,
@@ -2224,7 +2224,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "antalya",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/antalya/akra_kemer",
     },
     {
       id: 136,
@@ -2238,7 +2238,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "antalya",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/antalya/trendy_lara",
     },
     {
       id: 137,
@@ -2252,7 +2252,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "antalya",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/antalya/tui_magic_life_masmavi",
     },
     {
       id: 138,
@@ -2266,7 +2266,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "bodrum",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/bodrum/arin_resort_bodrum",
     },
     {
       id: 139,
@@ -2280,7 +2280,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "bodrum",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/bodrum/la_blanche_island",
     },
     {
       id: 140,
@@ -2294,7 +2294,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "bodrum",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/bodrum/hapimag_sea_garden_resort",
     },
     {
       id: 141,
@@ -2308,7 +2308,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "bodrum",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/bodrum/delta_hotels_by_marriott_bodrum",
     },
     {
       id: 142,
@@ -2322,7 +2322,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "bodrum",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/bodrum/labranda_tmt_bodrum_resort",
     },
     {
       id: 143,
@@ -2336,7 +2336,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "dalaman",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/dalaman/grand_yazici_club_marmaris_palace",
     },
     {
       id: 144,
@@ -2350,7 +2350,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "dalaman",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/dalaman/grand_yazici_club_turban_thermal_hotel",
     },
     {
       id: 145,
@@ -2364,7 +2364,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "dalaman",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/dalaman/grand_aquarium",
     },
     {
       id: 146,
@@ -2378,7 +2378,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "dalaman",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/dalaman/golden_star_otel",
     },
     {
       id: 147,
@@ -2392,7 +2392,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "dalaman",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/dalaman/club_aquarium",
     },
     {
       id: 148,
@@ -2406,7 +2406,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "istanbul",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/istanbul/movenpick_hotel_istanbul_golden_horn",
     },
     {
       id: 149,
@@ -2420,7 +2420,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "istanbul",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/istanbul/novotel_istanbul_bosphorus",
     },
     {
       id: 150,
@@ -2434,7 +2434,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "istanbul",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/istanbul/the_artisan_istanbul_mgallery",
     },
     {
       id: 151,
@@ -2448,7 +2448,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "istanbul",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/istanbul/doubletree_by_hilton_istanbul_piyalepasa",
     },
     {
       id: 152,
@@ -2462,7 +2462,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "istanbul",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/istanbul/hilton_istanbul_maslak",
     },
     {
       id: 153,
@@ -2476,7 +2476,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "izmir_area",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/izmir_area/korumar_ephesus_beach_and_spa_resort",
     },
     {
       id: 154,
@@ -2490,7 +2490,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "izmir_area",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/izmir_area/wyndham_residences_kusadasi_golf_and_spa",
     },
     {
       id: 155,
@@ -2504,7 +2504,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "izmir_area",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/izmir_area/aqua_fantasy_aquapark_hotel_and_spa",
     },
     {
       id: 156,
@@ -2518,7 +2518,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "izmir_area",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/izmir_area/ramada_resort_by_wyndham_kusadasi_and_golf",
     },
     {
       id: 157,
@@ -2532,7 +2532,7 @@ export const cyprus_city_hotels = [
     delayAnimation: "100",
     city: "izmir_area",
     category: "hotel",
-    link: "httsps://haloflights.us",
+    link: "/all_inclusive_holidays/turkey/cities/izmir_area/le_bleu_and_hotel_resort",
     },
   ];
 

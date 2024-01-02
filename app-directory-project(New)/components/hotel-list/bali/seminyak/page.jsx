@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 import Link from "next/link";
-// import { egypt_city_hotels } from "@/data/city_hotels";
 import { bali_city_hotels } from "../../../../data/city_hotels";
 
 const Seminyak_HotelProperties = () => {
@@ -155,7 +154,7 @@ const Seminyak_HotelProperties = () => {
                   </div>
 
                   <Link
-                    href={`/hotel-single-v1/${item.id}`}
+                    href={item?.link}
                     className="button -md -dark-1 bg-blue-1 text-white mt-24"
                   >
                     See Availability{" "}
