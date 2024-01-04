@@ -129,7 +129,7 @@ const bali = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top Destinations for All Inclusive Holidays</h2>
+                <h2 className="sectionTitle__title">Top Destinations for Luxury Holidays</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Confused where you should go? Explore our top destinations for all inclusive Holidays
                 </p>

@@ -5,6 +5,7 @@ import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilt
 import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperties";
 import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
+import Estroil_coast_HotelProperties from "@/components/hotel-list/family_holidays/portugal/estroil_coast/page";
 
 export const metadata = {
   title: "Hotel List v1 || GoTrip - Travel & Tour React NextJS Template",
@@ -81,10 +82,10 @@ const estoril_coast = () => {
               <div className="mt-30"></div>
               {/* End mt--30 */}
               <div className="row y-gap-30">
-                <HotelProperties />
+                <Estroil_coast_HotelProperties />
               </div>
               {/* End .row */}
-              <Pagination />
+              {/* <Pagination /> */}
             </div>
             {/* End .col for right content */}
           </div>

@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperties";
+import Le_morne_HotelProperties from "@/components/hotel-list/mauritius/le_morne/page";
 import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
@@ -80,10 +80,10 @@ const le_morne = () => {
               <div className="mt-30"></div>
               {/* End mt--30 */}
               <div className="row y-gap-30">
-                <HotelProperties />
+                <Le_morne_HotelProperties />
               </div>
               {/* End .row */}
-              <Pagination />
+              {/* <Pagination /> */}
             </div>
             {/* End .col for right content */}
           </div>

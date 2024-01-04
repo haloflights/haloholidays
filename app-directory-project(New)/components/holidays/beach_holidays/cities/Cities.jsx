@@ -3,8 +3,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
-// import { All_inclusive_spain_destinations } from ".";
-import { all_inclusive_spain_destinations } from "@/data/cities";
+import { beach_spain_destinations } from "@/data/cities";
 import Link from "next/link";
 
 const Cities = () => {
@@ -38,7 +37,7 @@ const Cities = () => {
           },
         }}
       >
-        {all_inclusive_spain_destinations.map((item) => (
+        {beach_spain_destinations.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
               // href="/tour-list-v3"

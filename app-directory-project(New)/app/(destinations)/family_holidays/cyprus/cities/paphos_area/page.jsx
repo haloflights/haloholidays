@@ -5,6 +5,7 @@ import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilt
 import HotelProperties from "@/components/hotel-list/hotel-list-v1/HotelProperties";
 import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
+import Paphos_area_HotelProperties from "@/components/hotel-list/family_holidays/cyprus/paphos_area/page";
 
 export const metadata = {
   title: "Hotel List v1 || GoTrip - Travel & Tour React NextJS Template",
@@ -27,10 +28,10 @@ const paphos_area = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel</h1>
+                <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel In Paphos Area</h1>
               </div>
               {/* End text-center */}
-              <MainFilterSearchBox />
+              {/* <MainFilterSearchBox /> */}
             </div>
             {/* End col-12 */}
           </div>
@@ -81,7 +82,7 @@ const paphos_area = () => {
               <div className="mt-30"></div>
               {/* End mt--30 */}
               <div className="row y-gap-30">
-                <HotelProperties />
+                <Paphos_area_HotelProperties />
               </div>
               {/* End .row */}
               <Pagination />

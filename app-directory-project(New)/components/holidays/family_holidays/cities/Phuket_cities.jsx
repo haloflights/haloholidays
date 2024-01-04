@@ -4,7 +4,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 // import { All_inclusive_spain_destinations } from ".";
-import { family_egypt_destinations } from "@/data/cities";
+import {  family_phuket_destinations } from "@/data/cities";
 import Link from "next/link";
 
 const Phuket_cities = () => {
@@ -38,7 +38,7 @@ const Phuket_cities = () => {
           },
         }}
       >
-        {family_egypt_destinations.map((item) => (
+        {family_phuket_destinations.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
               // href="/tour-list-v3"
