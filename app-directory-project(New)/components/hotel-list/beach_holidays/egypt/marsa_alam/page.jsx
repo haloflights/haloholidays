@@ -1,7 +1,6 @@
 
 'use client'
 
-import { egypt_city_hotels } from "../../../../data/city_hotels";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";

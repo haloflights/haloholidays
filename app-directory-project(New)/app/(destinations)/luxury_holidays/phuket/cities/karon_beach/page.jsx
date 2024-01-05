@@ -1,9 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
-import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Karon_beach_HotelProperties from "@/components/hotel-list/phuket/karon_beach/page";
-import Pagination from "@/components/hotel-list/common/Pagination";
+import Karon_beach_HotelProperties from "@/components/hotel-list/luxury_holidays/phuket/karon_beach/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

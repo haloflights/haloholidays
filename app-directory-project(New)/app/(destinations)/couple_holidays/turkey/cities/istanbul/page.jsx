@@ -1,8 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Istanbul_HotelProperties from "@/components/hotel-list/turkey/istanbul/page";
-import Pagination from "@/components/hotel-list/common/Pagination";
+import Istanbul_HotelProperties from "@/components/hotel-list/couple_holidays/turkey/istanbul/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

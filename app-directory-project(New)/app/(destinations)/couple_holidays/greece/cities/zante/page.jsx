@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Zante_HotelProperties from "@/components/hotel-list/greece/zante/page";
+import Zante_HotelProperties from "@/components/hotel-list/couple_holidays/greece/zante/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

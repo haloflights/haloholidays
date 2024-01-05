@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Dalaman_HotelProperties from "@/components/hotel-list/turkey/dalaman/page";
+import Dalaman_HotelProperties from "@/components/hotel-list/luxury_holidays/turkey/dalaman/page";
 import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 

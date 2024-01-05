@@ -1,7 +1,7 @@
 
 'use client'
 
-import { mauritius_city_hotels, phuket_city_hotels } from "@/data/city_hotels";
+import { last_minute_phuket_city_hotels} from "@/data/city_hotels";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
@@ -10,7 +10,7 @@ import Link from "next/link";
 const Kata_beach_HotelProperties = () => {
   return (
     <>
-      {phuket_city_hotels.slice(12, 17).map((item) => (
+      {last_minute_phuket_city_hotels.slice(12, 17).map((item) => (
         <div className="col-12" key={item?.id}>
           <div className="border-top-light pt-30">
             <div className="row x-gap-20 y-gap-20">

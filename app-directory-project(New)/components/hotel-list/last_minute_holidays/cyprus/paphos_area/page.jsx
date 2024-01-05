@@ -1,7 +1,7 @@
 
 'use client'
 
-import { cyprus_city_hotels } from "@/data/city_hotels";
+import { last_minute_cyprus_city_hotels } from "@/data/city_hotels";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
@@ -10,7 +10,7 @@ import Link from "next/link";
 const Paphos_area_HotelProperties = () => {
   return (
     <>
-      {cyprus_city_hotels.slice(5, 10).map((item) => (
+      {last_minute_cyprus_city_hotels.slice(5, 10).map((item) => (
         <div className="col-12" key={item?.id}>
           <div className="border-top-light pt-30">
             <div className="row x-gap-20 y-gap-20">

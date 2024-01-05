@@ -1,9 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
-import MainFilterSearchBox from "@/components/hotel-list/hotel-list-v1/MainFilterSearchBox";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Marsa_alam_HotelProperties from "@/components/hotel-list/egypt/marsa_alam/page";
-import Pagination from "@/components/hotel-list/common/Pagination";
+import Marsa_alam_HotelProperties from "@/components/hotel-list/luxury_holidays/egypt/marsa_alam/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

@@ -2,7 +2,7 @@ import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
-import Paphos_area_HotelProperties from "@/components/hotel-list/cyprus/paphos_area/page"
+import Paphos_area_HotelProperties from "@/components/hotel-list/luxury_holidays/cyprus/paphos_area/page"
 
 export const metadata = {
   title: "Hotel List v1 || GoTrip - Travel & Tour React NextJS Template",

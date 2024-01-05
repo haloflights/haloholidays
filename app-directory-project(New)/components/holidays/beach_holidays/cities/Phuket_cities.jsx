@@ -3,7 +3,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
-import { beach_egypt_destinations } from "@/data/cities";
+import { beach_phuket_destinations } from "@/data/cities";
 import Link from "next/link";
 
 const Phuket_cities = () => {
@@ -37,7 +37,7 @@ const Phuket_cities = () => {
           },
         }}
       >
-        {beach_egypt_destinations.map((item) => (
+        {beach_phuket_destinations.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
               // href="/tour-list-v3"

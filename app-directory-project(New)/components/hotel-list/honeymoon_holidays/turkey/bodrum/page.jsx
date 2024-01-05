@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 import Link from "next/link";
-import {turkey_city_hotels } from "@/data/city_hotels";
+import {honeymoon_turkey_city_hotels } from "@/data/city_hotels";
 
 const Bodrum_HotelProperties = () => {
   return (

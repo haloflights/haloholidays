@@ -1,6 +1,6 @@
 
 'use client'
-import { greece_city_hotels } from "@/data/city_hotels";
+import {  last_minute_greece_city_hotels } from "@/data/city_hotels";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
@@ -9,7 +9,7 @@ import Link from "next/link";
 const Corfu_HotelProperties = () => {
   return (
     <>
-      {greece_city_hotels.slice(5,10).map((item) => (
+      {last_minute_greece_city_hotels.slice(5,10).map((item) => (
         <div className="col-12" key={item?.id}>
           <div className="border-top-light pt-30">
             <div className="row x-gap-20 y-gap-20">

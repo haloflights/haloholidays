@@ -209,8 +209,6 @@ const beach_holidays = () => {
         {/* End .container */}
       </section>
 
-
-
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row justify-center text-center">

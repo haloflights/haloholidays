@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Trou_deau_douce_HotelProperties from "@/components/hotel-list/mauritius/trou_deau_douce/page";
+import Trou_deau_douce_HotelProperties from "@/components/hotel-list/couple_holidays/mauritius/trou_deau_douce/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

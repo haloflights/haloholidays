@@ -2,7 +2,8 @@ import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
-import Grand_baie_HotelProperties from "@/components/hotel-list/mauritius/grand_baie/page"
+import Grand_baie_HotelProperties from "@/components/hotel-list/luxury_holidays/mauritius/grand_baie/page";
+
 export const metadata = {
   title: "Hotel List v1 || GoTrip - Travel & Tour React NextJS Template",
   description: "GoTrip - Travel & Tour React NextJS Template",

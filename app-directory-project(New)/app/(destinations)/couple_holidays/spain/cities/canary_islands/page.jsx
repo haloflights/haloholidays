@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Canary_islands_HotelProperties from "@/components/hotel-list/spain/canary_islands/page";
+import Canary_islands_HotelProperties from "@/components/hotel-list/couple_holidays/spain/canary_islands/page";
 
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 

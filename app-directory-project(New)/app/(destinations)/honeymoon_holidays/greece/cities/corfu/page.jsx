@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Corfu_HotelProperties from "@/components/hotel-list/greece/corfu/page";
+import Corfu_HotelProperties from "@/components/hotel-list/honeymoon_holidays/greece/corfu/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

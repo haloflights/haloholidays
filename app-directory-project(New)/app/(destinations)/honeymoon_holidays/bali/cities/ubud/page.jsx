@@ -1,8 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Ubud_HotelProperties from "@/components/hotel-list/bali/ubud/page";
-import Pagination from "@/components/hotel-list/common/Pagination";
+import Ubud_HotelProperties from "@/components/hotel-list/honeymoon_holidays/bali/ubud/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Hurghada_HotelProperties from "@/components/hotel-list/egypt/hurghada/page";
+import Hurghada_HotelProperties from "@/components/hotel-list/honeymoon_holidays/egypt/hurghada/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

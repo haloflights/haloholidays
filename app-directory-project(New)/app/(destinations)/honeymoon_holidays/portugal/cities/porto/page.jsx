@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Porto_HotelProperties from "@/components/hotel-list/portugal/porto/page";
+import Porto_HotelProperties from "@/components/hotel-list/honeymoon_holidays/portugal/porto/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Le_morne_HotelProperties from "@/components/hotel-list/mauritius/le_morne/page";
+import Le_morne_HotelProperties from "@/components/hotel-list/honeymoon_holidays/mauritius/le_morne/page";
 
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 

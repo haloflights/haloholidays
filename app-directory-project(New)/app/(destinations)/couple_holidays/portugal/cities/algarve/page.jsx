@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Algarve_HotelProperties from "@/components/hotel-list/portugal/the_algarve/page";
+import Algarve_HotelProperties from "@/components/hotel-list/couple_holidays/portugal/the_algarve/page";
 import Pagination from "@/components/hotel-list/common/Pagination";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 

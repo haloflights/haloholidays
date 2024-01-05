@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Balearic_islands_HotelProperties from "@/components/hotel-list/spain/Balearic_islands/page";
+import Balearic_islands_HotelProperties from "@/components/hotel-list/beach_holidays/spain/Balearic_islands/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

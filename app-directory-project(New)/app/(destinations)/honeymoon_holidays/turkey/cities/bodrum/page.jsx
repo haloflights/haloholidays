@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Bodrum_HotelProperties from "@/components/hotel-list/turkey/bodrum/page";
+import Bodrum_HotelProperties from "@/components/hotel-list/honeymoon_holidays/turkey/bodrum/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

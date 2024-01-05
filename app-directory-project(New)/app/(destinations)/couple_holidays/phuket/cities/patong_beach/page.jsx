@@ -1,8 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Patong_beach_HotelProperties from "@/components/hotel-list/phuket/patong_beach/page";
-import Pagination from "@/components/hotel-list/common/Pagination";
+import Patong_beach_HotelProperties from "@/components/hotel-list/couple_holidays/phuket/patong_beach/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

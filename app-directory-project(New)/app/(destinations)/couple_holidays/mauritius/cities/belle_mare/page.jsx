@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Belle_mare_HotelProperties from "@/components/hotel-list/mauritius/belle_mare/page";
+import Belle_mare_HotelProperties from "@/components/hotel-list/couple_holidays/mauritius/belle_mare/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

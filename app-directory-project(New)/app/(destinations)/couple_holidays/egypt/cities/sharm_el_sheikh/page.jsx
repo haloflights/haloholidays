@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Sharm_el_sheikh_HotelProperties from "@/components/hotel-list/egypt/sharm_el_sheikh/page";
+import Sharm_el_sheikh_HotelProperties from "@/components/hotel-list/couple_holidays/egypt/sharm_el_sheikh/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {

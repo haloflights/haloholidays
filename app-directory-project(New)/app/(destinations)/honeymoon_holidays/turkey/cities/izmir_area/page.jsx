@@ -1,7 +1,7 @@
 import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopHeaderFilter from "@/components/hotel-list/hotel-list-v1/TopHeaderFilter";
-import Izmir_area_HotelProperties from "@/components/hotel-list/turkey/izmir_area/page";
+import Izmir_area_HotelProperties from "@/components/hotel-list/honeymoon_holidays/turkey/izmir_area/page";
 import Sidebar from "@/components/hotel-list/hotel-list-v1/Sidebar";
 
 export const metadata = {
