@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
 import cityHotelsData from "@/data/cityHotels";
 import Header3 from "@/components/header/header-3";
-import Overview from "@/components/city-hotels/spain/barcelona/hotel_1898/Overview";
+import Overview from "@/components/city-hotels/family_holidays/spain/barcelona/hotel_1898/Overview";
 import TopBreadCrumb from "@/components/city-hotels/spain/barcelona/hotel_1898/TopBreadCrumb";
 import SidebarRight from "@/components/city-hotels/spain/barcelona/hotel_1898/SidebarRight";
 import ReviewProgress from "@/components/city-hotels/spain/barcelona/hotel_1898/guest-reviews/ReviewProgress";
